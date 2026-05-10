@@ -3,7 +3,7 @@ title: "The Conversation Loop"
 description: "Brainstorm, Ideate, Iterate, Amplify, Repeat — what conversation actually looks like in practice"
 publishDate: 2027-01-19
 slug: the-conversation-loop
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology) — what conversation rather than delegation actually looks like at the keyboard, in five recurring moves.*

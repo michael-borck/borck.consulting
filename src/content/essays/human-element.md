@@ -3,7 +3,7 @@ title: "The Human Element"
 description: "Why AI makes regulated practitioners more valuable, not less"
 publishDate: 2027-01-05
 slug: human-element
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology) — why AI tends to make regulated practitioners more valuable, not less, when adopted with care.*

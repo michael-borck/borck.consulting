@@ -1,9 +1,9 @@
 ---
 title: 'The "AI Last" Principle'
 description: "Solve what you can first — most of what regulated firms call AI work isn't"
-publishDate: 2026-09-29
+publishDate: 2026-09-15
 slug: ai-last-resort-philosophy
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology) — the discipline of solving with conventional means first, and reaching for AI only where it adds value the firm cannot generate itself.*

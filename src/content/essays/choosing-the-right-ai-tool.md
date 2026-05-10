@@ -3,7 +3,7 @@ title: "Choosing the Right AI Tool"
 description: "An evaluation framework for partners — three domains, ten minutes, one decision"
 publishDate: 2027-04-13
 slug: choosing-the-right-ai-tool
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology) — a partner-level evaluation framework for AI tooling decisions, three domains and ten minutes per decision.*

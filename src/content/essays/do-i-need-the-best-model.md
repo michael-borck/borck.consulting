@@ -3,7 +3,7 @@ title: "Do I Need the Best Model?"
 description: "The procurement question partners ask — and why it usually has a smaller answer than the vendors suggest"
 publishDate: 2027-03-30
 slug: do-i-need-the-best-model
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology) — the procurement question partners ask, with a smaller answer than the vendors suggest.*

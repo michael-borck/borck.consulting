@@ -3,7 +3,7 @@ title: "Ethics, Data Governance, and Professional Integrity"
 description: "A practical framework for partners — beyond the blanket ban and the wishful free-for-all"
 publishDate: 2027-02-02
 slug: ethics-integrity
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology) — the practical ethics framework for partners thinking past the blanket ban and the wishful free-for-all.*

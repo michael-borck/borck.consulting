@@ -1,7 +1,7 @@
 ---
 title: "Local AI for regulated Australian small businesses"
 description: "Cloud AI is a defensible default for casual use. For a regulated Australian small firm, it has become the harder position to defend, and local AI is now a viable alternative on hardware most professionals already own."
-publishDate: 2026-09-01
+publishDate: 2026-08-04
 slug: local-ai-for-regulated-australian-small-businesses
 draft: false
 ---

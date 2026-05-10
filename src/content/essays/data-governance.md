@@ -3,7 +3,7 @@ title: "Why Most AI Data Governance Policies Get It Wrong"
 description: "A proportionate framework for regulated Australian small firms"
 publishDate: 2026-10-27
 slug: data-governance
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Are we ready? *and* How do we do AI? *questions of the practice's [methodology](/services#methodology) — separating the legitimate data-governance concerns from the misunderstandings that produce blanket-ban policies that quietly fail.*

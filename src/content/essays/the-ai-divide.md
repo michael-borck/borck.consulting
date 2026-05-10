@@ -3,7 +3,7 @@ title: "The AI Divide"
 description: "The gap regulated small firms can't afford to ignore"
 publishDate: 2026-11-24
 slug: the-ai-divide
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/services#methodology) — the literacy gap that already separates firms moving past surface-level AI use from those still circling it.*

@@ -3,7 +3,7 @@ title: "Cognitive Offload and the 'AI Makes Us Dumber' Question"
 description: "The honest answer for principals who are quietly worried about their team's judgement"
 publishDate: 2026-11-10
 slug: cognitive-offload
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/services#methodology) — the cognitive consequence of how a firm uses AI, and why it shapes the firm's underlying capability over time.*

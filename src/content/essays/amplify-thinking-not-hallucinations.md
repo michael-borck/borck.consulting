@@ -3,7 +3,7 @@ title: "Amplify Your Thinking, Not the Hallucinations"
 description: "Why chained AI tasks compound errors instead of catching them"
 publishDate: 2027-03-02
 slug: amplify-thinking-not-hallucinations
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology) — why chains of AI tasks compound errors rather than catching them, and what to do instead.*

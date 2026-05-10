@@ -3,7 +3,7 @@ title: "Three Cognitive Traps When Working with AI"
 description: "The patterns that quietly catch experienced professionals"
 publishDate: 2027-02-16
 slug: three-cognitive-traps
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/services#methodology) — the patterns that quietly catch experienced practitioners working with confident-sounding AI output.*

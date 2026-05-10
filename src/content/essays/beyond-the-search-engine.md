@@ -1,7 +1,7 @@
 ---
 title: "Beyond the search engine: how regulated practices turn AI into a competitive advantage"
 description: "Most firms use AI as a faster Google. The firms that move past that stage do something recognisably different — and the move tends to follow the same pattern in legal, medical, and accounting practices alike."
-publishDate: 2026-10-01
+publishDate: 2026-09-29
 slug: beyond-the-search-engine
 draft: false
 ---

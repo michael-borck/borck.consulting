@@ -1,9 +1,9 @@
 ---
 title: "The AI Critique Toolkit"
 description: "A 5-step framework for the regulated practitioner — because the AI is going to sound right whether or not it is"
-publishDate: 2027-05-11
+publishDate: 2027-04-27
 slug: critique-toolkit
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology) — a 5-step critique toolkit for the regulated practitioner, because AI output sounds right whether or not it is.*

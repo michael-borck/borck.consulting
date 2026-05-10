@@ -3,7 +3,7 @@ title: "The Flag System"
 description: "Calibrating scepticism — not every AI output needs the same scrutiny, and treating them as if they do is its own problem"
 publishDate: 2026-12-22
 slug: the-flag-system
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology) — calibrating the firm's scepticism so AI outputs receive review proportionate to their risk, rather than uniform alarm or uniform trust.*

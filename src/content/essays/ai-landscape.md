@@ -1,9 +1,9 @@
 ---
 title: "The AI Landscape"
 description: "Which tool does the firm actually need? Start with the work, not the vendors"
-publishDate: 2027-04-27
+publishDate: 2026-09-01
 slug: ai-landscape
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology) — starting with the work the firm actually does, not with the vendor landscape.*

@@ -3,7 +3,7 @@ title: "AI for Practice Staff"
 description: "Practical patterns for paralegals, practice managers, bookkeepers, practice nurses, and the people who actually keep the firm running"
 publishDate: 2026-12-08
 slug: ai-for-firm-staff
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology) — practical patterns for the practice staff whose work AI most directly intersects.*

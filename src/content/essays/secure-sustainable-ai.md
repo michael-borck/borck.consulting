@@ -3,7 +3,7 @@ title: "Secure and Sustainable AI Use"
 description: "What's safe, what's smart, what's sustainable — for a regulated firm"
 publishDate: 2027-03-16
 slug: secure-sustainable-ai
-draft: true
+draft: false
 ---
 
 *This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology) — practical security and sustainability decisions for a regulated firm choosing how to use AI over the long term.*

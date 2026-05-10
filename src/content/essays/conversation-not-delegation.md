@@ -3,7 +3,7 @@ title: "Conversation, Not Delegation"
 description: "The frame that decides whether AI makes your firm sharper or softer"
 publishDate: 2026-10-13
 slug: conversation-not-delegation
-draft: true
+draft: false
 ---
 
 *This essay sets out the* Conversation not Delegation *framework that underpins the practice's [methodology](/services#methodology) — the operating principle behind every Diagnostic, workshop, and engagement.*
