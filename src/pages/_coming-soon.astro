@@ -1,0 +1,101 @@
+---
+// Coming-soon home page.
+// Standalone — does not import the Base layout, so the topbar/footer with links to
+// other pages does not appear here. This is intentional: those pages exist in the
+// build but are not surfaced from the public home.
+//
+// To swap to the launch home page later: copy the contents of _launch-home.astro
+// into this file (or rename the files). The launch version is preserved in
+// src/pages/_launch-home.astro (underscore prefix excludes it from Astro routing).
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>borck.consulting</title>
+  <meta name="description" content="A private consulting practice from Michael Borck. Launching later in 2026." />
+  <meta property="og:title" content="borck.consulting" />
+  <meta property="og:description" content="A private consulting practice from Michael Borck. Launching later in 2026." />
+  <meta property="og:url" content="https://borck.consulting" />
+  <link rel="icon" href="/favicon.svg" />
+  <style is:global>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      background: #fafaf6;
+      color: #1a1a1c;
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 460px;
+      text-align: center;
+    }
+
+    .logo {
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a1a1c;
+      letter-spacing: -0.01em;
+      margin-bottom: 3rem;
+    }
+    .logo .dot { color: #82827e; }
+    .logo .sub { color: #4a6e62; }
+
+    .tease {
+      font-size: 1.05rem;
+      color: #4a4a4f;
+      line-height: 1.65;
+      margin-bottom: 2.5rem;
+    }
+
+    .email {
+      display: inline-block;
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 0.95rem;
+      color: #4a6e62;
+      text-decoration: none;
+      border-bottom: 1px solid #d6d6cf;
+      padding-bottom: 0.15rem;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .email:hover { color: #2f5347; border-bottom-color: #4a6e62; }
+
+    .meta {
+      margin-top: 3.5rem;
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 0.7rem;
+      color: #82827e;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <span>borck</span><span class="dot">.</span><span class="sub">consulting</span>
+    </div>
+    <p class="tease">
+      A private consulting practice from Michael Borck.
+      Launching later in 2026.
+    </p>
+    <a class="email" href="mailto:michael@borck.consulting">michael@borck.consulting</a>
+    <div class="meta">
+      Perth, Western Australia &middot; ABN 73 749 768 332
+    </div>
+  </div>
+</body>
+</html>
