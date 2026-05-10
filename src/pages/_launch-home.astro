@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allEssays = (await getCollection('essays', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+const latestEssay = allEssays[0];
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<Base title="borck.consulting — AI literacy, governance, and data sovereignty for regulated Australian small businesses">
+
+  <div class="hero">
+    <p class="hero-eyebrow">A private practice · Michael Borck</p>
+    <h1 class="hero-title">
+      AI literacy, governance, and data sovereignty for regulated Australian small businesses.
+    </h1>
+    <p class="hero-sub">
+      Most AI rollouts fail at the team level. This practice helps law firms, medical practices,
+      accounting firms, and financial advisory practices adopt AI as a collaborator — with
+      governance and data sovereignty by design.
+    </p>
+    <p class="hero-credibility">
+      <strong>Michael Borck</strong> · Lecturer in AI and Cyber Security at Curtin University ·
+      author of seven books · creator of the <em>Conversation not Delegation</em> framework,
+      adopted onto the reading list at Kaplan Business School ·
+      runs an independent local-AI research lab.
+    </p>
+    <a href="/services" class="btn">Book a Diagnostic</a>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-title">The Practice</span>
+    </div>
+    <div class="tier-grid">
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Tier 1 · Foundation</div>
+        <div class="tier-card-title">Literacy &amp; collaboration</div>
+        <p class="tier-card-desc">
+          Workshops and programs grounded in the Conversation-not-Delegation framework.
+          The substantive change comes before any policy is written.
+        </p>
+      </div>
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Tier 2 · Governance</div>
+        <div class="tier-card-title">Audit &amp; policy</div>
+        <p class="tier-card-desc">
+          AI use-policy development and a governance audit specific to how a regulated
+          firm actually operates — not a generic template.
+        </p>
+      </div>
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Tier 3 · Sovereignty</div>
+        <div class="tier-card-title">Data sovereignty &amp; local AI</div>
+        <p class="tier-card-desc">
+          Advisory and time-boxed local-AI deployment for firms whose clients or
+          regulators expect that sensitive material does not leave the building.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <p class="scope-line">
+    The practice does not undertake enterprise tenders, hourly billing, staff
+    augmentation, or open-ended implementation work. Engagements are fixed-scope
+    and fixed-price.
+  </p>
+
+  {latestEssay && (
+    <div class="section">
+      <div class="section-header">
+        <span class="section-title">Latest Writing</span>
+      </div>
+      <a href={`/writing/${latestEssay.id.replace(/\.md$/, '')}`} class="latest-essay">
+        <div class="latest-essay-eyebrow">{formatDate(latestEssay.data.publishDate)}</div>
+        <div class="latest-essay-title">{latestEssay.data.title}</div>
+        <div class="latest-essay-desc">{latestEssay.data.description}</div>
+      </a>
+    </div>
+  )}
+
+</Base>
