@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Daily at 01:00 UTC = 09:00 Perth (AWST, no DST).
+    # Rebuilds the static site so essays whose publishDate has passed appear
+    # without needing a manual push.
+    - cron: '0 1 * * *'
 
 permissions:
   contents: read

@@ -1,9 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
+import { getPublishedEssays } from '../../lib/essays';
 
 export async function getStaticPaths() {
-  const essays = await getCollection('essays', ({ data }) => !data.draft);
+  const essays = await getPublishedEssays();
   return essays.map(essay => ({
     params: { slug: essay.id.replace(/\.md$/, '') },
     props: { essay },
