@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const resources = (await getCollection('resources', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const sections = ['Start here', 'Going deeper', 'At partner level'] as const;
+
+const grouped = sections.map(section => ({
+  section,
+  items: resources.filter(r => r.data.section === section),
+}));
+---
+<Base title="Resources — borck.consulting" description="Practical techniques and frameworks for working with AI in regulated practice. Evergreen reference material — not part of the cadence.">
+
+  <div class="hero">
+    <p class="hero-eyebrow">Resources</p>
+    <h1 class="hero-title">Practical techniques and frameworks.</h1>
+    <p class="hero-sub">
+      The methodology behind the AI Readiness Diagnostic is published in
+      <a href="/writing">writing</a> as long-form essays, one per strategic question.
+      The pages below are the practical complement: prompting frameworks, techniques,
+      and partner-level decision tools that the long-form essays draw on.
+    </p>
+    <p class="hero-sub" style="margin-top: 1rem;">
+      These are evergreen reference material — not on the cadence, not paired with
+      LinkedIn posts. Read in order if you want a structured introduction; jump to
+      whichever fits the work in front of you.
+    </p>
+  </div>
+
+  {grouped.map(group => group.items.length > 0 && (
+    <div class="section">
+      <div class="section-header">
+        <span class="section-title">{group.section}</span>
+      </div>
+      <div class="essay-list">
+        {group.items.map(r => (
+          <a href={`/resources/${r.id.replace(/\.md$/, '')}`} class="essay-card">
+            <div class="essay-card-date" style="font-family: var(--mono); font-size: 0.7rem; color: var(--accent);">
+              {String(r.data.order).padStart(2, '0')}
+            </div>
+            <div class="essay-card-title">{r.data.title}</div>
+            <div class="essay-card-desc">{r.data.description}</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  ))}
+
+</Base>

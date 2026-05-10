@@ -1,0 +1,208 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Services — borck.consulting" pageClass="page">
+
+  <div class="hero">
+    <p class="hero-eyebrow">Services</p>
+    <h1 class="hero-title">Fixed-scope, fixed-price engagements for regulated practices.</h1>
+    <p class="hero-sub">
+      The practice operates with one purchasable engagement at any given time — currently the
+      AI Readiness Diagnostic. Other engagements are available to clients who have completed
+      a Diagnostic and want to take the next step.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-title">Methodology</span>
+    </div>
+    <p class="hero-sub" style="max-width: none;">
+      Every Diagnostic is structured around five strategic questions, drawn from the
+      AI strategy literature (particularly Upadhyay's <em>Artificial Intelligence for
+      Managers</em>, 2021, and Yao &amp; Koidan's <em>Applied Artificial Intelligence</em>,
+      2024) and applied with the <em>Conversation not Delegation</em> framework as the
+      operating principle. The methodology is a delivery practice, not a marketing claim:
+      every Diagnostic deliverable answers each of the questions below in the firm's
+      own terms.
+    </p>
+
+    <div class="tier-grid" style="margin-top: 2rem;">
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Question 1</div>
+        <div class="tier-card-title">Can we do AI?</div>
+        <p class="tier-card-desc">
+          Maturity assessment of the firm's current capability across strategy,
+          data, infrastructure, talent, governance, and culture. The starting point:
+          what the firm is actually equipped to take on.
+        </p>
+      </div>
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Question 2</div>
+        <div class="tier-card-title">Should we do AI?</div>
+        <p class="tier-card-desc">
+          Opportunity analysis of where AI would create defensible value for
+          <em>this</em> firm, and where it would create more risk than it removes.
+          Not every viable use case is worth pursuing.
+        </p>
+      </div>
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Question 3</div>
+        <div class="tier-card-title">How do we do AI?</div>
+        <p class="tier-card-desc">
+          Implementation orientation. What sequence, what gates, what
+          change-management response. The practical move from <em>what</em>
+          to <em>how</em>.
+        </p>
+      </div>
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Question 4</div>
+        <div class="tier-card-title">Are we ready?</div>
+        <p class="tier-card-desc">
+          Infrastructure check. The data, the technology stack, the talent —
+          and the gap between what the chosen path needs and what the firm
+          currently has.
+        </p>
+      </div>
+      <div class="tier-card">
+        <div class="tier-card-eyebrow">Question 5</div>
+        <div class="tier-card-title">What's the value?</div>
+        <p class="tier-card-desc">
+          Business case in the firm's own terms. Cost, return, risk reduction,
+          scenario range. What the work is worth, in numbers leadership can defend.
+        </p>
+      </div>
+    </div>
+
+    <p style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--gray-2);">
+      Long-form treatments of each question are published in
+      <a href="/writing">writing</a>; practical techniques and frameworks
+      that complement the methodology are in <a href="/resources">resources</a>.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-title">Available Now</span>
+    </div>
+
+    <div class="offer-card primary" id="diagnostic">
+      <div class="offer-eyebrow">Tier 0 · Bridge</div>
+      <h2 class="offer-title">AI Readiness Diagnostic</h2>
+      <p class="offer-price">
+        AU$1,500 fixed
+        <span class="qualifier">— 50% deposit, 50% on delivery</span>
+      </p>
+      <p class="offer-desc">
+        A two-hour structured conversation with your leadership team, plus a 2&ndash;3 page
+        written recommendation. The Diagnostic answers the question many partners are quietly
+        asking themselves: <em>do we actually need to do anything yet?</em> The recommendation
+        places your firm on the literacy &rarr; governance &rarr; sovereignty journey and
+        identifies the single highest-leverage first move.
+      </p>
+      <div class="offer-includes">
+        <ul>
+          <li>2-hour structured conversation, in person (Perth) or remote (national)</li>
+          <li>Written report with specific, firm-tailored recommendations</li>
+          <li>One follow-up email exchange to clarify the report</li>
+          <li>NDA available on request; all material handled per the practice's data policy</li>
+        </ul>
+      </div>
+      <a href="/contact" class="btn">Book a Diagnostic</a>
+    </div>
+
+    <div class="offer-card" style="margin-top: 2rem; background: var(--bg);">
+      <div class="offer-eyebrow">Free · No email required</div>
+      <h2 class="offer-title" style="font-size: 1.15rem;">Not sure if you need a Diagnostic?</h2>
+      <p class="offer-desc" style="margin-bottom: 1rem;">
+        Download the <strong>AI Readiness Reflection</strong> &mdash; a 3&ndash;4 page
+        self-reflection prompt covering the kinds of questions a paid Diagnostic would
+        ask. Use it alone or with your partners. If you can answer most of the questions
+        confidently, you may not need a paid Diagnostic. If you cannot, that is also a
+        useful conclusion.
+      </p>
+      <a href="/pre-diagnostic-reflection.pdf" class="btn-secondary btn">Download the Reflection (PDF)</a>
+      <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--gray-2);">
+        <em>Note:</em> generate the PDF from <code>pre-diagnostic-reflection.md</code>
+        (in <code>~/Documents/borck-consulting/templates/</code>) and place at
+        <code>public/pre-diagnostic-reflection.pdf</code> before public launch.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-title">Available After a Diagnostic</span>
+    </div>
+    <p class="hero-sub" style="margin-bottom: 2rem; max-width: none;">
+      The engagements below are available to clients who have completed an AI Readiness
+      Diagnostic and want to act on its recommendation. Each is fixed-scope, fixed-price,
+      and shaped to the firm by the Diagnostic that precedes it.
+    </p>
+
+    <div class="offer-card">
+      <div class="offer-eyebrow">Tier 1 · Foundation</div>
+      <h2 class="offer-title">Half-day Conversation-not-Delegation Workshop</h2>
+      <p class="offer-price">
+        From AU$2,500 fixed
+        <span class="qualifier">— scoped per firm</span>
+      </p>
+      <p class="offer-desc">
+        Single-firm half-day workshop for the partner group and senior staff (10&ndash;50
+        attendees). Establishes the firm's shared position on AI use through the
+        Conversation-not-Delegation framework — brainstorm, ideate, interact, pushback —
+        and equips the team with working prompts and protocols. Delivered in person in
+        Perth or remotely nationally.
+      </p>
+    </div>
+
+    <div class="offer-card">
+      <div class="offer-eyebrow">Tier 2 · Governance</div>
+      <h2 class="offer-title">AI Governance Starter</h2>
+      <p class="offer-price">
+        From AU$8,000 fixed
+        <span class="qualifier">— 3-week engagement</span>
+      </p>
+      <p class="offer-desc">
+        Three-week engagement producing an AI use policy specific to how the firm operates,
+        a governance audit identifying current exposure, and a 90-day implementation roadmap.
+        Includes a half-day Q&amp;A session with leadership before sign-off. The output is
+        not a template; it is a policy the firm can defend to clients and regulators.
+      </p>
+    </div>
+
+    <div class="offer-card">
+      <div class="offer-eyebrow">Tier 3 · Sovereignty</div>
+      <h2 class="offer-title">Local AI Readiness Assessment</h2>
+      <p class="offer-price">
+        From AU$6,000 fixed
+        <span class="qualifier">— 1-week engagement</span>
+      </p>
+      <p class="offer-desc">
+        One-week engagement covering data-sensitivity audit, current-state review of AI
+        deployment, and a written report with indicative hardware and software plan for
+        local-AI workloads. Implementation itself is explicitly out of scope; the output
+        is the credible answer to <em>"what would we do with a matter we cannot route
+        through any cloud service?"</em>
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <span class="section-title">Out of Scope</span>
+    </div>
+    <p class="hero-sub" style="max-width: none;">
+      The practice does not undertake the following work, and this is unlikely to change:
+    </p>
+    <div class="offer-includes" style="font-size: 0.95rem; color: var(--gray-1);">
+      <ul>
+        <li>Enterprise (more than 200 staff) and government tender work</li>
+        <li>Hourly billing or staff augmentation</li>
+        <li>Open-ended bespoke implementation or ongoing managed services</li>
+        <li>Engagements scoped specifically as marketing or sales-effectiveness AI projects</li>
+      </ul>
+    </div>
+  </div>
+
+</Base>

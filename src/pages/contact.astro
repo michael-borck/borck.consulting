@@ -1,0 +1,75 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Contact — borck.consulting" description="Book a 30-minute qualification call or get in touch about an AI Readiness Diagnostic.">
+
+  <div class="hero">
+    <p class="hero-eyebrow">Contact</p>
+    <h1 class="hero-title">Get in touch.</h1>
+    <p class="hero-sub">
+      Inquiries are responded to within two business days. The 30-minute qualification call
+      is free; anything beyond that is a paid Diagnostic.
+    </p>
+  </div>
+
+  <div class="contact-block">
+    <h2 class="contact-block-title">Book a 30-minute qualification call</h2>
+    <p class="contact-block-desc">
+      A short conversation to confirm fit before any paid engagement. Use the booking link
+      below to choose a time, or email directly if that suits better.
+    </p>
+    <a href="https://cal.com/michael-borck/qualification" class="btn">Choose a time</a>
+    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray-2);">
+      <em>Note:</em> Cal.com URL placeholder — replace with the live link once Cal.com is
+      configured (Plan Task 26).
+    </p>
+  </div>
+
+  <div class="contact-block">
+    <h2 class="contact-block-title">Email</h2>
+    <p class="contact-block-desc">
+      For specific inquiries, written context is welcome. Substantive replies usually come
+      faster than meeting bookings.
+    </p>
+    <p>
+      <a href="mailto:michael@borck.consulting" style="font-family: var(--mono); font-weight: 600;">
+        michael@borck.consulting
+      </a>
+    </p>
+  </div>
+
+  <div class="contact-block">
+    <h2 class="contact-block-title">Or use the form</h2>
+    <p class="contact-block-desc">
+      A short message and your contact details. Useful if you would prefer to write before
+      committing to a call.
+    </p>
+    <form class="contact-form" method="POST" action="https://formspree.io/f/REPLACE_FORM_ID">
+      <div>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div>
+        <label for="firm">Firm</label>
+        <input type="text" id="firm" name="firm" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="situation">What's your situation? (2–3 sentences is plenty)</label>
+        <textarea id="situation" name="situation" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn" style="align-self: flex-start; cursor: pointer; font-family: var(--font);">
+        Send
+      </button>
+    </form>
+    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray-2);">
+      <em>Note:</em> Form action URL is a Formspree placeholder — replace with a live form
+      endpoint (Formspree, Netlify Forms, or your hosting provider's equivalent) before
+      public launch.
+    </p>
+  </div>
+
+</Base>

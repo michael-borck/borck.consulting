@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const resources = await getCollection('resources', ({ data }) => !data.draft);
+  return resources.map(resource => ({
+    params: { slug: resource.id.replace(/\.md$/, '') },
+    props: { resource },
+  }));
+}
+
+const { resource } = Astro.props;
+const { Content } = await render(resource);
+
+// Find prev/next within the same ordered list (across sections)
+const allResources = (await getCollection('resources', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+const idx = allResources.findIndex(r => r.id === resource.id);
+const prev = idx > 0 ? allResources[idx - 1] : null;
+const next = idx < allResources.length - 1 ? allResources[idx + 1] : null;
+---
+<Base title={`${resource.data.title} — Resources — borck.consulting`} description={resource.data.description}>
+  <article class="essay-article">
+    <header class="essay-article-header">
+      <div class="essay-article-eyebrow">
+        Resource · {resource.data.section} · #{String(resource.data.order).padStart(2, '0')}
+      </div>
+      <h1 class="essay-article-title">{resource.data.title}</h1>
+      <p class="essay-article-desc">{resource.data.description}</p>
+    </header>
+    <Content />
+
+    <nav style="margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--gray-3); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-size: 0.85rem;">
+      {prev ? (
+        <a href={`/resources/${prev.id.replace(/\.md$/, '')}`} style="color: var(--gray-1); text-decoration: none;">
+          ← #{String(prev.data.order).padStart(2, '0')} {prev.data.title}
+        </a>
+      ) : <span></span>}
+      <a href="/resources" style="color: var(--gray-2); text-decoration: none;">All resources</a>
+      {next ? (
+        <a href={`/resources/${next.id.replace(/\.md$/, '')}`} style="color: var(--gray-1); text-decoration: none; text-align: right;">
+          #{String(next.data.order).padStart(2, '0')} {next.data.title} →
+        </a>
+      ) : <span></span>}
+    </nav>
+  </article>
+</Base>

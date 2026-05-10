@@ -1,0 +1,63 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  pageClass?: string;
+}
+
+const {
+  title = 'borck.consulting',
+  description = 'AI literacy, governance, and data sovereignty for regulated Australian small businesses. A private practice run by Michael Borck.',
+  pageClass = 'page',
+} = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://borck.consulting" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="/favicon.svg" />
+</head>
+<body>
+
+  <div class="topbar">
+    <a href="/" class="topbar-logo">
+      <span>borck</span><span class="dot">.</span><span class="sub">consulting</span>
+    </a>
+    <div class="topbar-spacer"></div>
+    <nav class="topbar-links">
+      <a href="/services">Services</a>
+      <a href="/writing">Writing</a>
+      <a href="/resources">Resources</a>
+      <a href="/about">About</a>
+      <a href="/contact" class="cta">Book a Diagnostic</a>
+    </nav>
+  </div>
+
+  <div class={pageClass}>
+    <slot />
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="/services">Services</a>
+        <a href="/writing">Writing</a>
+        <a href="/resources">Resources</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/legal">Legal &amp; data handling</a>
+      </div>
+      <span>Michael Borck · Perth, Western Australia · ABN 73 749 768 332</span>
+    </footer>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const essays = (await getCollection('essays', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<Base title="Writing — borck.consulting" description="Long-form essays on AI for regulated Australian small businesses.">
+
+  <div class="hero">
+    <p class="hero-eyebrow">Writing</p>
+    <h1 class="hero-title">Long-form essays.</h1>
+    <p class="hero-sub">
+      Substantive writing on AI for regulated Australian small businesses — literacy,
+      governance, and data sovereignty. Updated approximately every six weeks.
+    </p>
+  </div>
+
+  <div class="essay-list">
+    {essays.map(essay => (
+      <a href={`/writing/${essay.id.replace(/\.md$/, '')}`} class="essay-card">
+        <div class="essay-card-date">{formatDate(essay.data.publishDate)}</div>
+        <div class="essay-card-title">{essay.data.title}</div>
+        <div class="essay-card-desc">{essay.data.description}</div>
+      </a>
+    ))}
+  </div>
+
+</Base>
