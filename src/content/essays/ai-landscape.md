@@ -1,7 +1,7 @@
 ---
 title: "The AI Landscape"
 description: "Which tool does the firm actually need? Start with the work, not the vendors"
-publishDate: 2026-09-01
+publishDate: 2026-07-07
 slug: ai-landscape
 draft: false
 ---

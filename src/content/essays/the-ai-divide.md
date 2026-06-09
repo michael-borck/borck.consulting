@@ -1,7 +1,7 @@
 ---
 title: "The AI Divide"
 description: "The gap regulated small firms can't afford to ignore"
-publishDate: 2026-11-24
+publishDate: 2026-09-29
 slug: the-ai-divide
 draft: false
 ---

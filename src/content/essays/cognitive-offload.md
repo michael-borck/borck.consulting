@@ -1,7 +1,7 @@
 ---
 title: "Cognitive Offload and the 'AI Makes Us Dumber' Question"
 description: "The honest answer for principals who are quietly worried about their team's judgement"
-publishDate: 2026-11-10
+publishDate: 2026-09-15
 slug: cognitive-offload
 draft: false
 ---

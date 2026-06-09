@@ -1,7 +1,7 @@
 ---
 title: "Choosing the Right AI Tool"
 description: "An evaluation framework for partners — three domains, ten minutes, one decision"
-publishDate: 2027-04-13
+publishDate: 2027-02-16
 slug: choosing-the-right-ai-tool
 draft: false
 ---

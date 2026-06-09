@@ -1,7 +1,7 @@
 ---
 title: "Secure and Sustainable AI Use"
 description: "What's safe, what's smart, what's sustainable — for a regulated firm"
-publishDate: 2027-03-16
+publishDate: 2027-01-19
 slug: secure-sustainable-ai
 draft: false
 ---

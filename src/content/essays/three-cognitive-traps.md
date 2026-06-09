@@ -1,7 +1,7 @@
 ---
 title: "Three Cognitive Traps When Working with AI"
 description: "The patterns that quietly catch experienced professionals"
-publishDate: 2027-02-16
+publishDate: 2026-12-22
 slug: three-cognitive-traps
 draft: false
 ---

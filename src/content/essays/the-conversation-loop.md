@@ -1,7 +1,7 @@
 ---
 title: "The Conversation Loop"
 description: "Brainstorm, Ideate, Iterate, Amplify, Repeat — what conversation actually looks like in practice"
-publishDate: 2027-01-19
+publishDate: 2026-11-24
 slug: the-conversation-loop
 draft: false
 ---

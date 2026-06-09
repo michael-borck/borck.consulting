@@ -1,7 +1,7 @@
 ---
 title: "The Flag System"
 description: "Calibrating scepticism — not every AI output needs the same scrutiny, and treating them as if they do is its own problem"
-publishDate: 2026-12-22
+publishDate: 2026-10-27
 slug: the-flag-system
 draft: false
 ---

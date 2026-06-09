@@ -1,7 +1,7 @@
 ---
 title: "Amplify Your Thinking, Not the Hallucinations"
 description: "Why chained AI tasks compound errors instead of catching them"
-publishDate: 2027-03-02
+publishDate: 2027-01-05
 slug: amplify-thinking-not-hallucinations
 draft: false
 ---

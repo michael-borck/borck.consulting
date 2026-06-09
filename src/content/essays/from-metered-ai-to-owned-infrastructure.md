@@ -1,7 +1,7 @@
 ---
 title: "From metered AI to owned infrastructure: the case for regulated Australian practices"
 description: "Cloud AI is currently subsidised by venture capital. The firms with the most exposure to that subsidy ending — regulated Australian small practices — also have the most reason to consider an alternative."
-publishDate: 2026-08-18
+publishDate: 2026-06-23
 slug: from-metered-ai-to-owned-infrastructure
 draft: false
 ---

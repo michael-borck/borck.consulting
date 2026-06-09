@@ -1,7 +1,7 @@
 ---
 title: "Do I Need the Best Model?"
 description: "The procurement question partners ask — and why it usually has a smaller answer than the vendors suggest"
-publishDate: 2027-03-30
+publishDate: 2027-02-02
 slug: do-i-need-the-best-model
 draft: false
 ---

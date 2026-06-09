@@ -1,7 +1,7 @@
 ---
 title: "Ethics, Data Governance, and Professional Integrity"
 description: "A practical framework for partners — beyond the blanket ban and the wishful free-for-all"
-publishDate: 2027-02-02
+publishDate: 2026-12-08
 slug: ethics-integrity
 draft: false
 ---

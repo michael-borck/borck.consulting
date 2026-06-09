@@ -1,7 +1,7 @@
 ---
 title: "AI for Practice Staff"
 description: "Practical patterns for paralegals, practice managers, bookkeepers, practice nurses, and the people who actually keep the firm running"
-publishDate: 2026-12-08
+publishDate: 2026-10-13
 slug: ai-for-firm-staff
 draft: false
 ---

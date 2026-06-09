@@ -1,7 +1,7 @@
 ---
 title: "Why Most AI Data Governance Policies Get It Wrong"
 description: "A proportionate framework for regulated Australian small firms"
-publishDate: 2026-10-27
+publishDate: 2026-09-01
 slug: data-governance
 draft: false
 ---

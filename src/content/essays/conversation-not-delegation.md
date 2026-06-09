@@ -1,7 +1,7 @@
 ---
 title: "Conversation, Not Delegation"
 description: "The frame that decides whether AI makes your firm sharper or softer"
-publishDate: 2026-10-13
+publishDate: 2026-08-18
 slug: conversation-not-delegation
 draft: false
 ---

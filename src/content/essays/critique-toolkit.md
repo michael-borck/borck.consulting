@@ -1,7 +1,7 @@
 ---
 title: "The AI Critique Toolkit"
 description: "A 5-step framework for the regulated practitioner — because the AI is going to sound right whether or not it is"
-publishDate: 2027-04-27
+publishDate: 2027-03-02
 slug: critique-toolkit
 draft: false
 ---

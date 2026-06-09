@@ -1,7 +1,7 @@
 ---
 title: 'The "AI Last" Principle'
 description: "Solve what you can first — most of what regulated firms call AI work isn't"
-publishDate: 2026-09-15
+publishDate: 2026-07-21
 slug: ai-last-resort-philosophy
 draft: false
 ---

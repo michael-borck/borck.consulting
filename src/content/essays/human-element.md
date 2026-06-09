@@ -1,7 +1,7 @@
 ---
 title: "The Human Element"
 description: "Why AI makes regulated practitioners more valuable, not less"
-publishDate: 2027-01-05
+publishDate: 2026-11-10
 slug: human-element
 draft: false
 ---
