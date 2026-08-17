@@ -9,7 +9,7 @@ draft: false
 
 ## Introduction
 
-One of the most underrated skills in working with AI is **managing context** — the information you give the model and how you structure the conversation around it.
+One of the most underrated skills in working with AI is **managing context**: the information you give the model and how you structure the conversation around it.
 
 Think of context as the AI's working memory. Unlike a colleague, who carries memory across days or weeks, the model has specific limitations:
 
@@ -28,7 +28,7 @@ Managing context is a learnable skill. It directly improves output quality, save
 
 **Problem 2: output token scarcity.** You ask for four things at once. You get four things, but each is shallow because the model split its output four ways.
 
-**Problem 3: hallucination acceleration.** As conversations get longer, the model becomes more likely to fabricate — invented citations, made-up examples, drift from earlier statements.
+**Problem 3: hallucination acceleration.** As conversations get longer, the model becomes more likely to fabricate: invented citations, made-up examples, drift from earlier statements.
 
 **Problem 4: lost context across sessions.** You close the chat. Next week you continue the work. The model has no memory of the earlier session unless you explicitly give it.
 
@@ -119,17 +119,17 @@ Do not assume the model knows what you mean. State it.
 
 A useful checklist for explicit context:
 
-- **Who** — client, audience, opposing party
-- **What** — the specific task or problem
-- **Why** — why it matters and to whom
-- **Constraints** — time, fee, jurisdiction, sensitivity
-- **History** — what has already been done or said
+- **Who**: client, audience, opposing party
+- **What**: the specific task or problem
+- **Why**: why it matters and to whom
+- **Constraints**: time, fee, jurisdiction, sensitivity
+- **History**: what has already been done or said
 
 ---
 
 ## Batch similar tasks efficiently
 
-When you have multiple similar small tasks, do them in one well-structured prompt rather than five separate ones — each separate prompt repeats setup context wastefully.
+When you have multiple similar small tasks, do them in one well-structured prompt rather than five separate ones; each separate prompt repeats setup context wastefully.
 
 **Inefficient:**
 
@@ -204,4 +204,4 @@ The underlying principle: context management is about respecting the model's lim
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms turn AI conversations into a reliable production process — including the small disciplines like the ones above that make the difference between novelty and tool. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms turn AI conversations into a reliable production process, including the small disciplines like the ones above that make the difference between novelty and tool. Engagements begin with the AI Readiness Diagnostic.

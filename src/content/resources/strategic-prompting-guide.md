@@ -1,21 +1,21 @@
 ---
 title: "Strategic Prompting"
-description: "Three techniques for partner-level decisions — when you want AI as a thinking partner, not a content generator"
+description: "Three techniques for partner-level decisions: when you want AI as a thinking partner, not a content generator"
 slug: strategic-prompting-guide
 order: 10
 section: "At partner level"
 draft: false
 ---
 
-A reference guide for using AI tools in strategic analysis — the kind of thinking partners do when deciding whether to take on a matter, expand a service line, replace a system, or restructure an engagement model.
+A reference guide for using AI tools in strategic analysis: the kind of thinking partners do when deciding whether to take on a matter, expand a service line, replace a system, or restructure an engagement model.
 
 ---
 
 ## Three core techniques
 
-1. **Risk deep-dive** — ask AI to identify what you are missing or underestimating.
-2. **Reverse prompting** — have AI ask *you* questions to reveal what you are not seeing.
-3. **AI debate** — use multiple AIs (or one AI in two roles) to stress-test a decision.
+1. **Risk deep-dive**: ask AI to identify what you are missing or underestimating.
+2. **Reverse prompting**: have AI ask *you* questions to reveal what you are not seeing.
+3. **AI debate**: use multiple AIs (or one AI in two roles) to stress-test a decision.
 
 ---
 
@@ -85,21 +85,21 @@ asking the next.
 Start with your first question now.
 ```
 
-How to respond: be honest and specific. If a question confuses you, that is often where the insight is — ask for clarification rather than dodging.
+How to respond: be honest and specific. If a question confuses you, that is often where the insight is; ask for clarification rather than dodging.
 
 **Worked example:**
 
 > *AI:* "What manual workflow takes the most senior partner time in your firm that you have never seriously thought about changing?"
 >
-> *You:* "Probably weekly file review meetings — three hours every Tuesday with all six fee earners."
+> *You:* "Probably weekly file review meetings: three hours every Tuesday with all six fee earners."
 >
-> *AI:* "What is the meeting actually producing — supervision, decisions, or something else?"
+> *AI:* "What is the meeting actually producing: supervision, decisions, or something else?"
 >
 > *You:* "Mostly status updates. The actual supervision happens one-on-one anyway."
 >
 > *AI:* "If the status updates were captured asynchronously, what would the senior partners do with the three hours instead?"
 >
-> *You:* "Honestly — client work or new business. We are leaving real money on the table."
+> *You:* "Honestly, client work or new business. We are leaving real money on the table."
 
 After the five questions, ask: *"Based on my answers, what is the one opportunity I should prioritise, and why?"*
 
@@ -123,7 +123,7 @@ Current situation:
 
 Your role: you are "The Advocate."
 
-Make the strongest case for [option A — e.g., proceeding now,
+Make the strongest case for [option A, e.g., proceeding now,
 investing aggressively].
 
 Address: why this is strategically necessary, what we lose if we
@@ -142,7 +142,7 @@ Present your opening argument now.
 
 Your role: you are "The Sceptic."
 
-Make the strongest case for [option B — e.g., waiting, proceeding
+Make the strongest case for [option B, e.g., waiting, proceeding
 cautiously].
 
 Address: what risks we are underestimating, why timing matters,
@@ -198,7 +198,7 @@ What additional information would you need to be confident?
 
 1. **Provide context.** "Should we adopt AI?" gets a useless answer. "We are a six-partner suburban legal practice with two locations and an average matter value of $X. Should we adopt AI for [specific workflow]?" gets a useful one.
 2. **Be specific about output.** "Tell me about AI risks" produces a list everyone has seen. "List the top five AI-specific risks for a small firm offering family law services in Australia, ranked by likelihood and impact" gets you something usable.
-3. **Assign a role.** "What do you think?" gets bland output. "You are an insurance broker who specialises in PI cover for small legal practices — what concerns would you raise about this approach?" gets you the actual concerns.
+3. **Assign a role.** "What do you think?" gets bland output. "You are an insurance broker who specialises in PI cover for small legal practices; what concerns would you raise about this approach?" gets you the actual concerns.
 4. **Request structured output.** "Analyse this" produces a wall of text. "Analyse this in three parts: strengths, weaknesses, recommended decision with rationale" produces something a partner can act on.
 5. **Ask AI to challenge you.** "Is this a good idea?" produces flattery. "Play devil's advocate. Identify the strongest argument against this." produces useful critique.
 6. **Use follow-up prompts.** Do not accept the first response. Go deeper.
@@ -233,13 +233,13 @@ What additional information would you need to be confident?
 
 **Use it for**
 
-- Generating alternatives — "Give me ten different ways to approach this."
-- Challenging assumptions — "What am I taking for granted?"
-- Importing breadth — examples from comparable firms or sectors
-- Structured analysis — breaking complex decisions into parts
-- Playing roles — devil's advocate, regulator, opposing party
-- Connecting dots — "If we do X, what second-order effects?"
-- Identifying patterns — common failure modes for this type of initiative
+- Generating alternatives: "Give me ten different ways to approach this."
+- Challenging assumptions: "What am I taking for granted?"
+- Importing breadth: examples from comparable firms or sectors
+- Structured analysis: breaking complex decisions into parts
+- Playing roles: devil's advocate, regulator, opposing party
+- Connecting dots: "If we do X, what second-order effects?"
+- Identifying patterns: common failure modes for this type of initiative
 
 **Do not use it for**
 
@@ -254,7 +254,7 @@ What additional information would you need to be confident?
 
 ## The mental model
 
-AI is a strategic thought partner, not your boss. The practical test of whether you have used these techniques well is whether the partner remains the *agent* of the decision — choosing, weighing, deciding — or has slipped into the role of editor for the model's preferred answer. The whole point of the three techniques above is to keep that line clear.
+AI is a strategic thought partner, not your boss. The practical test of whether you have used these techniques well is whether the partner remains the *agent* of the decision (choosing, weighing, deciding) or has slipped into the role of editor for the model's preferred answer. The whole point of the three techniques above is to keep that line clear.
 
 Think of AI as a smart colleague who challenges your thinking; a research assistant who brings different perspectives; a brainstorming partner who never gets tired; a devil's advocate who stress-tests assumptions.
 
@@ -283,4 +283,4 @@ When using AI for strategic decisions:
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms run strategic AI conversations like the ones above — internally, between partners, *before* committing to a vendor or a direction. The AI Readiness Diagnostic is exactly this kind of conversation, with structure and a written outcome.
+borck.consulting helps regulated Australian small firms run strategic AI conversations like the ones above: internally, between partners, *before* committing to a vendor or a direction. The AI Readiness Diagnostic is exactly this kind of conversation, with structure and a written outcome.

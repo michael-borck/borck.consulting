@@ -9,9 +9,9 @@ draft: false
 
 ## The shift
 
-Most prompting advice treats AI as a content engine: ask cleanly, get usable output. That works, up to a point. But for a regulated firm, content is rarely the constraint. Capability is. And underneath capability sits agency — the practitioner's ability to steer rather than merely edit. The question worth asking is not *"how do we get better answers from AI?"* It is *"how do we use AI in a way that keeps agency with the practitioner and builds judgement instead of eroding it?"*
+Most prompting advice treats AI as a content engine: ask cleanly, get usable output. That works, up to a point. But for a regulated firm, content is rarely the constraint. Capability is. And underneath capability sits agency: the practitioner's ability to steer rather than merely edit. The question worth asking is not *"how do we get better answers from AI?"* It is *"how do we use AI in a way that keeps agency with the practitioner and builds judgement instead of eroding it?"*
 
-That is the shift from prompting-as-extraction to **cognitive prompting** — designing prompts that scaffold thinking rather than skip past it.
+That is the shift from prompting-as-extraction to **cognitive prompting**: designing prompts that scaffold thinking rather than skip past it.
 
 This piece sits alongside [Conversation, Not Delegation](conversation-not-delegation.qmd), [The Question Architect](question-architect.qmd), and [Strategic Prompting](strategic-prompting-guide.qmd). They are different lenses on the same idea: the value AI creates depends on the kind of thinking it provokes.
 
@@ -43,7 +43,7 @@ That is the design move worth practising.
 
 ## Why this matters in a regulated firm
 
-In a small firm, capability is the asset. The senior partner's judgement was built over decades of exactly the kind of thinking the extraction-style prompt skips. If your team is using AI in extraction mode, you get faster output but slower professional development — exactly the *cognitive offload* problem (see [Cognitive Offload and the AI Makes Us Dumber Question](cognitive-offload.qmd)).
+In a small firm, capability is the asset. The senior partner's judgement was built over decades of exactly the kind of thinking the extraction-style prompt skips. If your team is using AI in extraction mode, you get faster output but slower professional development: exactly the *cognitive offload* problem (see [Cognitive Offload and the AI Makes Us Dumber Question](cognitive-offload.qmd)).
 
 If your team is using AI in cognitive mode, the work goes faster *and* their underlying capability grows. The output is better; the people are better; the firm is more durable. That is the version of AI adoption that compounds.
 
@@ -67,7 +67,7 @@ Build the critique into the prompt:
 - *"What would a sceptical partner ask before signing this?"*
 - *"What assumptions am I making that this matter does not actually support?"*
 
-The act of evaluating is where capability is built. AI is happy to play the sceptic — and the time-saving still happens, because the model surfaces the critique in seconds rather than minutes.
+The act of evaluating is where capability is built. AI is happy to play the sceptic, and the time-saving still happens, because the model surfaces the critique in seconds rather than minutes.
 
 ### 3. Surface the question behind the question
 
@@ -83,7 +83,7 @@ This is the move from delegation ("do this for me") to conversation ("think with
 
 ## A pattern for staff development
 
-If you are responsible for developing staff capability — partners with juniors, senior practitioners with new staff — cognitive prompting becomes a teaching tool.
+If you are responsible for developing staff capability (partners with juniors, senior practitioners with new staff), cognitive prompting becomes a teaching tool.
 
 **Old pattern:** the junior produces the draft; the partner reviews and corrects; the junior internalises the feedback (sometimes).
 
@@ -113,7 +113,7 @@ Save the ones that produce useful thinking. Discard the ones that just produce m
 
 ## The bottom line
 
-Prompting is not really about getting better AI responses. It is about thinking more intentionally about your goals and methods — and designing the way AI sits inside the work so that capability builds rather than erodes.
+Prompting is not really about getting better AI responses. It is about thinking more intentionally about your goals and methods, and designing the way AI sits inside the work so that capability builds rather than erodes.
 
 > Cognitive prompting is the design move that turns AI from a tool into a catalyst for professional development.
 
@@ -123,7 +123,7 @@ In a small firm, that distinction is the difference between an AI rollout that q
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms build cognitive prompting habits across the practice — so AI strengthens the firm's underlying capability rather than substituting for it. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms build cognitive prompting habits across the practice, so AI strengthens the firm's underlying capability rather than substituting for it. Engagements begin with the AI Readiness Diagnostic.
 
 ---
 

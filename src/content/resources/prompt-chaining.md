@@ -1,6 +1,6 @@
 ---
 title: "Prompt Chaining"
-description: "Structured multi-step AI workflows — the difference between a clever chatbot and a working production line"
+description: "Structured multi-step AI workflows: the difference between a clever chatbot and a working production line"
 slug: prompt-chaining
 order: 8
 section: "Going deeper"
@@ -31,7 +31,7 @@ A reminder from earlier in the toolkit: chaining works *only when you stay in th
 2. **Control.** You review and adjust after each step.
 3. **Flexibility.** You can change direction without starting over.
 4. **Quality.** Multi-step outputs have fewer errors.
-5. **Visibility.** You see the model's reasoning, not just the final answer — which is also what makes it supervisable.
+5. **Visibility.** You see the model's reasoning, not just the final answer, which is also what makes it supervisable.
 
 ---
 
@@ -71,19 +71,19 @@ Output each step clearly labelled.
 
 **Example for accounting practice:**
 
-**Step 1 — analysis:**
+**Step 1 (analysis):**
 
 > "I am preparing advice on whether a client should restructure from a sole trader to a Pty Ltd structure for next financial year. Here are the client's circumstances: [paste]. Identify the three biggest factors that would affect this decision."
 
 [Review output. Discuss with the partner if needed.]
 
-**Step 2 — options:**
+**Step 2 (options):**
 
 > "Based on those factors, set out two structuring options and the trade-offs of each, in plain English suitable for a client who is not a tax professional."
 
 [Review.]
 
-**Step 3 — draft:**
+**Step 3 (draft):**
 
 > "Now draft a one-page client letter setting out the recommended option and the next step. Conservative tone, plain English, no commitments beyond what we can stand behind."
 
@@ -196,7 +196,7 @@ Prompt 5: "Synthesise this into a 200-word position statement."
 
 ## When *not* to use chaining
 
-- Simple, one-step tasks — a single clear prompt is more efficient
+- Simple, one-step tasks: a single clear prompt is more efficient
 - Real-time feedback situations
 - Open-ended exploratory work where structure would constrain
 - When the underlying context is too thin to support a chain
@@ -205,7 +205,7 @@ Prompt 5: "Synthesise this into a 200-word position statement."
 
 ## Best practices
 
-1. Start clear — the first prompt sets the tone. Use CRAFT or RTCF.
+1. Start clear: the first prompt sets the tone. Use CRAFT or RTCF.
 2. Review every step. Do not blindly proceed.
 3. Provide specific feedback, not just "make it better."
 4. Build incrementally. Small steps beat big jumps.
@@ -218,4 +218,4 @@ Prompt 5: "Synthesise this into a 200-word position statement."
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms build a small library of prompt chains for the work the firm actually does — so AI becomes a repeatable production tool, not a one-off curiosity. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms build a small library of prompt chains for the work the firm actually does, so AI becomes a repeatable production tool, not a one-off curiosity. Engagements begin with the AI Readiness Diagnostic.

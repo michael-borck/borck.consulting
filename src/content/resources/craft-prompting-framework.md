@@ -33,11 +33,11 @@ Five elements. You do not need all of them every time.
 
 ## Why CRAFT works
 
-1. **Clarity** — removes ambiguity from the request
-2. **Consistency** — works across ChatGPT, Claude, Copilot, Gemini, and vendor-embedded tools
-3. **Quality** — typically reduces rework substantially
-4. **Speed** — a few extra seconds of structure saves minutes of revision
-5. **Discipline** — makes you state what you actually want, which is often the work
+1. **Clarity**: removes ambiguity from the request
+2. **Consistency**: works across ChatGPT, Claude, Copilot, Gemini, and vendor-embedded tools
+3. **Quality**: typically reduces rework substantially
+4. **Speed**: a few extra seconds of structure saves minutes of revision
+5. **Discipline**: makes you state what you actually want, which is often the work
 
 ---
 
@@ -111,13 +111,13 @@ A note that applies to every framework on this page: a single, structured prompt
 
 A typical productive sequence on regulated work looks like this:
 
-1. CRAFT prompt — produces a first draft.
+1. CRAFT prompt: produces a first draft.
 2. *"What are the three weakest points in this draft?"*
 3. *"Now rewrite addressing those weaknesses, but keep the tone."*
 4. *"What citations or sources have you assumed exist? Quote the actual text I should verify."*
 5. *"This needs to fit inside a fixed-fee engagement. Cut anything that does not earn its place."*
 
-The draft from step one is not the deliverable. The output of step five — after you have personally checked everything material — is.
+The draft from step one is not the deliverable. The output of step five, after you have personally checked everything material, is.
 
 ---
 
@@ -145,4 +145,4 @@ The goal is clarity, not adherence to a framework.
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms build prompt patterns that match the firm's standards — so AI work looks and reads like firm work, not like ChatGPT. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms build prompt patterns that match the firm's standards, so AI work looks and reads like firm work, not like ChatGPT. Engagements begin with the AI Readiness Diagnostic.

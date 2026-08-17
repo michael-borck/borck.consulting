@@ -1,12 +1,12 @@
 ---
 title: "Ethics, Data Governance, and Professional Integrity"
-description: "A practical framework for partners — beyond the blanket ban and the wishful free-for-all"
+description: "A practical framework for partners: beyond the blanket ban and the wishful free-for-all"
 publishDate: 2026-12-08
 slug: ethics-integrity
 draft: false
 ---
 
-*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology) — the practical ethics framework for partners thinking past the blanket ban and the wishful free-for-all.*
+*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology): the practical ethics framework for partners thinking past the blanket ban and the wishful free-for-all.*
 
 ## Purpose
 
@@ -61,11 +61,11 @@ A simple structure that travels well across legal, medical, accounting, and advi
 **In practice:**
 
 - Set up workflows where staff must **critique, correct, or override** AI output before it is acted on
-- Ask staff to show **what AI got wrong or missed** — particularly citations, jurisdictions, doses, rates, deadlines
+- Ask staff to show **what AI got wrong or missed**: particularly citations, jurisdictions, doses, rates, deadlines
 - Supervise the **quality of the critique and the improvement**, not the AI's first answer
 - Build a small library of **real examples** from your own practice: hallucination, bias, oversimplification, wrong jurisdiction, fabricated citation
 
-**Why it strengthens integrity:** thoughtful use is harder than avoidance. Staff practise the professional habits — checking context, evidence, and consequences — that they need anyway, and your file note discipline becomes an asset rather than a forensic exercise.
+**Why it strengthens integrity:** thoughtful use is harder than avoidance. Staff practise the professional habits (checking context, evidence, and consequences) that they need anyway, and your file note discipline becomes an asset rather than a forensic exercise.
 
 ### 2.3 Professional relevance, not abstract policy
 
@@ -74,20 +74,20 @@ A simple structure that travels well across legal, medical, accounting, and advi
 **In practice:**
 
 - Frame guidance in terms of **real scenarios**: drafting a client letter, summarising a discovery bundle, paraphrasing a clinical guideline, exploring a tax position
-- Discuss **professional accountability** explicitly: who is responsible when AI is wrong? (You are. Always.) Reference your professional obligations — APP, LPUL, AHPRA, APES 110, ASIC RG 175 — directly.
+- Discuss **professional accountability** explicitly: who is responsible when AI is wrong? (You are. Always.) Reference your professional obligations (APP, LPUL, AHPRA, APES 110, ASIC RG 175) directly.
 - Make **AI literacy and responsible use visible in the firm's competency expectations**, not just in a policy document filed somewhere
 
 **Why it strengthens integrity:** staff see AI not as a shortcut around their professional obligations, but as a tool they must learn to handle within them.
 
-The thread running through all three principles is *agency* — the practitioner's ability to steer the work and stand behind it. Transparency makes agency visible. Critical oversight is agency in action. Professional relevance ties agency to the obligations that already presume it. A firm's AI policy is, in effect, a policy on whose agency is allowed to be where.
+The thread running through all three principles is *agency*: the practitioner's ability to steer the work and stand behind it. Transparency makes agency visible. Critical oversight is agency in action. Professional relevance ties agency to the obligations that already presume it. A firm's AI policy is, in effect, a policy on whose agency is allowed to be where.
 
 ---
 
 ## 3. Data governance in practice
 
-Most small firms in Australia run Microsoft 365 or Google Workspace. Both offer enterprise AI options that operate inside your tenant under your existing data agreements. Practice management, accounting, and clinical software vendors are increasingly building AI features under their existing contracts. Staff also have access to consumer tools (free ChatGPT, Gemini, Claude, etc.) on their personal devices — you cannot fully control which tools they touch, but you can give them the framework to make informed choices.
+Most small firms in Australia run Microsoft 365 or Google Workspace. Both offer enterprise AI options that operate inside your tenant under your existing data agreements. Practice management, accounting, and clinical software vendors are increasingly building AI features under their existing contracts. Staff also have access to consumer tools (free ChatGPT, Gemini, Claude, etc.) on their personal devices. You cannot fully control which tools they touch, but you can give them the framework to make informed choices.
 
-### Enterprise vs consumer tools — the simple view
+### Enterprise vs consumer tools: the simple view
 
 **Enterprise / approved tools** (e.g. Microsoft 365 Copilot, Gemini for Workspace, vendor-embedded AI in your practice systems):
 
@@ -101,7 +101,7 @@ Most small firms in Australia run Microsoft 365 or Google Workspace. Both offer 
 - Conversations may be retained and may be used to improve services
 - Less transparent data handling
 - No firm-level contract or guarantees
-- Appropriate for **non-sensitive work, generic content, learning, and mock-data exploration** — never for client-identifiable information
+- Appropriate for **non-sensitive work, generic content, learning, and mock-data exploration**, never for client-identifiable information
 
 ### Design strategies that encourage better data handling
 
@@ -110,7 +110,7 @@ Rather than trying to ban tools you cannot see, set up patterns that naturally p
 - Use **fictional or generic scenarios** for training and prompt experimentation
 - Require **de-identification** before any real data is used in a non-enterprise tool
 - Ask for **process documentation** (key prompts, decisions, what was changed and why) on regulated work
-- Be explicit about **which tools are recommended** and *why* — tooling without rationale gets ignored
+- Be explicit about **which tools are recommended** and *why*; tooling without rationale gets ignored
 
 ---
 
@@ -183,7 +183,7 @@ Useful follow-up moves:
 
 - Ask them to **walk you through their thinking** on a specific part
 - Offer a short **oral or written clarification** opportunity
-- Use the moment as a **teaching point** about checking output and staying accountable — the goal is capability, not punishment
+- Use the moment as a **teaching point** about checking output and staying accountable; the goal is capability, not punishment
 
 ---
 
@@ -197,10 +197,10 @@ Draft or refine a short **AI use statement** for the firm. Use the structure abo
 4. What staff **must do** when they use AI (critical engagement, explanation, data governance)
 5. How this connects to **professional integrity and your specific obligations** rather than to rule-compliance for its own sake
 
-Aim for a tone that is **clear, direct, and constructive**. The goal is not to scare staff away from AI. It is to help them use it transparently, critically, and responsibly — which is also what your professional standards body and your insurer are quietly hoping you are doing.
+Aim for a tone that is **clear, direct, and constructive**. The goal is not to scare staff away from AI. It is to help them use it transparently, critically, and responsibly, which is also what your professional standards body and your insurer are quietly hoping you are doing.
 
 ---
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms write the AI use policy they actually need — short enough to be read, specific enough to be applied, and grounded in the firm's professional obligations. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms write the AI use policy they actually need: short enough to be read, specific enough to be applied, and grounded in the firm's professional obligations. Engagements begin with the AI Readiness Diagnostic.

@@ -1,6 +1,6 @@
 ---
 title: "The RTCF Prompting Framework"
-description: "Four slots when CRAFT is too many — the framework I reach for first"
+description: "Four slots when CRAFT is too many: the framework I reach for first"
 slug: rtcf-prompting-framework
 order: 2
 section: "Start here"
@@ -9,7 +9,7 @@ draft: false
 
 ## Introduction
 
-The R.T.C.F. framework is a four-part approach to writing better prompts. Same underlying idea as [CRAFT](craft-prompting-framework.qmd) — give the model enough structure to do good work — but with fewer moving parts.
+The R.T.C.F. framework is a four-part approach to writing better prompts. Same underlying idea as [CRAFT](craft-prompting-framework.qmd) (give the model enough structure to do good work) but with fewer moving parts.
 
 When a four-part framework gets the job done, a five-part framework is overhead. RTCF is the one I reach for first.
 
@@ -35,9 +35,9 @@ You do not need all four every time. A short rewrite might just need a Task. A n
 ## Why RTCF works
 
 1. **Fewer slots, faster setup.** Four elements is usually enough. You spend less time building the prompt and more time iterating on the output.
-2. **Role-first ordering.** Stating the role first frames everything that follows — the model knows whose voice it is writing in before it knows what it is writing.
+2. **Role-first ordering.** Stating the role first frames everything that follows: the model knows whose voice it is writing in before it knows what it is writing.
 3. **Task before context.** Naming the deliverable up front prevents the common failure mode of *"I gave it lots of context and it still didn't do what I wanted."* If the task is clear, the model knows which bits of context matter.
-4. **Format as a single slot.** Combining tone with format makes you think about the output as a whole — what it looks like, what voice it is in, who is reading it.
+4. **Format as a single slot.** Combining tone with format makes you think about the output as a whole: what it looks like, what voice it is in, who is reading it.
 5. **Travels well.** Works across ChatGPT, Claude, Copilot, Gemini, vendor-embedded AI, and smaller local models.
 
 ---
@@ -78,7 +78,7 @@ A useful rule of thumb: **RTCF for everyday work where you want speed and consis
 
 > *Role:* You are an Australian solicitor with experience in commercial dispute work.
 > *Task:* Draft a one-page position note for the client setting out our preferred argument, the main risks, and what we would need from them.
-> *Context:* The dispute is over scope under sections 4 and 6 of a services agreement. Counterparty has signalled willingness to mediate. We have asked the client to confirm three factual points — those go in the "what we need" section.
+> *Context:* The dispute is over scope under sections 4 and 6 of a services agreement. Counterparty has signalled willingness to mediate. We have asked the client to confirm three factual points; those go in the "what we need" section.
 > *Format:* One page. Three labelled sections. Plain English. Suitable for the client to read once and act on.
 
 ### Example: a clinical letter
@@ -100,7 +100,7 @@ A useful rule of thumb: **RTCF for everyday work where you want speed and consis
 
 | Mistake | What happens | Fix |
 |---|---|---|
-| Role too generic | Output reads as "AI advice," not expert advice | Use a specific role — *"Australian solicitor with conveyancing experience"* not *"expert"* |
+| Role too generic | Output reads as "AI advice," not expert advice | Use a specific role: *"Australian solicitor with conveyancing experience"* not *"expert"* |
 | Task buried in context | Model does the wrong thing because it had to guess | Lead with what you want produced |
 | Context dump | Long irrelevant background; model weights wrong details | Include only what changes the output |
 | No format slot | Output structure is unpredictable, often a wall of text | Always say at least one thing about format |
@@ -112,10 +112,10 @@ A useful rule of thumb: **RTCF for everyday work where you want speed and consis
 
 RTCF is a good first move. It is not the only move.
 
-- **Very short tasks** — just ask. The framework is overhead.
-- **Exploratory thinking** — start conversational, let RTCF emerge as you narrow.
-- **High-stakes nuance** — switch to [CRAFT](craft-prompting-framework.qmd) so tone gets its own slot.
-- **Multi-step work** — RTCF for each step, plus [Prompt Chaining](prompt-chaining.qmd) to link them.
+- **Very short tasks**: just ask. The framework is overhead.
+- **Exploratory thinking**: start conversational, let RTCF emerge as you narrow.
+- **High-stakes nuance**: switch to [CRAFT](craft-prompting-framework.qmd) so tone gets its own slot.
+- **Multi-step work**: RTCF for each step, plus [Prompt Chaining](prompt-chaining.qmd) to link them.
 
 The goal is clarity, not adherence to a framework.
 

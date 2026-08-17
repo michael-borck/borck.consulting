@@ -6,7 +6,7 @@ slug: ai-for-firm-staff
 draft: false
 ---
 
-*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology) — practical patterns for the practice staff whose work AI most directly intersects.*
+*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology): practical patterns for the practice staff whose work AI most directly intersects.*
 
 ## Quick start
 
@@ -27,7 +27,7 @@ A starting prompt:
 
 ```
 Context: [Brief description of the task and audience]
-Role: You are a [my role — practice manager, paralegal, etc.]
+Role: You are a [my role: practice manager, paralegal, etc.]
 Task: Help me [analyse / summarise / draft] [the thing]
 Output: [One-page summary / email / checklist] in clear, practical language
 ```
@@ -46,7 +46,7 @@ While much of what people say about AI focuses on practitioners (how solicitors,
 - Process improvement and operations
 - Documentation and templates
 
-AI can support these responsibilities. Not by replacing your expertise — by amplifying it.
+AI can support these responsibilities. Not by replacing your expertise, by amplifying it.
 
 ---
 
@@ -106,7 +106,7 @@ with clear recommendations."
 
 **You might:**
 
-- Track regulatory obligations (LPUL, AHPRA, APES 110, RG 175 — depending on sector)
+- Track regulatory obligations (LPUL, AHPRA, APES 110, or RG 175, depending on sector)
 - Assess current practice against standards
 - Identify compliance gaps
 - Draft or update internal policies
@@ -151,7 +151,7 @@ language. They are busy."
 - Generate talking points for difficult conversations
 
 ```
-Step 1: "I have this compliance update — quite technical.
+Step 1: "I have this compliance update (quite technical).
 Draft a two-paragraph executive summary for partners."
 
 Step 2: "Now create a one-page email for practitioners
@@ -258,9 +258,9 @@ First step: identify the requirements
 ```
 Content: [The information to communicate]
 Task: Create three versions:
-1. [Audience A] — [format] with [tone/focus]
-2. [Audience B] — [format] with [tone/focus]
-3. [Audience C] — [format] with [tone/focus]
+1. [Audience A]: [format] with [tone/focus]
+2. [Audience B]: [format] with [tone/focus]
+3. [Audience C]: [format] with [tone/focus]
 
 Original content: [paste]
 
@@ -299,26 +299,26 @@ First step: map the current process step by step
 
 **Scenario:** End of quarter. The senior partner wants a quick read on practice performance and emerging risks.
 
-**Step 1 — initial analysis**
+**Step 1: initial analysis**
 
 ```
 Attached is the matter-management export for Q1. Summarise:
 - Practitioner utilisation (highest, lowest, anomalies)
-- Matter ageing — anything stalled longer than usual?
-- Realisation rate — overall and by practitioner
+- Matter ageing: anything stalled longer than usual?
+- Realisation rate: overall and by practitioner
 
 Plain bullets. What does the partner most need to know?
 ```
 
-**Step 2 — deeper read**
+**Step 2: deeper read**
 
 ```
 You flagged three matters as significantly stalled. For each, what
-factors might cause this — looking at the data alone? What follow-up
+factors might cause this, looking at the data alone? What follow-up
 should I do before the partner meeting?
 ```
 
-**Step 3 — partner-meeting summary**
+**Step 3: partner-meeting summary**
 
 ```
 Turn this into a one-page summary for the partner meeting. Include:
@@ -330,7 +330,7 @@ Turn this into a one-page summary for the partner meeting. Include:
 Keep it readable in two minutes.
 ```
 
-**Step 4 — the partner's likely questions**
+**Step 4: the partner's likely questions**
 
 ```
 What are the three questions the senior partner is most likely to
@@ -347,9 +347,9 @@ That sequence turns several hours of preparation into something usable in under 
 
 **2. Maintain professional judgement.** Do not accept AI output at face value. Verify facts, especially anything regulator- or obligation-related. Consider firm-specific context. Combine AI output with what you actually know.
 
-**3. Use chaining for complex tasks.** Compliance reviews, strategic planning, multi-stakeholder communication — break them into steps. Quality compounds.
+**3. Use chaining for complex tasks.** Compliance reviews, strategic planning, multi-stakeholder communication: break them into steps. Quality compounds.
 
-**4. Use a prompt framework for individual prompts.** [CRAFT](craft-prompting-framework.qmd) or [RTCF](rtcf-prompting-framework.qmd) — pick one and stick to it.
+**4. Use a prompt framework for individual prompts.** [CRAFT](craft-prompting-framework.qmd) or [RTCF](rtcf-prompting-framework.qmd): pick one and stick to it.
 
 **5. Protect sensitive information.** If working with personal data, client matter information, patient records, or anything covered by Privacy Act, professional obligations, or court order:
 
@@ -359,16 +359,16 @@ That sequence turns several hours of preparation into something usable in under 
 
 **6. Document what works.** Keep your best prompts. You will use them again.
 
-**7. Combine AI with your expertise.** You know how the firm actually works. You know what partners actually care about. You know what is feasible given the constraints. AI does not. Your judgement applied to AI's output is the real product — and your willingness to *steer* the work, not just refine the model's first draft, is what keeps you in the role partners actually rely on.
+**7. Combine AI with your expertise.** You know how the firm actually works. You know what partners actually care about. You know what is feasible given the constraints. AI does not. Your judgement applied to AI's output is the real product, and your willingness to *steer* the work, not just refine the model's first draft, is what keeps you in the role partners actually rely on.
 
 ---
 
 ## What not to use AI for
 
 - **Confidential personnel decisions** without appropriate safeguards
-- **Final decisions** that require judgement — AI informs; you (or the partner) decide
+- **Final decisions** that require judgement: AI informs; you (or the partner) decide
 - **Anything client- or patient-affecting** without practitioner review
-- **Legal interpretation** beyond explaining what a rule says — get the lawyer
+- **Legal interpretation** beyond explaining what a rule says: get the lawyer
 - **Anything regulated** that you cannot defend in your own words afterwards
 
 ---
@@ -397,4 +397,4 @@ The most effective practice staff combine AI's analytical power with deep firm k
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms develop AI capability across the whole practice — partners and staff — so the firm gets the benefit, not just the latest pilot. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms develop AI capability across the whole practice (partners and staff) so the firm gets the benefit, not just the latest pilot. Engagements begin with the AI Readiness Diagnostic.

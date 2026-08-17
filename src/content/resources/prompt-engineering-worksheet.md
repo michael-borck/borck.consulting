@@ -1,6 +1,6 @@
 ---
 title: "Prompt Engineering Worksheet"
-description: "Six regulated-firm scenarios — work through one in three rounds and you will see the difference structure makes"
+description: "Six regulated-firm scenarios: work through one in three rounds and you will see the difference structure makes"
 slug: prompt-engineering-worksheet
 order: 12
 section: "At partner level"
@@ -22,20 +22,20 @@ A quick reference for the framework is at the bottom.
 
 ---
 
-## Scenario 1 — The difficult client email (legal practice)
+## Scenario 1: The difficult client email (legal practice)
 
 ### Situation
 
-You act for a long-standing commercial client. They have just sent a terse email saying they are *"extremely disappointed"* with your most recent advice — they feel it was *"too generic"* and *"didn't reflect what we actually need."* You believe the advice is sound and addresses the question they actually asked. You suspect the wider context shifted after a board meeting you were not part of. You need to respond professionally, acknowledge the frustration without conceding the work, and propose a path forward.
+You act for a long-standing commercial client. They have just sent a terse email saying they are *"extremely disappointed"* with your most recent advice; they feel it was *"too generic"* and *"didn't reflect what we actually need."* You believe the advice is sound and addresses the question they actually asked. You suspect the wider context shifted after a board meeting you were not part of. You need to respond professionally, acknowledge the frustration without conceding the work, and propose a path forward.
 
 ### What you know
 
 - Eighteen-month relationship, generally constructive
 - The advice took two days of senior associate time and partner review
 - A short alignment call would likely resolve it
-- Tone matters — escalating helps no one
+- Tone matters: escalating helps no one
 
-**Round 1 (baseline) — your natural prompt:**
+**Round 1 (baseline). Your natural prompt:**
 
 > _Your prompt:_
 
@@ -45,7 +45,7 @@ You act for a long-standing commercial client. They have just sent a terse email
 
 ---
 
-**Round 2 (RTCF) — fill the table:**
+**Round 2 (RTCF). Fill the table:**
 
 | Component | Your input |
 |---|---|
@@ -66,7 +66,7 @@ You act for a long-standing commercial client. They have just sent a terse email
 
 ---
 
-## Scenario 2 — Drafting a complex client letter (accounting)
+## Scenario 2: Drafting a complex client letter (accounting)
 
 ### Situation
 
@@ -83,7 +83,7 @@ A client running a family business asks for written guidance on whether to make 
 
 ---
 
-## Scenario 3 — A clinical referral (medical practice)
+## Scenario 3: A clinical referral (medical practice)
 
 ### Situation
 
@@ -100,7 +100,7 @@ You see a 67-year-old patient newly noted with atrial fibrillation. They are asy
 
 ---
 
-## Scenario 4 — A practice policy summary (any sector)
+## Scenario 4: A practice policy summary (any sector)
 
 ### Situation
 
@@ -108,37 +108,37 @@ The firm has just released a new ten-page Information Security Policy. Partners 
 
 ### What you know
 
-- Audience: mixed — partners, fee earners, support staff
+- Audience: mixed (partners, fee earners, support staff)
 - Tone: practical and constructive, not corporate
 - Format: an internal email the partner can forward
-- The full policy is the source — paste or upload it (using an enterprise tool with appropriate data terms)
+- The full policy is the source: paste or upload it (using an enterprise tool with appropriate data terms)
 
-**Run the three rounds.** For Round 3 try: *"identify what each role group will care about and what they will skim past — restructure the summary so it puts the relevant points to each group up front."*
+**Run the three rounds.** For Round 3 try: *"identify what each role group will care about and what they will skim past; restructure the summary so it puts the relevant points to each group up front."*
 
 ---
 
-## Scenario 5 — A vendor decision analysis (financial advisory)
+## Scenario 5: A vendor decision analysis (financial advisory)
 
 ### Situation
 
-The firm's current SoA-tooling vendor is up for renewal in three months. Annual cost is $X. A competitor has appeared with newer features and a lower price. There is also a third option — building more of the workflow inside Microsoft 365 — that nobody has properly explored. You need a one-page brief for the partner meeting that lays out the three options, the key trade-offs, and a recommendation, with the assumptions the partners should challenge.
+The firm's current SoA-tooling vendor is up for renewal in three months. Annual cost is $X. A competitor has appeared with newer features and a lower price. There is also a third option (building more of the workflow inside Microsoft 365) that nobody has properly explored. You need a one-page brief for the partner meeting that lays out the three options, the key trade-offs, and a recommendation, with the assumptions the partners should challenge.
 
 ### What you know
 
 - The brief is a discussion starter, not the decision
 - The partners want it concise and structured
-- The trade-offs are not just price — they include data residency, integration, change cost, and risk
+- The trade-offs are not just price; they include data residency, integration, change cost, and risk
 - The recommendation should be defensible if the firm goes a different way
 
 **Run the three rounds.** For Round 3 try: *"argue strongly for each of the three options in turn, then step back and tell me which one would be hardest to defend in twelve months and why."*
 
 ---
 
-## Scenario 6 — Documenting an undocumented process
+## Scenario 6: Documenting an undocumented process
 
 ### Situation
 
-You are the only person who knows how to run the firm's end-of-month process — pulling time data, reconciling against the rate card, generating invoices in your accounting platform, applying client-specific PO numbers from a separate sheet, and updating the internal tracker. It lives in your head. The senior partner has rightly pointed out this is a risk. You need a step-by-step process document that another staff member could follow if you were on leave.
+You are the only person who knows how to run the firm's end-of-month process: pulling time data, reconciling against the rate card, generating invoices in your accounting platform, applying client-specific PO numbers from a separate sheet, and updating the internal tracker. It lives in your head. The senior partner has rightly pointed out this is a risk. You need a step-by-step process document that another staff member could follow if you were on leave.
 
 ### What you know
 
@@ -165,7 +165,7 @@ After completing your scenarios, reflect:
 
 **3. Your top prompting lesson from this exercise?**
 
-**4. Save your best prompt** — copy your strongest structured prompt into a personal template library.
+**4. Save your best prompt**: copy your strongest structured prompt into a personal template library.
 
 | Task type | My template prompt |
 |---|---|
@@ -181,10 +181,10 @@ Use this while writing prompts.
 
 | Component | Ask yourself | Example |
 |---|---|---|
-| **R — Role** | Who should the AI be? | "You are an Australian solicitor experienced in commercial disputes." |
-| **T — Task** | What exactly should it do? | "Draft a 200-word client letter explaining…" |
-| **C — Context** | What background does it need? | "Long-standing client; conservative tone; partner will review." |
-| **F — Format** | How should the output look? | "Plain text, ready to send. No headings. Reading age 14." |
+| **R: Role** | Who should the AI be? | "You are an Australian solicitor experienced in commercial disputes." |
+| **T: Task** | What exactly should it do? | "Draft a 200-word client letter explaining…" |
+| **C: Context** | What background does it need? | "Long-standing client; conservative tone; partner will review." |
+| **F: Format** | How should the output look? | "Plain text, ready to send. No headings. Reading age 14." |
 
 Not every prompt needs all four. Simple tasks may only need T and F. Complex tasks benefit from all four.
 
@@ -194,4 +194,4 @@ The RTCF framework maps closely to CRAFT (Context, Role, Action, Format, Tone). 
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms turn exercises like this into a small library of firm-specific prompt patterns — so AI work looks and reads like firm work, not like generic AI output. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms turn exercises like this into a small library of firm-specific prompt patterns, so AI work looks and reads like firm work, not like generic AI output. Engagements begin with the AI Readiness Diagnostic.

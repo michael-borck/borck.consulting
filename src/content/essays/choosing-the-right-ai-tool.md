@@ -1,12 +1,12 @@
 ---
 title: "Choosing the Right AI Tool"
-description: "An evaluation framework for partners — three domains, ten minutes, one decision"
+description: "An evaluation framework for partners: three domains, ten minutes, one decision"
 publishDate: 2027-02-16
 slug: choosing-the-right-ai-tool
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology) — a partner-level evaluation framework for AI tooling decisions, three domains and ten minutes per decision.*
+*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology): a partner-level evaluation framework for AI tooling decisions, three domains and ten minutes per decision.*
 
 ## The problem
 
@@ -32,7 +32,7 @@ Every evaluation should cover three domains. A tool can score well on one and fa
 
 ## Domain 1: usability
 
-Whether the tool fits smoothly into the firm's workflow — interface, mechanics, integrations, the small frictions that decide whether a tool gets adopted or quietly abandoned.
+Whether the tool fits smoothly into the firm's workflow: interface, mechanics, integrations, the small frictions that decide whether a tool gets adopted or quietly abandoned.
 
 | Area | Ask yourself |
 |---|---|
@@ -43,16 +43,16 @@ Whether the tool fits smoothly into the firm's workflow — interface, mechanics
 | Accessibility | Does it support staff who use screen readers, captions, or keyboard navigation? |
 | Guidance | Are there clear instructions and in-tool help? |
 | Reliability | Does it load quickly and stay up? |
-| Integration | Does it connect with the firm's existing systems — practice management, DMS, accounting, clinical software? |
+| Integration | Does it connect with the firm's existing systems (practice management, DMS, accounting, clinical software)? |
 | Cost | Is there a free trial that gives meaningful access before committing? |
 
-**Quick test:** if a colleague with average technical confidence cannot figure it out in ten minutes without help, the tool is probably too complex for broad adoption — regardless of how impressive the demo was.
+**Quick test:** if a colleague with average technical confidence cannot figure it out in ten minutes without help, the tool is probably too complex for broad adoption, regardless of how impressive the demo was.
 
 ---
 
 ## Domain 2: fit for purpose
 
-Whether the tool actually supports the work the practice does — not just whether it looks impressive in a generic demonstration.
+Whether the tool actually supports the work the practice does, not just whether it looks impressive in a generic demonstration.
 
 | Area | Ask yourself |
 |---|---|
@@ -65,7 +65,7 @@ Whether the tool actually supports the work the practice does — not just wheth
 | Disruption | Will adopting it require process changes the firm has the appetite for? |
 | Vendor fit | Does the vendor understand small Australian firms, or is the offering scaled for enterprises? |
 
-**The test:** if you removed the tool tomorrow, would the firm lose something meaningful — or would staff barely notice?
+**The test:** if you removed the tool tomorrow, would the firm lose something meaningful, or would staff barely notice?
 
 ---
 
@@ -75,7 +75,7 @@ A workable tool cannot stand without governance. Address these issues *before* d
 
 | Area | Ask yourself |
 |---|---|
-| Data collection | What data does it collect — about staff, clients, matters, queries? |
+| Data collection | What data does it collect about staff, clients, matters, queries? |
 | Compliance | Does it comply with the Privacy Act and Australian Privacy Principles? With professional obligations relevant to your sector (LPUL, AHPRA, APES 110, RG 175)? |
 | Data residency | Where is data processed and stored? Inside Australia, with appropriate sovereignty arrangements, or offshore? |
 | Training use | Is firm or client data used to train the provider's models? Is there a clear opt-out? |
@@ -102,7 +102,7 @@ A workable tool cannot stand without governance. Address these issues *before* d
    ↓
 4. Collect feedback (one survey for staff who used it; your own observations)
    ↓
-5. Reflect and decide — adopt, adjust, or drop
+5. Reflect and decide: adopt, adjust, or drop
 ```
 
 ---
@@ -156,4 +156,4 @@ A score of 12 or above with no domain below 4 is a defensible reason to adopt. A
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms make AI tooling decisions that match the work and the obligations — and walk away from the impressive-looking ones that do not. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms make AI tooling decisions that match the work and the obligations, and walk away from the impressive-looking ones that do not. Engagements begin with the AI Readiness Diagnostic.

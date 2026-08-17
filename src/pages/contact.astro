@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Contact — borck.consulting" description="Book a 30-minute qualification call or get in touch about an AI Readiness Diagnostic.">
+<Base title="Contact · borck.consulting" description="Book a 30-minute qualification call or get in touch about an AI Readiness Diagnostic.">
 
   <div class="hero">
     <p class="hero-eyebrow">Contact</p>
@@ -19,10 +19,8 @@ import Base from '../layouts/Base.astro';
       below to choose a time, or email directly if that suits better.
     </p>
     <a href="https://cal.com/michael-borck/qualification" class="btn">Choose a time</a>
-    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray-2);">
-      <em>Note:</em> Cal.com URL placeholder — replace with the live link once Cal.com is
-      configured (Plan Task 26).
-    </p>
+    {/* TODO before launch: Cal.com URL above is a placeholder. Replace with the live
+        link once Cal.com is configured (Plan Task 26). */}
   </div>
 
   <div class="contact-block">
@@ -65,11 +63,8 @@ import Base from '../layouts/Base.astro';
         Send
       </button>
     </form>
-    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray-2);">
-      <em>Note:</em> Form action URL is a Formspree placeholder — replace with a live form
-      endpoint (Formspree, Netlify Forms, or your hosting provider's equivalent) before
-      public launch.
-    </p>
+    {/* TODO before launch: form action is a Formspree placeholder (REPLACE_FORM_ID).
+        Replace with a live form endpoint before public launch. */}
   </div>
 
 </Base>

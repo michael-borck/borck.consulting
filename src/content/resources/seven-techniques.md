@@ -1,6 +1,6 @@
 ---
 title: "Seven Useful Prompt Techniques"
-description: "Beyond CRAFT — specialised techniques worth knowing for partner-level work"
+description: "Beyond CRAFT: specialised techniques worth knowing for partner-level work"
 slug: seven-techniques
 order: 5
 section: "Going deeper"
@@ -9,7 +9,7 @@ draft: false
 
 ## A note on positioning
 
-[CRAFT](craft-prompting-framework.qmd) and [RTCF](rtcf-prompting-framework.qmd) are *prompting frameworks* — how to structure any prompt clearly. The seven techniques in this guide are *specialised patterns* — particular shapes of prompt useful for particular kinds of professional thinking.
+[CRAFT](craft-prompting-framework.qmd) and [RTCF](rtcf-prompting-framework.qmd) are *prompting frameworks*: how to structure any prompt clearly. The seven techniques in this guide are *specialised patterns*: particular shapes of prompt useful for particular kinds of professional thinking.
 
 Use a framework to structure the prompt. Use a technique to choose the *kind* of thinking you want from the model.
 
@@ -19,13 +19,13 @@ Use a framework to structure the prompt. Use a technique to choose the *kind* of
 
 These are not random tricks. Each one builds a particular professional habit: scoping, balanced analysis, careful reasoning, perspective-taking, structured debate, low-stakes practice, and multi-perspective synthesis. They are the techniques most useful in the day-to-day decisions a partner or senior practitioner makes.
 
-1. **Reverse Prompting** — for scoping a problem properly before solving it
-2. **Pros and Cons** — structured comparison and decision-making
-3. **Stepwise Chain of Thought** — making reasoning visible
-4. **Role Play** — practising difficult conversations
-5. **Debating** — stress-testing positions
-6. **Formative Self-Assessment** — low-stakes practice with feedback
-7. **The Expert Panel** — multiple perspectives on a single decision
+1. **Reverse Prompting**: for scoping a problem properly before solving it
+2. **Pros and Cons**: structured comparison and decision-making
+3. **Stepwise Chain of Thought**: making reasoning visible
+4. **Role Play**: practising difficult conversations
+5. **Debating**: stress-testing positions
+6. **Formative Self-Assessment**: low-stakes practice with feedback
+7. **The Expert Panel**: multiple perspectives on a single decision
 
 Each works alone. Most also combine well with [Prompt Chaining](prompt-chaining.qmd).
 
@@ -35,7 +35,7 @@ Each works alone. Most also combine well with [Prompt Chaining](prompt-chaining.
 
 **What it does:** instead of solving a problem, the model asks *you* questions to help scope it. You answer one at a time. By the end, you have considered ten or more aspects you might otherwise have missed.
 
-**Why it matters:** complex professional problems get botched at the scoping stage more often than at the solving stage. This technique forces the work upstream — *before* you start drafting.
+**Why it matters:** complex professional problems get botched at the scoping stage more often than at the solving stage. This technique forces the work upstream, *before* you start drafting.
 
 **A regulated-firm prompt:**
 
@@ -98,7 +98,7 @@ Justify your recommendation.
 
 **What it does:** rather than asking for a conclusion, you ask the model to show its working step-by-step, then conclude.
 
-**Why it matters:** in regulated work, *the reasoning* is part of the deliverable — not just the result. Forcing the model to show its working makes errors visible (and your verification possible).
+**Why it matters:** in regulated work, *the reasoning* is part of the deliverable, not just the result. Forcing the model to show its working makes errors visible (and your verification possible).
 
 **A regulated-firm prompt:**
 
@@ -115,13 +115,13 @@ agreement triggers the indemnity at clause 7.2. Step by step:
 Show your working at each step.
 ```
 
-This is also how you catch the moments where the model would otherwise quietly skip a step — i.e. where it might fabricate.
+This is also how you catch the moments where the model would otherwise quietly skip a step, i.e. where it might fabricate.
 
 ---
 
 ## 4. Role play (difficult conversations)
 
-**What it does:** the model takes on a specific role — sceptical client, opposing counsel, regulator — and you practise the conversation.
+**What it does:** the model takes on a specific role (sceptical client, opposing counsel, regulator) and you practise the conversation.
 
 **Why it matters:** the conversations that matter most in regulated practice are often the ones we are least prepared for. Rehearsing them with a willing thinking partner is genuinely useful.
 
@@ -245,7 +245,7 @@ That sequence is itself a [chain](prompt-chaining.qmd). Each step uses CRAFT or 
 
 ## Closing note
 
-These techniques work because they each force a specific kind of thinking. The model is willing to play any of these roles — sceptic, examiner, panel of experts. The willingness is the point. You are not getting an answer. You are getting a thinking process you can apply your professional judgement to.
+These techniques work because they each force a specific kind of thinking. The model is willing to play any of these roles: sceptic, examiner, panel of experts. The willingness is the point. You are not getting an answer. You are getting a thinking process you can apply your professional judgement to.
 
 In regulated work, that judgement is the deliverable. The techniques just let you bring it to bear faster.
 
@@ -253,4 +253,4 @@ In regulated work, that judgement is the deliverable. The techniques just let yo
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms build a small repertoire of prompt patterns for the work the firm actually does — so AI becomes a thinking partner, not a content firehose. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms build a small repertoire of prompt patterns for the work the firm actually does, so AI becomes a thinking partner, not a content firehose. Engagements begin with the AI Readiness Diagnostic.

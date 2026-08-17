@@ -6,7 +6,7 @@ slug: ai-landscape
 draft: false
 ---
 
-*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology) — starting with the work the firm actually does, not with the vendor landscape.*
+*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology): starting with the work the firm actually does, not with the vendor landscape.*
 
 ## Start here, not with the tools
 
@@ -57,7 +57,7 @@ Most capable, most expensive:
 
 They excel at complex reasoning, long-document handling, and multi-step analysis. Available through paid subscriptions (typically $20–$30/month per seat) or API access.
 
-**Do you need a frontier model?** For everyday brainstorming, drafting, and iteration — often not. The free and bundled tiers are surprisingly capable for most regulated-firm work. Frontier models matter when the task is genuinely complex (long documents, multi-step legal analysis, nuanced clinical or financial reasoning) or where higher accuracy materially affects exposure.
+**Do you need a frontier model?** For everyday brainstorming, drafting, and iteration, often not. The free and bundled tiers are surprisingly capable for most regulated-firm work. Frontier models matter when the task is genuinely complex (long documents, multi-step legal analysis, nuanced clinical or financial reasoning) or where higher accuracy materially affects exposure.
 
 (See [Do I Need the Best Model?](do-i-need-the-best-model.qmd) for the procurement question.)
 
@@ -70,13 +70,13 @@ They excel at complex reasoning, long-document handling, and multi-step analysis
 | Gemini | Free tier; integrated with Google |
 | Microsoft 365 Copilot | Bundled into many Microsoft 365 enterprise tiers |
 
-For most exploration and learning — and for non-sensitive work — the free or bundled tiers are more than sufficient. Start here.
+For most exploration and learning, and for non-sensitive work, the free or bundled tiers are more than sufficient. Start here.
 
 ### A note on FOMO
 
 There is constant pressure to have the latest model. New version, new benchmark, new headline. Take a breath.
 
-If you are having genuine conversations with AI — brainstorming, iterating, thinking together — you do not need the latest and greatest. You need a tool that helps you think. Last quarter's model does that. The goal is to amplify thinking, not to chase benchmarks. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
+If you are having genuine conversations with AI (brainstorming, iterating, thinking together), you do not need the latest and greatest. You need a tool that helps you think. Last quarter's model does that. The goal is to amplify thinking, not to chase benchmarks. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
 
 ---
 
@@ -98,7 +98,7 @@ Suno (text-to-music), NotebookLM Audio (document-to-podcast), ElevenLabs (text-t
 
 ### AI for video
 
-Runway, Synthesia, Google Veo. Useful for explainer videos, internal communications. Be cautious with anything client-facing — synthetic video has trust implications.
+Runway, Synthesia, Google Veo. Useful for explainer videos, internal communications. Be cautious with anything client-facing; synthetic video has trust implications.
 
 ### AI for code
 
@@ -117,12 +117,12 @@ You do not have to send data to the cloud. Open-source models can run on your ow
 - **Offline.** Works without internet.
 - **Control.** You choose the model.
 
-This is genuinely useful when sensitivity, contractual obligations, or professional duties make cloud AI difficult — for example on sealed matters, certain advisory work, or material that should not cross borders.
+This is genuinely useful when sensitivity, contractual obligations, or professional duties make cloud AI difficult: for example on sealed matters, certain advisory work, or material that should not cross borders.
 
 ### How to get started
 
-- **Ollama** — the simplest way to run open-source models locally. Install from [ollama.com](https://ollama.com), then `ollama run llama3` (or mistral, gemma, phi). Chat in a terminal.
-- **LM Studio** — a desktop app with a visual interface and a built-in catalogue of models. Download from [lmstudio.ai](https://lmstudio.ai).
+- **Ollama**: the simplest way to run open-source models locally. Install from [ollama.com](https://ollama.com), then `ollama run llama3` (or mistral, gemma, phi). Chat in a terminal.
+- **LM Studio**: a desktop app with a visual interface and a built-in catalogue of models. Download from [lmstudio.ai](https://lmstudio.ai).
 
 ### Popular open-source models
 
@@ -135,7 +135,7 @@ This is genuinely useful when sensitivity, contractual obligations, or professio
 
 ### Honest limitations
 
-- Generally less capable than frontier cloud models — though good prompting closes more of the gap than people expect (see [Prompt, Context, Harness](prompt-context-harness.qmd)).
+- Generally less capable than frontier cloud models, though good prompting closes more of the gap than people expect (see [Prompt, Context, Harness](prompt-context-harness.qmd)).
 - Requires reasonable hardware (16 GB RAM and up; better with a GPU).
 - Some setup effort.
 - No built-in browsing.
@@ -150,7 +150,7 @@ This is genuinely useful when sensitivity, contractual obligations, or professio
 
 | Use case | Where to start |
 |---|---|
-| Strategic thinking, partner conversations | ChatGPT or Claude (free or paid) — see [Strategic Prompting](strategic-prompting-guide.qmd) |
+| Strategic thinking, partner conversations | ChatGPT or Claude (free or paid); see [Strategic Prompting](strategic-prompting-guide.qmd) |
 | Research grounded in firm documents | NotebookLM |
 | Drafts of advice, position papers, internal memos | Claude or ChatGPT (free for non-sensitive; enterprise tier for client-affecting work) |
 | Working inside Microsoft 365 | Microsoft 365 Copilot |
@@ -176,7 +176,7 @@ This is genuinely useful when sensitivity, contractual obligations, or professio
 
 ---
 
-## Data governance — a reminder
+## Data governance: a reminder
 
 Before using any AI tool with firm data, consider:
 
@@ -200,7 +200,7 @@ See [Why Most AI Data Governance Policies Get It Wrong](data-governance.qmd) and
 
 ---
 
-## The landscape changes fast — and that is fine
+## The landscape changes fast, and that is fine
 
 New models launch monthly. Features change. Pricing shifts. Today's breakthrough is tomorrow's baseline. This can feel overwhelming.
 
@@ -208,7 +208,7 @@ The fundamentals do not change:
 
 - Prompting well matters more than which model you use.
 - Conversation and iteration beat one-shot queries on any model.
-- Professional judgement — and the agency that sits underneath it — remains the firm's contribution regardless of model capability.
+- Professional judgement, and the agency that sits underneath it, remains the firm's contribution regardless of model capability.
 - Privacy, professional obligations, and ethics apply to every tool.
 
 Learn the fundamentals. Pick a tool that fits the firm. Use it well. When something better comes along, your skills transfer.

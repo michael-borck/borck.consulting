@@ -1,6 +1,6 @@
 ---
 title: "RE2 Prompting"
-description: "Re-read for better reasoning — the simplest improvement you can make to a complex prompt"
+description: "Re-read for better reasoning: the simplest improvement you can make to a complex prompt"
 slug: re2-prompting
 order: 6
 section: "Going deeper"
@@ -44,7 +44,7 @@ It is not just "saying it twice." It is making the model see the whole picture b
 
 ## Evidence
 
-In head-to-head comparisons across seven major models (including GPT-4, Claude, and Gemini), RE2 won 47 of 70 tests with no losses — meaning it either helped or made no difference, but never made things worse.
+In head-to-head comparisons across seven major models (including GPT-4, Claude, and Gemini), RE2 won 47 of 70 tests with no losses, meaning it either helped or made no difference, but never made things worse.
 
 Notable result: on a "needle in a haystack" retrieval task, Gemini 2 Flash went from 21.3% accuracy to 97.3% with the technique applied.
 
@@ -160,4 +160,4 @@ It is the simplest prompting upgrade available, and it costs almost nothing.
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms turn AI techniques like this into firm-wide habits — small disciplines that stack into much better output. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms turn AI techniques like this into firm-wide habits: small disciplines that stack into much better output. Engagements begin with the AI Readiness Diagnostic.
