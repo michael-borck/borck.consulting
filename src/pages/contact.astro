@@ -1,40 +1,60 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Contact · borck.consulting" description="Email Michael Borck about an AI Readiness Diagnostic for your firm.">
+<Base title="Contact · borck.consulting" description="Send a short message about an AI Readiness Diagnostic for your firm.">
 
   <div class="hero">
     <p class="hero-eyebrow">Contact</p>
-    <h1 class="hero-title">Start with an email.</h1>
+    <h1 class="hero-title">Start with a short message.</h1>
     <p class="hero-sub">
-      Inquiries are answered within two business days. Tell me the firm, the problem,
-      and the timeline. If a Diagnostic fits, we will arrange a 30-minute call.
+      A few sentences is enough. Inquiries are answered within two business days.
+      If a Diagnostic fits, we will arrange a 30-minute call.
     </p>
   </div>
 
   <div class="contact-block">
-    <h2 class="contact-block-title">Email</h2>
+    <h2 class="contact-block-title">Send a message</h2>
     <p class="contact-block-desc">
-      The fastest route is a short email with enough context to make the first reply useful.
+      The firm, the AI problem, and any deadline or regulator pressure.
     </p>
-    <p>
-      <a href="mailto:michael@borck.dev" style="font-family: var(--mono); font-weight: 600;">
-        michael@borck.dev
-      </a>
+    <form class="contact-form" method="POST" action="https://forms.borck.consulting/contact">
+      <div>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required maxlength="200" />
+      </div>
+      <div>
+        <label for="firm">Firm</label>
+        <input type="text" id="firm" name="firm" maxlength="200" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required maxlength="320" />
+      </div>
+      <div>
+        <label for="situation">What is the situation?</label>
+        <textarea
+          id="situation"
+          name="situation"
+          rows="5"
+          maxlength="5000"
+          placeholder="The firm, the AI problem, and what you have already tried."
+        ></textarea>
+      </div>
+      <div style="position: absolute; left: -9999px;" aria-hidden="true">
+        <label for="website">Website</label>
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn" style="align-self: flex-start; cursor: pointer; font-family: var(--font);">
+        Send
+      </button>
+    </form>
+    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray-2);">
+      Or email <a href="mailto:michael@borck.dev">michael@borck.dev</a>.
     </p>
-    <p style="margin-top: 1.25rem;">
-      <a href="mailto:michael@borck.dev?subject=AI%20Readiness%20Diagnostic" class="btn">Email Michael</a>
+    <p style="margin-top: 0.75rem; font-size: 0.8rem; color: var(--gray-2);">
+      Please do not send confidential client material through this form. We can arrange
+      a secure channel before any engagement.
     </p>
-  </div>
-
-  <div class="contact-block">
-    <h2 class="contact-block-title">What to include</h2>
-    <ul class="contact-list">
-      <li>The firm and the kind of work it does.</li>
-      <li>The AI problem or decision in front of you.</li>
-      <li>What you have already tried, if anything.</li>
-      <li>Any deadline or regulator pressure.</li>
-    </ul>
   </div>
 
   <div class="contact-block">
