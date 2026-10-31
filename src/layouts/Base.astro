@@ -12,6 +12,39 @@ const {
   description = 'AI literacy, governance, and data sovereignty for regulated Australian small businesses. A private practice run by Michael Borck.',
   pageClass = 'page',
 } = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL('/og.png', Astro.site);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'borck.consulting',
+  description,
+  url: 'https://borck.consulting',
+  image: ogImage.href,
+  founder: {
+    '@type': 'Person',
+    name: 'Michael Borck',
+    url: 'https://borck.dev',
+  },
+  areaServed: {
+    '@type': 'Country',
+    name: 'Australia',
+  },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Perth',
+    addressRegion: 'WA',
+    addressCountry: 'AU',
+  },
+  priceRange: '$$',
+  sameAs: [
+    'https://www.linkedin.com/in/michaelborck',
+    'https://github.com/michael-borck',
+    'https://borck.dev',
+  ],
+};
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -20,12 +53,24 @@ const {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#4a6e62" />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://borck.consulting" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content="borck.consulting" />
+  <meta property="og:locale" content="en_AU" />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="borck.consulting — AI can do the work. Your firm is paid for the judgment." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content={ogImage} />
   <link rel="icon" href="/favicon.svg" />
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 </head>
 <body>
 
@@ -34,6 +79,18 @@ const {
       <span>borck</span><span class="dot">.</span><span class="sub">consulting</span>
     </a>
     <div class="topbar-spacer"></div>
+    <details class="menu">
+      <summary>Menu</summary>
+      <nav class="menu-panel">
+        <a href="/services">Services</a>
+        <a href="/writing">Writing</a>
+        <a href="/resources">Resources</a>
+        <a href="/evidence">Evidence</a>
+        <a href="/about">About</a>
+        <a href="https://notes.borck.consulting">Field notes</a>
+        <a href="/contact" class="cta">Book a Diagnostic</a>
+      </nav>
+    </details>
     <nav class="topbar-links">
       <a href="/services">Services</a>
       <a href="/writing">Writing</a>
@@ -58,7 +115,10 @@ const {
         <a href="/contact">Contact</a>
         <a href="/legal">Legal &amp; data handling</a>
       </div>
-      <span>Michael Borck · Perth, Western Australia · ABN 73 749 768 332</span>
+      <span>
+        Michael Borck · Perth, Western Australia · ABN 73 749 768 332 ·
+        <a href="mailto:michael@borck.dev">michael@borck.dev</a>
+      </span>
     </footer>
   </div>
 

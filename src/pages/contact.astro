@@ -1,70 +1,49 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Contact · borck.consulting" description="Book a 30-minute qualification call or get in touch about an AI Readiness Diagnostic.">
+<Base title="Contact · borck.consulting" description="Email Michael Borck about an AI Readiness Diagnostic for your firm.">
 
   <div class="hero">
     <p class="hero-eyebrow">Contact</p>
-    <h1 class="hero-title">Get in touch.</h1>
+    <h1 class="hero-title">Start with an email.</h1>
     <p class="hero-sub">
-      Inquiries are responded to within two business days. The 30-minute qualification call
-      is free; anything beyond that is a paid Diagnostic.
+      Inquiries are answered within two business days. Tell me the firm, the problem,
+      and the timeline. If a Diagnostic fits, we will arrange a 30-minute call.
     </p>
-  </div>
-
-  <div class="contact-block">
-    <h2 class="contact-block-title">Book a 30-minute qualification call</h2>
-    <p class="contact-block-desc">
-      A short conversation to confirm fit before any paid engagement. Use the booking link
-      below to choose a time, or email directly if that suits better.
-    </p>
-    <a href="https://cal.com/michael-borck/qualification" class="btn">Choose a time</a>
-    {/* TODO before launch: Cal.com URL above is a placeholder. Replace with the live
-        link once Cal.com is configured (Plan Task 26). */}
   </div>
 
   <div class="contact-block">
     <h2 class="contact-block-title">Email</h2>
     <p class="contact-block-desc">
-      For specific inquiries, written context is welcome. Substantive replies usually come
-      faster than meeting bookings.
+      The fastest route is a short email with enough context to make the first reply useful.
     </p>
     <p>
-      <a href="mailto:michael@borck.consulting" style="font-family: var(--mono); font-weight: 600;">
-        michael@borck.consulting
+      <a href="mailto:michael@borck.dev" style="font-family: var(--mono); font-weight: 600;">
+        michael@borck.dev
       </a>
+    </p>
+    <p style="margin-top: 1.25rem;">
+      <a href="mailto:michael@borck.dev?subject=AI%20Readiness%20Diagnostic" class="btn">Email Michael</a>
     </p>
   </div>
 
   <div class="contact-block">
-    <h2 class="contact-block-title">Or use the form</h2>
-    <p class="contact-block-desc">
-      A short message and your contact details. Useful if you would prefer to write before
-      committing to a call.
-    </p>
-    <form class="contact-form" method="POST" action="https://formspree.io/f/REPLACE_FORM_ID">
-      <div>
-        <label for="name">Your name</label>
-        <input type="text" id="name" name="name" required />
-      </div>
-      <div>
-        <label for="firm">Firm</label>
-        <input type="text" id="firm" name="firm" />
-      </div>
-      <div>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-      </div>
-      <div>
-        <label for="situation">What's your situation? (2–3 sentences is plenty)</label>
-        <textarea id="situation" name="situation" rows="5" required></textarea>
-      </div>
-      <button type="submit" class="btn" style="align-self: flex-start; cursor: pointer; font-family: var(--font);">
-        Send
-      </button>
-    </form>
-    {/* TODO before launch: form action is a Formspree placeholder (REPLACE_FORM_ID).
-        Replace with a live form endpoint before public launch. */}
+    <h2 class="contact-block-title">What to include</h2>
+    <ul class="contact-list">
+      <li>The firm and the kind of work it does.</li>
+      <li>The AI problem or decision in front of you.</li>
+      <li>What you have already tried, if anything.</li>
+      <li>Any deadline or regulator pressure.</li>
+    </ul>
+  </div>
+
+  <div class="contact-block">
+    <h2 class="contact-block-title">What happens next</h2>
+    <ol class="contact-list">
+      <li>I reply within two business days.</li>
+      <li>If it looks like a fit, we book a free 30-minute call.</li>
+      <li>If it does not, I will say so and point you elsewhere.</li>
+    </ol>
   </div>
 
 </Base>

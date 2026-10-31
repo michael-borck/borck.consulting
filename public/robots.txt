@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://borck.consulting/sitemap-index.xml
