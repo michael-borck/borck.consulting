@@ -74,9 +74,9 @@ For most exploration and learning, and for non-sensitive work, the free or bundl
 
 ### A note on FOMO
 
-There is constant pressure to have the latest model. New version, new benchmark, new headline. Take a breath.
+There is constant pressure to have the latest model: new version, new benchmark, new headline.
 
-If you are having genuine conversations with AI (brainstorming, iterating, thinking together), you do not need the latest and greatest. You need a tool that helps you think. Last quarter's model does that. The goal is to amplify thinking, not to chase benchmarks. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
+If you are having genuine conversations with AI (brainstorming, iterating, thinking together), a tool that helps you think is enough. Last quarter's model does that. The goal is to amplify thinking, not to chase benchmarks. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
 
 ---
 
@@ -86,7 +86,7 @@ If you are having genuine conversations with AI (brainstorming, iterating, think
 
 Upload PDFs, documents, web pages, even YouTube videos. Ask questions. The model answers based *only* on your uploaded sources, which significantly reduces hallucination. Generates podcast-style audio summaries. Free with a Google account.
 
-**Best for:** firm-specific research, summarising documents, building internal study aids, getting up to speed on an unfamiliar matter using your own source materials.
+The main uses are firm-specific research, summarising documents, building internal study aids, and getting up to speed on an unfamiliar matter using your own source materials.
 
 ### AI for images and design
 
@@ -112,10 +112,10 @@ You do not have to send data to the cloud. Open-source models can run on your ow
 
 ### Why local matters for regulated firms
 
-- **Privacy.** Data does not leave the machine.
-- **No subscription.** Free after initial setup.
-- **Offline.** Works without internet.
-- **Control.** You choose the model.
+- Privacy: data does not leave the machine.
+- No subscription: free after initial setup.
+- Offline: works without internet.
+- Control: you choose the model.
 
 This is genuinely useful when sensitivity, contractual obligations, or professional duties make cloud AI difficult: for example on sealed matters, certain advisory work, or material that should not cross borders.
 
@@ -140,7 +140,7 @@ This is genuinely useful when sensitivity, contractual obligations, or professio
 - Some setup effort.
 - No built-in browsing.
 
-**Best for:** privacy-sensitive work, learning how AI works, situations where cloud calls are not appropriate.
+The uses are privacy-sensitive work, learning how AI works, and situations where cloud calls are not appropriate.
 
 ---
 
@@ -211,9 +211,9 @@ The fundamentals do not change:
 - Professional judgement, and the agency that sits underneath it, remains the firm's contribution regardless of model capability.
 - Privacy, professional obligations, and ethics apply to every tool.
 
-Learn the fundamentals. Pick a tool that fits the firm. Use it well. When something better comes along, your skills transfer.
+Learn the fundamentals, pick a tool that fits the firm, and use it well. When something better comes along, your skills transfer.
 
-The AI landscape is a buffet, not a race. Sample what is useful. Ignore the hype. Focus on what helps the firm think better.
+The AI landscape is a buffet, not a race: sample what is useful, ignore the hype, and focus on what helps the firm think better.
 
 ---
 

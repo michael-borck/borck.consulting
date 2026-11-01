@@ -12,15 +12,15 @@ draft: false
 
 You already know the trap: delegation feels productive but erodes capability and, underneath that, erodes agency. You know the protective practice is conversation, not delegation. The question is what that conversation actually looks like inside a working firm.
 
-Four stages. One feedback arc. Most good work passes through the loop more than once.
+Four stages and one feedback arc, and most good work passes through the loop more than once.
 
 **Brainstorm → Ideate → Iterate → Amplify → Repeat**
 
-A good conversation with AI does not end with a better output. It ends with a better question, and a practitioner who has stayed in the driver's seat throughout.
+A good conversation with AI ends with a better question and a practitioner who has stayed in the driver's seat throughout.
 
 ## 1. Brainstorm: define the question
 
-You arrive with a question, a problem, or a half-formed idea. Not a task to outsource. Not a prompt engineered to extract a finished deliverable in one shot. You bring something you are genuinely thinking about.
+You arrive with a question, a problem, or a half-formed idea, not a task to outsource or a prompt engineered to extract a finished deliverable in one shot. You bring something you are genuinely thinking about.
 
 The quality of what comes out of the loop is bounded by what you bring into it. A vague *"write me a Statement of Advice"* produces vague advice. A specific *"I am structuring an SoA for a client who is selling a small-business asset and wants to make a downsizer contribution; I want to stress-test how I am sequencing the recommendations"* gives the conversation something to grip.
 
@@ -32,9 +32,9 @@ Before you prompt, ask yourself: am I describing my problem, or am I describing 
 
 ## 2. Ideate: explore the possibilities
 
-Brainstorm gave you a clear question. Ideation is where you and the AI go wide. Generative and divergent. You are not looking for the answer. You are looking for angles, adjacent considerations, framings you had not considered.
+Brainstorm gave you a clear question. Ideation is where you and the AI go wide, generative and divergent. You are not looking for the answer. You are looking for angles, adjacent considerations, framings you had not considered.
 
-Ask for alternatives. Ask for the version that would make a senior colleague pause. Ask what you might be missing. AI's breadth across domains is genuinely useful here: not because it knows your matter better than you do, but because it can surface patterns and connections faster than you can scan for them alone.
+Ask for alternatives. Ask for the version that would make a senior colleague pause. Ask what you might be missing. AI's breadth across domains is useful here because it can surface patterns and connections faster than you can scan for them alone, though it does not know your matter better than you do.
 
 The temptation is to stop here: take the first interesting output and move on. Resist that. Ideation is cheap. The next stage is where value gets made.
 
@@ -55,7 +55,7 @@ Iteration is work. It is also the stage that makes the output yours. Stay in it 
 
 You take the best of what emerged and make it yours. You edit, restructure, combine, cut. You bring it into your voice, your firm's standards, your knowledge of the matter.
 
-Amplification is not "copy and paste with minor tweaks." It is the act of owning the output. You know things the AI does not: this client's history, the regulatory tone of the moment, what the partner who will sign it cares about, what the opposing side has already argued, what your insurer would want to see in the file.
+Amplification means owning the output, not copying and pasting with minor tweaks. You know things the AI does not: this client's history, the regulatory tone of the moment, what the partner who will sign it cares about, what the opposing side has already argued, what your insurer would want to see in the file.
 
 The result should be something you would put your name on without hesitation. If it is not, you are not done.
 
@@ -65,7 +65,7 @@ Most good work loops more than once. The first pass gives you a draft, a directi
 
 Knowing when to re-enter the loop is a skill. Sometimes you amplify and realise the framing is wrong, so you loop back to brainstorm with a better question. Sometimes iteration reveals a gap, so you return to ideation. The loop is not linear. The arrows point forward, but the feedback arc is always available.
 
-The sign that you are done is not that the AI has stopped producing output. It is that your thinking has landed somewhere solid: somewhere you can defend, sign, and live with.
+You are done when your thinking has landed somewhere solid: somewhere you can defend, sign, and live with.
 
 ---
 

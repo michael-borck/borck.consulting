@@ -6,13 +6,13 @@ slug: data-governance
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *and* How do we do AI? *questions of the practice's [methodology](/method): separating the legitimate data-governance concerns from the misunderstandings that produce blanket-ban policies that quietly fail.*
+*This essay sits primarily under the* Are we ready? *and* How do we do AI? *questions of the practice's [methodology](/method): separating the legitimate data-governance concerns from the misunderstandings that produce blanket-ban policies that fail in practice.*
 
 ## The blanket-ban reflex
 
 Most small firms I work with (law practices, medical and allied-health practices, accounting and financial-advisory firms) have landed on roughly the same AI policy: *do not upload anything to AI*. The intent is right. The execution is not. Blanket prohibitions treat all AI interaction as equally risky and conflate several distinct concerns, some legitimate and some based on a misunderstanding of how the technology actually works.
 
-Untangling them is the difference between a policy partners actually follow and a policy that gets quietly ignored, which is far worse than no policy at all, because it produces unsafe practice with the additional fiction of compliance.
+Untangling them is the difference between a policy partners actually follow and a policy that gets ignored, which is far worse than no policy at all, because it produces unsafe practice with the additional fiction of compliance.
 
 ## The legitimate concerns
 
@@ -26,7 +26,7 @@ When a staff member pastes a document into a consumer AI tool, that text is tran
 
 ### Contractual and professional confidentiality obligations
 
-Engagement letters, NDAs, government contracts, and client retainers frequently constrain which systems may process covered information. For a law firm, legal professional privilege adds another layer: privilege is not lost lightly, but careless disclosure to a third party (including a SaaS vendor) raises hard questions. Sending data to a third-party AI service may breach contractual or professional terms even if the provider handles it perfectly. The question is not whether the AI is trustworthy. It is whether the engagement permits it.
+Engagement letters, NDAs, government contracts, and client retainers frequently constrain which systems may process covered information. For a law firm, legal professional privilege adds another layer: privilege is not lost lightly, but careless disclosure to a third party (including a SaaS vendor) raises hard questions. Sending data to a third-party AI service may breach contractual or professional terms even if the provider handles it perfectly. The question is whether the engagement permits it, not whether the AI is trustworthy.
 
 ### Logging and retention
 
@@ -34,13 +34,13 @@ AI providers may retain prompts and conversations for safety monitoring, abuse d
 
 ### Supply chain risk
 
-AI providers, like any SaaS vendor, can be breached. This is not the model leaking data through its outputs. It is the company's servers being compromised and conversation logs being exfiltrated. This is standard information security, managed through vendor risk assessments, data processing agreements, and enterprise-tier controls, the same way you already manage your practice management system or your cloud accounting platform.
+AI providers, like any SaaS vendor, can be breached. This is the company's servers being compromised and conversation logs being exfiltrated, not the model leaking data through its outputs. This is standard information security, managed through vendor risk assessments, data processing agreements, and enterprise-tier controls, the same way you already manage your practice management system or your cloud accounting platform.
 
 ## Where the reasoning goes wrong
 
 The problems start when firms conflate these legitimate infrastructure and legal concerns with fears about model behaviour: specifically, the belief that someone could extract uploaded documents from the model itself.
 
-This fear misunderstands how large language models work. LLMs interpolate; they do not retrieve. If data is used for training at all (and enterprise tiers typically exclude it), it becomes a vanishingly small statistical signal distributed across billions of parameters. It is not stored as a retrievable file. It is not sitting in a searchable database. It is dissolved into the model's general capability like a drop of ink in a swimming pool. There is no mechanism by which another user could query the model and reconstruct your client file, because the model never stored it as a file in the first place.
+This fear misunderstands how large language models work. LLMs interpolate; they do not retrieve. If data is used for training at all (and enterprise tiers typically exclude it), it becomes a vanishingly small statistical signal distributed across billions of parameters. It is not stored as a retrievable file or sitting in a searchable database. It is dissolved into the model's general capability like a drop of ink in a swimming pool. There is no mechanism by which another user could query the model and reconstruct your client file, because the model never stored it as a file in the first place.
 
 When a policy does not draw this distinction, the result is blanket prohibition rather than proportionate risk management, and partners end up with a policy that bans the tools their staff are using anyway, on phones the firm cannot see.
 
@@ -61,10 +61,10 @@ Rather than "do not upload anything to AI," a proportionate policy addresses the
 
 The goal is professional data hygiene applied consistently across all tools, not AI exceptionalism driven by misunderstanding.
 
-A final framing worth holding onto. Governance is, in the end, about *agency over data flows*: knowing where the firm's information goes, who has it, on what terms, and being able to choose accordingly. Both blanket bans and ungoverned use are agency failures: the first refuses to engage with the choice; the second refuses to make one. Proportionate policy puts the choice back where it belongs.
+Governance is about *agency over data flows*: knowing where the firm's information goes, who has it, on what terms, and being able to choose accordingly. Both blanket bans and ungoverned use are agency failures: the first refuses to engage with the choice; the second refuses to make one. Proportionate policy puts the choice back where it belongs.
 
 ---
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms (law, medical and allied-health, accounting and financial-advisory) adopt AI as a collaborator rather than a delegate, with governance and data sovereignty built in from the start. Engagements begin with the AI Readiness Diagnostic: a paid two-hour conversation with leadership and a written recommendation that answers the question many partners are quietly asking themselves: *do we actually need to do anything yet?*
+borck.consulting helps regulated Australian small firms (law, medical and allied-health, accounting and financial-advisory) adopt AI as a collaborator rather than a delegate, with governance and data sovereignty built in from the start. Engagements begin with the AI Readiness Diagnostic: a paid two-hour conversation with leadership and a written recommendation that answers the question many partners are asking themselves: *do we actually need to do anything yet?*

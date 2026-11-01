@@ -46,7 +46,7 @@ While much of what people say about AI focuses on practitioners (how solicitors,
 - Process improvement and operations
 - Documentation and templates
 
-AI can support these responsibilities. Not by replacing your expertise, by amplifying it.
+AI can support these responsibilities by amplifying your expertise.
 
 ---
 
@@ -391,7 +391,7 @@ Then: follow the template; review the worked example above or in the linked guid
 
 > Your role is to enable good professional work at scale. AI helps you see patterns, analyse complex data, draft communications, and explore options faster than was possible. But *you* are the expert on the firm, its people, and what is realistic. Use AI as the analytical partner, not as a substitute for professional judgement.
 
-The most effective practice staff combine AI's analytical power with deep firm knowledge. That combination is where the real value sits.
+The most effective practice staff combine AI's analytical power with deep firm knowledge.
 
 ---
 

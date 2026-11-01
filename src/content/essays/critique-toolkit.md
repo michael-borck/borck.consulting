@@ -21,7 +21,7 @@ Without critique skills, your firm risks:
 
 The pattern is the same across law, medicine, accounting, and financial advice: uncritical AI acceptance leads to poor decisions, complaints, regulator attention, insurer letters, and wasted partner hours unpicking work that should have been right the first time.
 
-Your professional edge is not "using AI." It is **reviewing, questioning, and improving** what AI gives you. The five-step framework below is what agency looks like in practice: the active work of choosing what to accept, refine, or reject before anything goes out the door.
+Your professional edge is **reviewing, questioning, and improving** what AI gives you. The five-step framework below is what agency looks like in practice: the active work of choosing what to accept, refine, or reject before anything goes out the door.
 
 ---
 
@@ -151,7 +151,7 @@ Outstanding items I still need to check: [data, professional advice, partner sig
 Lesson for next time: [short reflection]
 ```
 
-This is not bureaucratic overhead. In a regulated context it is the file note you would want to exist if a complaint, audit, or insurer query landed in twelve months.
+In a regulated context, this is not bureaucratic overhead; it is the file note you would want to exist if a complaint, audit, or insurer query landed in twelve months.
 
 ---
 
@@ -181,7 +181,7 @@ Try this once with a real (or realistic) matter:
 4. **Ask follow-up questions** using the prompts above until you have a version you might realistically use.
 5. **Document the interaction** with the short template.
 
-This is how professional judgement about AI is built in practice: not by accepting the first output, but by interrogating it until it is genuinely useful, and by making the interrogation visible.
+This is how professional judgement about AI is built in practice: by interrogating the first output until it is genuinely useful, and by making the interrogation visible.
 
 ---
 

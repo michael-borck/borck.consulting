@@ -32,7 +32,7 @@ Every evaluation should cover three domains. A tool can score well on one and fa
 
 ## Domain 1: usability
 
-Whether the tool fits smoothly into the firm's workflow: interface, mechanics, integrations, the small frictions that decide whether a tool gets adopted or quietly abandoned.
+Whether the tool fits smoothly into the firm's workflow: interface, mechanics, integrations, the small frictions that decide whether a tool gets adopted or abandoned.
 
 | Area | Ask yourself |
 |---|---|
@@ -52,7 +52,7 @@ Whether the tool fits smoothly into the firm's workflow: interface, mechanics, i
 
 ## Domain 2: fit for purpose
 
-Whether the tool actually supports the work the practice does, not just whether it looks impressive in a generic demonstration.
+Whether the tool supports the work the practice does, beyond looking impressive in a generic demonstration.
 
 | Area | Ask yourself |
 |---|---|
@@ -71,7 +71,7 @@ Whether the tool actually supports the work the practice does, not just whether 
 
 ## Domain 3: governance
 
-A workable tool cannot stand without governance. Address these issues *before* deployment, not after the first incident. Underneath this domain sits an agency question worth holding onto: does this tool make it easier or harder for a practitioner to remain the one steering the work? A tool that produces beautiful output but quietly absorbs the practitioner's judgement fails on governance even if every privacy clause is in order.
+A workable tool cannot stand without governance. Address these issues *before* deployment, not after the first incident. There is also an agency question here: does this tool make it easier or harder for a practitioner to remain the one steering the work? A tool that produces beautiful output but absorbs the practitioner's judgement fails on governance even if every privacy clause is in order.
 
 | Area | Ask yourself |
 |---|---|

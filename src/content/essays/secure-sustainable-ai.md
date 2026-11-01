@@ -12,7 +12,7 @@ draft: false
 
 To ground your firm's AI practice in responsible use: what you *can* do now without putting client data, professional obligations, or insurance at risk, and how to think long-term about integrating AI in secure, governed ways.
 
-> Even if the AI gets the right answer, using the wrong data in the wrong tool can create serious risk. The first conversation is not about which model to choose. It is about what is safe, what is smart, and what is sustainable in your specific setting.
+> Even if the AI gets the right answer, using the wrong data in the wrong tool can create serious risk. The first conversation is about what is safe, what is smart, and what is sustainable in your specific setting, not which model to choose.
 
 ---
 
@@ -22,7 +22,7 @@ To ground your firm's AI practice in responsible use: what you *can* do now with
 
 AI should enhance professional capability, not replace professional judgement. Practitioners (solicitors, clinicians, accountants, advisers) remain central to the work and the registration that goes with it. AI is an assistant. It is not a substitute for the person whose name goes on the file.
 
-This is, at root, a principle about *agency*. Every other element of governance below (classification, tooling, oversight, file-note discipline) exists to make sure agency stays with the practitioner instead of drifting silently into the tool.
+This is a principle about *agency*. Every other element of governance below (classification, tooling, oversight, file-note discipline) exists to make sure agency stays with the practitioner instead of drifting silently into the tool.
 
 ### 2. Responsible and ethical use
 
@@ -30,7 +30,7 @@ Consider the impact on clients, staff, and your professional obligations. Ensure
 
 ### 3. Secure and proportionate design
 
-Align AI use with your existing information security posture and your professional obligations: the Privacy Act and APPs, the Legal Profession Uniform Law and the duty of confidentiality (and privilege), AHPRA expectations and the Health Records Act analogues, APES 110 and TPB obligations, ASIC and RG 175 record-keeping and confidentiality requirements. Most of the answers you need already exist in your existing data classification; AI just needs to be slotted into it.
+Align AI use with your existing information security posture and your professional obligations: the Privacy Act and APPs, the Legal Profession Uniform Law and the duty of confidentiality (and privilege), AHPRA expectations and the Health Records Act analogues, APES 110 and TPB obligations, ASIC and RG 175 record-keeping and confidentiality requirements. Most of the answers you need are already in your data classification; AI just needs to be slotted into it.
 
 ---
 
@@ -74,7 +74,7 @@ How much information the model can consider at once. Larger windows let you give
 
 ### MCP (Model Context Protocol)
 
-An open protocol that lets AI assistants connect to your firm's tools and data sources in a more controlled way than copy-and-paste. Useful in due course; not where most small firms should start.
+An open protocol that lets AI assistants connect to your firm's tools and data sources in a more controlled way than copy-and-paste. Useful in due course, though not where most small firms should start.
 
 ---
 
@@ -105,7 +105,7 @@ This sequence keeps experimentation low-risk and production work compliant.
 
 > "Yes, but only in tools governed by our enterprise environment with appropriate data terms (Microsoft 365 Copilot, our practice-management vendor's AI features, etc.). Staff can prototype freely in consumer AI with mock data, but real client information stays inside our approved systems."
 
-That answer is short, accurate, and gives the firm room to grow into AI without exposure.
+That answer is short and gives the firm room to grow into AI without exposure.
 
 ---
 

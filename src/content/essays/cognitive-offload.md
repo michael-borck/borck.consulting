@@ -12,11 +12,11 @@ draft: false
 
 I advocate for AI in professional practice loudly and unapologetically. Advocacy without nuance is reckless.
 
-So let's talk about the thing that worries principals most: the thing that, if we are being honest, should worry us a little too:
+The thing that worries principals most should worry us a little too:
 
 **Does AI reduce critical thinking?**
 
-The concern goes like this: when staff use AI, they stop doing the hard cognitive work. They offload the thinking that actually builds judgement. They get better outputs but develop weaker minds. Over time, AI does not make them sharper. It makes them dependent, and dependence in a regulated practice is a problem with a regulator's name on it.
+The concern is that when staff use AI, they stop doing the hard cognitive work. They offload the thinking that actually builds judgement. They get better outputs but develop weaker minds. Over time, AI makes them dependent rather than sharper, and dependence in a regulated practice is a problem with a regulator's name on it.
 
 This is not a fringe concern. There is genuine research behind it, and every principal who has watched a graduate paste a question into ChatGPT without pausing to think has felt the truth of it in their gut.
 
@@ -37,13 +37,13 @@ Cognitive offload is when you use an external tool to reduce the mental effort r
 
 None of these make you "dumber." They free up cognitive resources for other things. The shopping list lets you think about meals. The calculator lets you focus on the structure of the problem. The map lets you pay attention to traffic.
 
-**AI is the latest, and most powerful, cognitive offload tool we have encountered.** And that is precisely why it feels different. Previous tools offloaded specific, well-defined tasks. AI can offload *thinking itself*: the drafting, the analysing, the reasoning, the evaluating. That is what makes the question urgent in a professional setting where the thinking is the work.
+**AI is the latest, and most powerful, cognitive offload tool we have encountered, which is why it feels different.** Previous tools offloaded specific, well-defined tasks. AI can offload *thinking itself*: the drafting, the analysing, the reasoning, the evaluating. That is what makes the question urgent in a professional setting where the thinking is the work.
 
 ---
 
 ## The real risk: metacognitive laziness
 
-The concern is not really about cognitive offload as such. It is about what happens to **metacognition**: the ability to monitor, evaluate, and regulate your own thinking.
+The concern is about what happens to **metacognition**: the ability to monitor, evaluate, and regulate your own thinking.
 
 When practitioners use AI well, they:
 
@@ -59,9 +59,9 @@ When practitioners use AI poorly, they:
 - Ask AI for the answer and copy it
 - Read AI output and assume it is correct
 
-The difference is not whether they used AI. It is whether they **paused to think** about what AI gave them.
+The difference is whether they **paused to think** about what AI gave them, not whether they used AI.
 
-This is metacognitive laziness: not a failure of intelligence, but a failure of self-monitoring. The practitioner stops asking "do I understand this?" and starts asking "does this look right?" In a regulated practice, "looks right" is the dangerous middle ground: too polished to question, not verified enough to defend.
+This is metacognitive laziness: a failure of self-monitoring, not a failure of intelligence. The practitioner stops asking "do I understand this?" and starts asking "does this look right?" In a regulated practice, "looks right" is the dangerous middle ground: too polished to question, not verified enough to defend.
 
 ---
 
@@ -83,8 +83,6 @@ Many senior practitioners qualified through:
 
 This worked. It built judgement. The principals who came up this way understandably value it. But when they see juniors *not* doing these things, they assume capability is not being built.
 
-That assumption is worth questioning.
-
 ### Working differently is not working less
 
 When a graduate uses AI to explore a tax position, asks follow-up questions, gets confused, tries a different angle, and eventually builds an understanding through an iterative conversation, that is judgement being built. It does not look like sitting alone with the legislation for three hours, but it is engagement with material. **Engagement with material is how capability is built.**
@@ -93,13 +91,13 @@ When a junior uses AI to generate a first draft and then spends their time evalu
 
 When a practitioner uses AI to get unstuck on something they would otherwise have walked away from, they continue engaging. Without AI, they might have given up. With AI, they kept going. Which outcome produced more capability?
 
-The question is not whether your team is doing the *same* cognitive work as you did. It is whether they are doing *valuable* cognitive work. And the answer depends entirely on how the work is structured, which is on you, the principal.
+The question is whether your team is doing *valuable* cognitive work, not whether it is the same cognitive work you did. And the answer depends entirely on how the work is structured, which is on you, the principal.
 
 ---
 
 ## Working slower, working different
 
-Here is a reframe that may be more accurate than "AI reduces critical thinking":
+A more accurate reframe than "AI reduces critical thinking":
 
 **AI changes the path to capability.**
 
@@ -117,7 +115,7 @@ That "if" is doing a lot of work in that sentence. And it is entirely about how 
 
 ## Supervision determines everything
 
-Here is the uncomfortable truth: **AI does not inherently support or weaken professional capability. Supervision does.**
+**AI does not inherently support or weaken professional capability. Supervision does.**
 
 The same AI tool can:
 
@@ -143,7 +141,7 @@ The difference is how the work is set up.
 - **Comparative tasks:** the harder cases get attempted without AI first, then with AI, then reviewed for the differences
 - **AI as interlocutor:** team members use AI as a thinking partner (conversation, not delegation) rather than an answer machine
 
-The tool is not the problem. How you integrate it into the work is what matters. And that is squarely within your control.
+How you integrate the tool into the work is what matters. And that is squarely within your control.
 
 ---
 
@@ -151,7 +149,7 @@ The tool is not the problem. How you integrate it into the work is what matters.
 
 The framing of "AI vs human thinking" is itself the problem.
 
-The future is not about preserving *unaided* professional cognition in its traditional form. It is about developing **hybrid expertise**: the ability to think effectively in partnership with AI.
+The future is about developing **hybrid expertise**: the ability to think effectively in partnership with AI, not preserving *unaided* professional cognition in its traditional form.
 
 ### What hybrid expertise looks like
 
@@ -161,9 +159,9 @@ The future is not about preserving *unaided* professional cognition in its tradi
 - Maintaining metacognitive awareness while leveraging cognitive offload
 - Developing judgement about *when* offloading is appropriate and when it is not
 
-This is not a lesser form of professional capability. It is a different, and arguably more relevant, form for a market where clients can already get a passable first draft from AI on their own.
+This is a different, and arguably more relevant, form of professional capability for a market where clients can already get a passable first draft from AI on their own, not a lesser one.
 
-The most effective practitioners I see are not those who delegate everything to AI, nor those who refuse to use it. They have developed a **symbiotic relationship.** They know what they bring (context, judgement, regulatory awareness, experience, the actual client relationship) and what AI brings (breadth, speed, pattern recognition, tirelessness).
+The most effective practitioners I see have developed a **symbiotic relationship**, rather than delegating everything to AI or refusing to use it. They know what they bring (context, judgement, regulatory awareness, experience, the actual client relationship) and what AI brings (breadth, speed, pattern recognition, tirelessness).
 
 That symbiosis is itself a skill. It requires:
 
@@ -173,7 +171,7 @@ That symbiosis is itself a skill. It requires:
 - The humility to recognise when AI has a better angle
 - The confidence to override AI when judgement says otherwise
 
-If your firm builds this kind of relationship with AI, you are not weakening your team. You are preparing them for the work as it is now.
+If your firm builds this kind of relationship with AI, you are preparing your team for the work as it is now, not weakening it.
 
 ---
 
@@ -221,13 +219,13 @@ The biggest risk: staff stop monitoring their own understanding because AI gives
 
 ## A more honest position
 
-Here is where I land, and I think it is where thoughtful principals should land too:
+This is where I land, and where I think thoughtful principals should land too:
 
 **AI does not make us dumber. It does make it easier to *be* dumber: to coast, to accept, to stop thinking.**
 
 The same tool that can deepen capability can also provide a comfortable path to professional laziness. The difference is supervision, self-awareness, and intentional practice, and underneath all of those, agency. Cognitive offload preserves agency. Cognitive abdication transfers it. The line between them is whether the practitioner is still the one steering after the work is done.
 
-Your job as a principal is not to protect staff from cognitive offload. It is to teach them to **offload wisely**: to know when to lean on AI and when to lean on their own minds, to maintain the metacognitive habits that turn AI from a crutch into a catalyst.
+Your job as a principal is to teach staff to **offload wisely**: to know when to lean on AI and when to lean on their own minds, to maintain the metacognitive habits that turn AI from a crutch into a catalyst.
 
 That is harder than banning AI. It is harder than embracing AI uncritically. It requires ongoing attention, honest reflection, and willingness to adapt as you learn more about how AI affects your team's work.
 
@@ -269,7 +267,7 @@ It is also the honest position. And honest positions, in the long run, serve you
 - **What does effective human-AI collaboration look like, and how do we develop it?**
 - **Which cognitive foundations must we protect, and which can we safely offload?**
 
-These are practice-design questions, not technology questions. The answers are in your hands.
+These are practice-design questions, not technology questions. The answers are within your control.
 
 > **Cognitive offload is not the enemy. Cognitive abdication is. The difference is whether agency stays with the practitioner.**
 
@@ -277,7 +275,7 @@ These are practice-design questions, not technology questions. The answers are i
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms set up the practice design that turns AI from a crutch into a catalyst, including the supervision changes most firms quietly need but have not yet made. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting helps regulated Australian small firms set up the practice design that turns AI from a crutch into a catalyst, including the supervision changes most firms need but have not yet made. Engagements begin with the AI Readiness Diagnostic.
 
 ---
 

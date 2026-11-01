@@ -15,17 +15,17 @@ There are two ways your team can use AI:
 1. **Delegation**: "Do this for me."
 2. **Conversation**: "Think with me."
 
-The difference matters more than most principals realise, and it is the single biggest predictor of whether an AI rollout makes a small firm sharper or quietly hollows it out.
+The difference matters more than most principals realise, and it is the single biggest predictor of whether an AI rollout makes a small firm sharper or hollows it out.
 
 **Delegation develops dependency.** Your team gets output, but not understanding. They collect answers without building the capacity to evaluate them. Over time they become less capable, not more, because they have outsourced the thinking, not just the typing.
 
 **Conversation makes them capable.** Understanding is built alongside the output. People learn to ask better questions, spot weaknesses in reasoning, and develop judgement about what is good enough and what needs more work.
 
-The goal is not to get AI to do your firm's work. It is for your firm to become more capable, with AI as a thinking partner.
+The goal is for your firm to become more capable, with AI as a thinking partner.
 
 This distinction is not abstract. In a regulated practice, the difference between delegation and conversation is the difference between a junior solicitor who can defend the advice on the page and one who cannot, between a clinician who has actually thought through the differential and one who has accepted a model's confident summary, between a tax position your firm can stand behind and one that will not survive scrutiny.
 
-What is at stake, underneath all of this, is **human agency**: the firm's ability to choose, steer, and stand behind its work rather than absorb whatever the model produces. Delegation transfers agency to the tool. Conversation keeps it where it belongs: with the practitioner whose name is on the file, whose registration is on the line, and whose judgement is what the client is actually paying for. Every other distinction in this piece (capability, judgement, ownership, professional obligation) flows from that one.
+What is at stake here is **human agency**: the firm's ability to choose, steer, and stand behind its work rather than absorb whatever the model produces. Delegation transfers agency to the tool. Conversation keeps it where it belongs: with the practitioner whose name is on the file, whose registration is on the line, and whose judgement is what the client is actually paying for. Every other distinction in this piece (capability, judgement, ownership, professional obligation) flows from that one.
 
 ---
 
@@ -86,21 +86,19 @@ Use AI to help you develop your own evaluation criteria, then apply your judgeme
 
 ## Process over product
 
-Here is the deeper principle:
-
 **The team members who obsess over the process (questioning, evaluating, iterating) will always outperform the ones who just collect AI outputs.**
 
-Why? Because judgement cannot be delegated to something that has read everything and experienced nothing.
+Judgement cannot be delegated to something that has read everything and experienced nothing.
 
 AI has patterns. Your firm has context. AI has breadth. You have stakes: a client, a regulator, a court, a board. AI can generate options. Your people decide which options matter.
 
-The teams that treat AI as a shortcut to the product miss this entirely. They get faster output but shallower understanding. Over time they lose the very skills that make them valuable: critical thinking, contextual judgement, the ability to evaluate quality. In a regulated practice that erosion is not just a productivity issue. It is a governance issue.
+The teams that treat AI as a shortcut to the product miss this entirely. They get faster output but shallower understanding. Over time they lose the very skills that make them valuable: critical thinking, contextual judgement, the ability to evaluate quality. In a regulated practice that erosion is a governance issue, not just a productivity one.
 
 ---
 
 ## A note on agency
 
-It is worth naming the concept that sits underneath this argument explicitly, because it is the one your professional obligations and the wider AI policy environment already lean on.
+One concept sits underneath this argument, and your professional obligations and the wider AI policy environment already lean on it.
 
 **Agency** is the practitioner's ability to *steer*: to decide what to engage with, what to push back on, what to accept, what to discard. It is the active stance that turns AI output from a finished product into raw material for professional judgement.
 
@@ -114,7 +112,7 @@ This matters in regulated practice for three concrete reasons:
 - **It is the ground for accountability.** When something goes wrong, the question *"who decided?"* has to have a person's name attached. Delegation makes that name harder to find. Conversation keeps it clear.
 - **It is what the client is paying for.** A client can already get a passable first draft from a chatbot for free. What they cannot get without you is someone willing to choose, steer, and stand behind the work.
 
-Every move in this framework (pushing back on the first answer, questioning assumptions, evaluating against your own understanding) is an exercise of agency. The framework is not a productivity hack. It is a practice for keeping agency where your registration says it has to be.
+Every move in this framework (pushing back on the first answer, questioning assumptions, evaluating against your own understanding) is an exercise of agency. The framework is a practice for keeping agency where your registration says it has to be, not a productivity hack.
 
 ---
 
@@ -182,7 +180,7 @@ That is a conversation, not delegation. Apply the same approach to AI, and apply
 
 ## Common traps
 
-Each of the traps below is a way agency erodes. They are worth knowing by name because they show up unannounced, usually in the form of someone who feels productive while quietly handing the steering wheel over.
+Each of the traps below is a way agency erodes. They are worth knowing by name because they show up unannounced, usually in the form of someone who feels productive while handing the steering wheel over.
 
 ### The speed trap
 
@@ -204,7 +202,7 @@ Because "better" depends on context, and context is exactly what AI lacks. AI ge
 
 "We are being more productive by delegating to AI."
 
-Are you? Or are you producing more drafts of lower quality, which someone senior then has to repair? Productivity is not volume. It is impact. One well-crafted advice beats ten AI-generated drafts that need to be unpicked.
+Are you? Or are you producing more drafts of lower quality, which someone senior then has to repair? Productivity is impact, not volume. One well-crafted piece of advice beats ten AI-generated drafts that need to be unpicked.
 
 ---
 
@@ -249,12 +247,12 @@ AI is the most powerful thinking tool most firms have ever had access to. But li
 **Delegate, and you get output.**
 **Converse, and you keep agency, and capability follows.**
 
-The choice compounds. Every conversation builds your firm's judgement and keeps the steering where it belongs. Every delegation quietly hands it over. Choose accordingly.
+The choice compounds. Every conversation builds your firm's judgement and keeps the steering where it belongs. Every delegation hands it over. Choose accordingly.
 
 ---
 
 ### About this work
 
-The Conversation, Not Delegation framework is now on the reading list at Kaplan Business School and is the foundation of the AI Readiness Diagnostic offered through borck.consulting: a fixed-fee, two-hour conversation with leadership and a written recommendation that answers the question many partners are quietly asking themselves: *do we actually need to do anything yet?*
+The Conversation, Not Delegation framework is now on the reading list at Kaplan Business School and is the foundation of the AI Readiness Diagnostic offered through borck.consulting: a fixed-fee, two-hour conversation with leadership and a written recommendation that answers the question many partners are asking themselves: *do we actually need to do anything yet?*
 
 For a deeper treatment of the methodology, including the four-move loop and worked examples, see the book: [Conversation, Not Delegation: How to Think With AI, Not Just Use It](https://michael-borck.github.io/conversation-not-delegation/).

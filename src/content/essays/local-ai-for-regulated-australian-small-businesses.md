@@ -12,7 +12,7 @@ The dominant model for accessing AI today is metered service. A subscriber pays 
 
 For a regulated small firm operating under Australian privacy and professional-conduct obligations, the same arrangement deserves more careful assessment. "Reasonable for most users" is a weaker proposition than it appears once a regulator, a client questionnaire, or a professional-conduct review enters the picture. The case for local AI in this segment is now substantively stronger than the case for cloud, and the technical viability has shifted faster than most firms have noticed.
 
-Three concerns drive the shift. The first is economic. The second is regulatory. The third is operational.
+Three concerns drive the shift: economic, regulatory, and operational.
 
 ## The economic argument
 
@@ -20,7 +20,7 @@ The current generative AI subscription market is not in equilibrium. Tiers like 
 
 For a small accounting practice planning a workflow around a current cloud subscription, this matters. The price paid today does not reflect the value of the service rendered, and the model behind the subscription will change: its terms, its pricing, its data-handling, its capability ceiling. A workflow built on it is a workflow built on a substrate someone else can move underneath the firm.
 
-Owned infrastructure is a different category of substrate. Once the hardware is purchased, the marginal cost per query is approximately the cost of electricity. Workflows that would not be economic in a metered environment (continuous summarisation across a large document corpus, internal Q&A across years of files, draft-and-redraft cycles that exceed plausible token budgets) become viable. The change is not just cost. It is the disappearance of the meter, which permits use cases that the meter would have killed.
+Owned infrastructure is a different category of substrate. Once the hardware is purchased, the marginal cost per query is approximately the cost of electricity. Workflows that would not be economic in a metered environment (continuous summarisation across a large document corpus, internal Q&A across years of files, draft-and-redraft cycles that exceed plausible token budgets) become viable. The change is the disappearance of the meter, which permits use cases that the meter would have killed.
 
 ## The regulatory argument
 
@@ -28,7 +28,7 @@ When a prompt is sent to a cloud AI, data is sent to a third party. For most cas
 
 A law firm operates under the Legal Profession Uniform Law's confidentiality requirements. These do not contemplate a default routing of client material to a third-party model in another jurisdiction, and the relevant professional-conduct rules do not provide a "I did not realise the tool worked that way" exception. A medical practice operates under the Privacy Act 1988 and state-level health-records legislation, with OAIC enforcement powers materially strengthened by the 2024 amendments. An accounting or financial-advisory practice operates under both privacy obligations and professional-conduct rules, alongside a competitive-confidentiality concern about the firm's working knowledge being absorbed into a third-party model.
 
-In each case, the relevant question is not whether AI tools are permitted in the abstract (they are), but whether the specific deployment can be defended to a regulator, a professional body, or a client asking how their material is handled. A client questionnaire from a corporate buyer asking how a firm uses AI is, in 2026, increasingly common. The answer "we use ChatGPT Plus through partner accounts" is a defensible answer for some matters and not for others, and most firms have not yet drawn that line.
+In each case, AI tools are permitted in the abstract; the relevant question is whether the specific deployment can be defended to a regulator, a professional body, or a client asking how their material is handled. A client questionnaire from a corporate buyer asking how a firm uses AI is, in 2026, increasingly common. The answer "we use ChatGPT Plus through partner accounts" is a defensible answer for some matters and not for others, and most firms have not yet drawn that line.
 
 Local AI is the only deployment model that resolves the question without a workaround. The data does not leave the building. The same model can serve sensitive and non-sensitive use without a triage step. The audit trail, where one is needed, is at the firm's perimeter rather than at a vendor's. Most importantly, the firm can answer the question.
 
@@ -68,7 +68,7 @@ The right position depends on the firm's practice mix, client base, regulatory f
 
 Local AI is not a research project. It is hardware available this month, models installable this afternoon, and a set of trade-offs that have shifted decisively in favour of small regulated firms. The reason most Australian professional-services firms have not adopted it is not technical. The distribution story has been written for either consumers or large enterprises, and the case for the regulated SMB segment has not been made in its own language.
 
-In *Conversation not Delegation* I argue that AI adoption in professional services is fundamentally a literacy problem before it is a technology problem. The local-versus-cloud question is the natural follow-on once the literacy work has been done: a firm that has formed a deliberate position on AI use is in a position to choose its infrastructure. A firm that has not is, by default, choosing whatever its staff choose, in whatever way they choose it. That default is the harder one to defend.
+In *Conversation not Delegation* I argue that AI adoption in professional services is a literacy problem before it is a technology problem. The local-versus-cloud question is the natural follow-on once the literacy work has been done: a firm that has formed a deliberate position on AI use is in a position to choose its infrastructure. A firm that has not is, by default, choosing whatever its staff choose, in whatever way they choose it. That default is the harder one to defend.
 
 ---
 

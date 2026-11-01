@@ -12,9 +12,9 @@ draft: false
 
 Before reaching for an AI tool, solve as much of the problem as you can with conventional means. Use your own expertise, the tools your firm already pays for, and your established workflows. Only hand off to AI the parts you genuinely cannot solve yourself.
 
-This is not anti-AI. It is pro-efficiency. AI is powerful, but it is also expensive in subscription dollars, exposure dollars, and reviewer minutes, and often overkill for tasks that a competent staff member can finish in seconds with what is already on their desk.
+The principle is pro-efficiency. AI is powerful, but it is also expensive in subscription dollars, exposure dollars, and reviewer minutes, and often overkill for tasks that a competent staff member can finish in seconds with what is already on their desk.
 
-This principle is the practical counterpart to the AI Readiness Diagnostic conversation many firms quietly need: *do we actually need to do anything yet?* Often the answer is "fix the workflow first, then ask the AI question."
+This principle is the practical counterpart to the AI Readiness Diagnostic conversation many firms need: *do we actually need to do anything yet?* Often the answer is "fix the workflow first, then ask the AI question."
 
 ## Why this works
 
@@ -26,7 +26,7 @@ This principle is the practical counterpart to the AI Readiness Diagnostic conve
 
 **Your team stays sharp.** Outsourcing every decision to AI erodes problem-solving ability over time. Doing the groundwork yourself (or having juniors do it) keeps the firm's underlying capability current. In a regulated practice, the underlying capability *is* the product.
 
-There is also a quieter benefit. Reaching for AI last keeps the practitioner in the position of *deciding*: which parts of the problem are theirs, which are the model's, and where the line sits. That decision is agency. Reaching for AI first cedes it.
+There is another benefit. Reaching for AI last keeps the practitioner in the position of *deciding*: which parts of the problem are theirs, which are the model's, and where the line sits. That decision is agency. Reaching for AI first cedes it.
 
 ## The practical workflow
 
@@ -38,7 +38,7 @@ There is also a quieter benefit. Reaching for AI last keeps the practitioner in 
 
 ## Where AI earns its keep
 
-The principle is not "never use AI." It is "use AI where it adds value you cannot easily generate yourself." That typically means:
+The principle is to use AI where it adds value you cannot easily generate yourself. That typically means:
 
 - Exploring unfamiliar territory where the firm needs to get up to speed quickly
 - Generating boilerplate for matters or formats you rarely deal with
@@ -52,7 +52,7 @@ The distinction is between using AI as a crutch for laziness and using it as a l
 
 ## The cost argument
 
-Even on flat-rate subscriptions, the principle holds. The real costs are not API tokens. They are:
+Even on flat-rate subscriptions, the principle holds. The costs sit elsewhere:
 
 - Partner review time on a draft no one needed
 - Insurance exposure when an AI-generated draft slips through unchecked

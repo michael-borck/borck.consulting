@@ -14,21 +14,21 @@ The first automation a small firm usually reaches for is the client update. It i
 
 A partner asks a model to turn the week's notes into a client update. The draft is fluent. It is accurate enough. It is sent. The client reads it, replies politely, and something small goes missing. The update arrived on time. The attention did not.
 
-The saving is real. The loss is quiet. That is the problem with over-automating a regulated practice: the cost does not show up in the output. It shows up in the relationship, months later, when the client is deciding whether to stay.
+The saving is real. The loss is quiet. That is the problem with over-automating a regulated practice. The cost lands in the relationship, months later, when the client is deciding whether to stay.
 
 ## The efficiency case is real
 
-Let us not pretend otherwise. AI can draft updates, summarise correspondence, prepare meeting notes, and turn a file into a first pass. For a five-partner firm, that can save hours a week. It can reduce the Sunday-night admin. It can make a junior more useful sooner.
+AI can draft updates, summarise correspondence, prepare meeting notes, and turn a file into a first pass. For a five-partner firm, that can save hours a week. It can reduce the Sunday-night admin and make a junior more useful sooner.
 
 The efficiency case is real. It is also incomplete.
 
-The question is not “can AI draft this?” The question is “what is this interaction for?” A client update is not only a transfer of information. It is a signal that someone is paying attention. A bad-news call is not only a message. It is the moment the client learns whether you will stand with them. A pricing conversation is not only a number. It is a test of trust.
+The useful question is what this interaction is for. Whether AI can draft it is the easy part. A client update carries information, but it also signals that someone is paying attention. A bad-news call is the moment the client learns whether you will stand with them. A pricing conversation tests trust as much as it states a number.
 
 When you automate the interaction, you may keep the information and lose the signal.
 
 ## What the client is buying
 
-In a regulated firm, the client is not paying for the document. The document is the artefact. The client is paying for the judgement that says the document is right, the attention that notices what changed, and the accountability of a person whose name is on the file.
+In a regulated firm, the document is the artefact. The client is paying for the judgement that says the document is right, the attention that notices what changed, and the accountability of a person whose name is on the file.
 
 That is why the relationship is the product. The work can be standardised. The relationship cannot. The client is buying a person who knows the matter, remembers the context, and will tell them the truth when the answer is inconvenient.
 
@@ -49,7 +49,7 @@ Every regulated practice has a connection layer. It is the set of interactions w
 
 The pattern is consistent. Automate the preparation. Keep the relationship.
 
-This is not a rule against automation. It is a rule about what the automation is for. A firm that automates the preparation gives the partner more time for the connection. A firm that automates the connection gives the client less reason to stay.
+This is not a rule against automation. The point is what the automation is for. A firm that automates the preparation gives the partner more time for the connection. A firm that automates the connection gives the client less reason to stay.
 
 ## The team layer
 
@@ -59,7 +59,7 @@ Junior staff learn by doing the work. They learn how a matter is assembled, how 
 
 This is the apprenticeship problem. It is easy to miss because the output looks fine. The work is done. The learning is not.
 
-The answer is not to ban AI. It is to make the learning visible. Keep one step human on purpose. Pick the step that teaches the work, the one where a junior learns what good looks like, or where the partner keeps a feel for the material. Use AI as a multiplayer tool: a shared brief, a shared check, a shared conversation about what changed.
+The fix is to make the learning visible. Keep one step human on purpose. Pick the step that teaches the work, the one where a junior learns what good looks like, or where the partner keeps a feel for the material. Use AI as a multiplayer tool: a shared brief, a shared check, a shared conversation about what changed.
 
 A solo prompt box is not a firm capability. A team that can brief, check, and challenge together is.
 
@@ -70,9 +70,9 @@ Before you automate an interaction, ask two questions:
 1. If this interaction were automated, what would the client lose?
 2. Who on the team needs to learn from this task?
 
-If the answer to either is “something that matters”, keep a human in the loop. Not because the model cannot do it. Because the relationship or the learning is the point.
+If the answer to either is “something that matters”, keep a human in the loop, because the relationship or the learning is the point, even where the model could do the job.
 
-This is the same logic as the Trust Tool. Consequence is not only legal or financial. It is relational. A client update can be a green task on precision and a red task on relationship. The tool does not capture that unless you make relationship consequence part of the assessment.
+This is the same logic as the Trust Tool. Consequence is relational as well as legal or financial. A client update can be a green task on precision and a red task on relationship. The tool does not capture that unless you make relationship consequence part of the assessment.
 
 Make it explicit. Add a column to the workflow: “relationship consequence.” Mark the touchpoints where the client needs a person. Then decide what AI prepares and what a person delivers.
 
@@ -86,9 +86,9 @@ Start with the work, not the tool.
 4. Keep one step human on purpose for the apprenticeship.
 5. Set the gate. Use the First Move Canvas to decide what you will scale, pivot, or kill at 30 days.
 
-The goal is not to automate less. It is to automate the right things. The preparation is usually safe. The relationship usually is not.
+The goal is to automate the right things. The preparation is usually safe. The relationship usually is not.
 
-A firm that gets this right does not look less efficient. It looks more human. The client gets the speed of AI and the attention of a person. That is a better product than either one alone.
+A firm that gets this right looks more human without looking less efficient. The client gets the speed of AI and the attention of a person. That is a better product than either one alone.
 
 ---
 

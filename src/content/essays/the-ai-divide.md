@@ -20,9 +20,9 @@ The divide is not coming. It is already here. It operates at two levels: the pra
 
 In any given week, some practitioners are working with GPT-4-class models, Claude Pro, Microsoft 365 Copilot, and an assortment of vendor-embedded AI features. Others are working with whatever free tier they can pull up on a personal phone.
 
-This is not hypothetical. It is happening now in suburban legal practices, regional clinics, and accounting firms across Australia.
+This is happening now in suburban legal practices, regional clinics, and accounting firms across Australia.
 
-Practitioners who have access to enterprise-tier AI (properly licensed, properly governed, properly integrated) are operating with fundamentally different tools than those who do not. Better drafting support. More sophisticated research. Faster summarisation. The gap between free and paid is widening, not narrowing, and the gap between properly governed and ad-hoc is wider still.
+Practitioners who have access to enterprise-tier AI (properly licensed, properly governed, properly integrated) are operating with different tools than those who do not. They get better drafting support, more sophisticated research, and faster summarisation. The gap between free and paid is widening, not narrowing, and the gap between properly governed and ad-hoc is wider still.
 
 We talk about AI as a great equaliser for small firms. We should stop. AI is currently a great *amplifier*: of advantage for those who can deploy it well, and of disadvantage for those who cannot.
 
@@ -32,19 +32,19 @@ Pull the lens back to firms, and a second fracture appears.
 
 A top-tier law firm with an in-house technology team operates in a different reality from a five-partner suburban practice. A national health network with a clinical informatics function operates in a different reality from a sole-practitioner GP. A Big Four firm piloting AI agents operates in a different reality from a regional accounting practice with one senior partner and a part-time bookkeeper.
 
-The difference is not interest. The smaller firms I work with are often *more* curious about AI than the larger ones. The difference is structural: capacity to evaluate vendors, capacity to negotiate enterprise terms, capacity to write meaningful policies, capacity to train staff, capacity to absorb the cost of getting it wrong once.
+The smaller firms I work with are often *more* curious about AI than the larger ones. The difference is structural: capacity to evaluate vendors, capacity to negotiate enterprise terms, capacity to write meaningful policies, capacity to train staff, capacity to absorb the cost of getting it wrong once.
 
 Well-resourced firms are already running pilots, building internal tools, and producing the case studies that will define market expectations. They have runway to experiment and to fail.
 
 Under-resourced firms face a different calculus. When margin is thin and any misstep invites a complaint or a regulator letter, innovation looks like risk. The rational response is retrenchment: blanket bans, vague policies, defensive procurement decisions, and a quiet hope that this will pass. It will not.
 
-The distance between the two grows with every quarter. Along fault lines of capital, geography, and structural advantage that were entrenched long before generative AI arrived.
+The distance between the two grows with every quarter, along fault lines of capital, geography, and structural advantage that were entrenched long before generative AI arrived.
 
 ## We have seen this before
 
-We saw it with the internet. We saw it with practice management systems. We saw it with cloud accounting. Same script every time: early adoption by the well-resourced, defensive reaction by the under-resourced, a widening gap dressed up as digital transformation.
+We saw the same pattern with the internet, with practice management systems, and with cloud accounting. Same script every time: early adoption by the well-resourced, defensive reaction by the under-resourced, a widening gap dressed up as digital transformation.
 
-The difference this time is speed. Previous cycles gave firms years to catch up. AI capabilities advance quarterly. Practical implications shift monthly. Standing still means falling behind at an accelerating rate, and what falls behind is not just the technology: it is the firm's competitive position, its ability to attract and retain staff who want to work somewhere that is not stuck, and its standing with the clients who can already see what their bigger options are doing.
+The difference this time is speed. Previous cycles gave firms years to catch up. AI capabilities advance quarterly. Practical implications shift monthly. Standing still means falling behind at an accelerating rate, and what falls behind is the firm's competitive position, its ability to attract and retain staff who want to work somewhere that is not stuck, and its standing with the clients who can already see what their bigger options are doing.
 
 ## What it takes to close the gap
 
@@ -62,11 +62,11 @@ In practice:
 
 The promise of AI for small regulated firms is real. Better drafting. Faster research. More time for clients. More room for principals to be senior again. But these will remain marketing copy unless the gap is named honestly.
 
-There is also an agency dimension to the divide that the bigger firms cannot solve for you. A small firm that lets a vendor (or a sector body, or a peer) do its thinking for it gives up the one advantage being small still confers: the ability to choose, fast, on your own terms. Closing the gap is not just about adopting tools. It is about staying the kind of firm that makes its own decisions.
+There is also an agency dimension to the divide that the bigger firms cannot solve for you. A small firm that lets a vendor (or a sector body, or a peer) do its thinking for it gives up the one advantage being small still confers: the ability to choose, fast, on your own terms. Closing the gap is also about staying the kind of firm that makes its own decisions, not just about adopting tools.
 
-The AI divide is not a side issue for the small-firm sector. It *is* the issue. Every conversation about AI in your practice should start with a question: who gets left behind, and how do we make sure it is not us?
+The AI divide is the issue for the small-firm sector. Every conversation about AI in your practice should start with a question: who gets left behind, and how do we make sure it is not us?
 
-If you cannot answer that honestly, you are not transforming the practice. You are just making the gap faster.
+If you cannot answer that honestly, you are just making the gap faster.
 
 ---
 

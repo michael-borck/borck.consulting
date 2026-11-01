@@ -32,7 +32,7 @@ For conversation-style use, free-tier and bundled AI is genuinely capable:
 
 For non-sensitive, non-identifiable work (brainstorming a meeting agenda, structuring an internal SOP draft, generating discussion prompts, exploring an unfamiliar area), these tools can brainstorm with you, challenge assumptions, and push thinking further. That is what conversation requires. The model does not need to be at the frontier for that purpose.
 
-For client-touching work, the question is not which model is best. It is which tool sits inside an environment your professional obligations allow. (See [Why Most AI Data Governance Policies Get It Wrong](data-governance.qmd).)
+For client-touching work, the question is which tool sits inside an environment your professional obligations allow. (See [Why Most AI Data Governance Policies Get It Wrong](data-governance.qmd).)
 
 ---
 
@@ -45,9 +45,9 @@ Premium subscriptions (Claude Pro, ChatGPT Plus, ChatGPT Team, Microsoft 365 Cop
 - **Better reasoning on complex tasks**: multi-step problems, nuanced analysis, sustained iteration
 - **Faster responses**: less waiting, more momentum
 
-Notice what these are: they are all **conversation quality improvements.** They make the back-and-forth richer and longer. They do not change the fundamental dynamic: your team is still doing the thinking, making the decisions, iterating.
+These are all **conversation quality improvements.** They make the back-and-forth richer and longer. They do not change the dynamic: your team is still doing the thinking, making the decisions, iterating.
 
-The right way to read a premium plan is as a **workflow question, not a status question.** Premium tools are justified when the work involves sustained, complex thinking sessions or sensitive material. Not because better tools produce better practitioners.
+The right way to read a premium plan is as a **workflow question, not a status question.** Premium tools are justified when the work involves sustained, complex thinking sessions or sensitive material, not because better tools produce better practitioners.
 
 For most regulated small firms, the most defensible procurement decision is: a properly licensed enterprise tier of whatever you are already on (M365 or Workspace), supplemented with vendor-embedded AI in your practice management or accounting software, and a small allowance for staff exploration with mock data on consumer tiers. The shopping list is shorter than the vendor pitches suggest.
 
@@ -55,7 +55,7 @@ For most regulated small firms, the most defensible procurement decision is: a p
 
 ## "It's fine for you: you're on the top plan"
 
-You will hear this from staff, often half-joking. Here are honest, defensible responses:
+You will hear this from staff, often half-joking. Here are some responses:
 
 **The full version**
 
@@ -65,7 +65,7 @@ You will hear this from staff, often half-joking. Here are honest, defensible re
 
 > Conversation amplifies thinking. A better model amplifies more. But the amplification only works if you are thinking in the first place, and that is what matters most.
 
-Both responses reframe the challenge back to the practice point without being defensive. The tool does not define the approach. The approach defines the approach. You can delegate on a premium plan and converse on a free one. The constraint is cognitive, not commercial.
+Both responses reframe the challenge back to the practice point without being defensive. The tool does not define the approach; the practice does. You can delegate on a premium plan and converse on a free one. The constraint is cognitive, not commercial.
 
 ---
 
@@ -87,7 +87,7 @@ The "must have the frontier model" assumption is downstream of the delegation mi
 
 The anxiety of "we cannot afford the good tools" dissolves when you realise what "good enough" actually means for the work at hand. For exploring ideas, challenging thinking, iterating on drafts, and developing your team's judgement? The tools you already pay for are more than good enough.
 
-A useful sanity check: agency does not come from the model. It comes from the practitioner. A frontier model does not make a junior solicitor a better thinker, and a free-tier model does not stop a senior partner from being one. The tooling decision is downstream of the practice decision.
+A useful sanity check: agency comes from the practitioner, not the model. A frontier model does not make a junior solicitor a better thinker, and a free-tier model does not stop a senior partner from being one. The tooling decision is downstream of the practice decision.
 
 Start with what is available. The approach matters more than the subscription.
 

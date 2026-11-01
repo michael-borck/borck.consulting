@@ -10,11 +10,11 @@ draft: false
 
 ## The fear
 
-Let us name it plainly: many people in your firm, perhaps including you, are worried that AI will make them irrelevant.
+Many people in your firm, perhaps including you, are worried that AI will make them irrelevant.
 
-Junior solicitors worry the work they were going to learn from will be done by a model. Junior accountants and graduates wonder what they will do that a chatbot cannot. Senior practitioners watch the headlines about disruption and quietly run the numbers on how many years they have left.
+Junior solicitors worry the work they were going to learn from will be done by a model. Junior accountants and graduates wonder what they will do that a chatbot cannot. Senior practitioners watch the headlines about disruption and run the numbers on how many years they have left.
 
-The fear is understandable. It is also mostly wrong: not because AI is not powerful, but because people consistently misjudge *how* powerful technologies change the world.
+The fear is understandable. It is also mostly wrong: people consistently misjudge *how* powerful technologies change the world.
 
 ---
 
@@ -64,15 +64,15 @@ For the same reason they kept paying universities after MOOCs, accountants after
 
 What clients actually buy:
 
-**Curation and structure.** Someone has to decide what the question is, what is worth doing, in what order, at what depth. AI can generate a draft, but deciding *which* draft this client needs, and which they should not be sent, requires human judgement about the matter, the regulator, and the relationship.
+Curation and structure. Someone has to decide what the question is, what is worth doing, in what order, at what depth. AI can generate a draft, but deciding *which* draft this client needs, and which they should not be sent, requires human judgement about the matter, the regulator, and the relationship.
 
-**Accountability.** Your name is on the advice. Your registration is on the line. If the answer is wrong, AI does not get sued. The client buys someone who is willing to stand behind the work.
+Accountability. Your name is on the advice. Your registration is on the line. If the answer is wrong, AI does not get sued. The client buys someone who is willing to stand behind the work.
 
-**Discretion and confidentiality.** Clients tell their lawyer, GP, accountant, or financial adviser things they would not put into a chatbot. That trust is a moat AI cannot cross. Maintaining it, and being seen to maintain it, is part of what they pay for.
+Discretion and confidentiality. Clients tell their lawyer, GP, accountant, or financial adviser things they would not put into a chatbot. That trust is not something AI can manufacture. Maintaining it, and being seen to maintain it, is part of what they pay for.
 
-**Judgement under uncertainty.** Real matters have ambiguous facts, contested law, irrational counterparties, and political dynamics. AI optimises against a defined objective. Practitioners decide which objective is even worth optimising for.
+Judgement under uncertainty. Real matters have ambiguous facts, contested law, irrational counterparties, and political dynamics. AI optimises against a defined objective. Practitioners decide which objective is even worth optimising for.
 
-**Adaptability.** A clinician notices the question behind the question. A solicitor reads what the client did not say. An accountant catches what is missing from the records. These adaptive, contextual responses remain difficult for AI to replicate with the same depth.
+Adaptability. A clinician notices the question behind the question. A solicitor reads what the client did not say. An accountant catches what is missing from the records. These adaptive, contextual responses remain difficult for AI to replicate with the same depth.
 
 Every technology that promised to replace professional services has been *absorbed* by them: books, photocopiers, fax, email, the internet, cloud accounting, document automation. Firms adopted them all as tools while continuing to provide the human elements technology could not replicate.
 
@@ -88,7 +88,7 @@ The shortest answer is **agency**: the ability to steer, choose, and stand behin
 
 ### Judgement
 
-AI can generate options. Practitioners decide which options are worth pursuing. AI can analyse data. Practitioners decide what the data means in this client's context. AI can draft a position. Practitioners decide whether the position is sound, ethical, and aligned with the client's actual interests.
+AI can generate options, analyse data, and draft a position. Practitioners decide which options are worth pursuing, what the data means in this client's context, and whether the position is sound, ethical, and aligned with the client's actual interests.
 
 Judgement requires experience, context, and values, none of which can be fully encoded in a model.
 
@@ -96,7 +96,7 @@ Judgement requires experience, context, and values, none of which can be fully e
 
 AI can identify patterns and optimise for defined objectives. Defining *which* objectives are worth optimising for is an inherently human question. Should the firm optimise for efficiency or thoroughness? Speed or accuracy? The client's stated wish or the client's actual interest?
 
-These are not technical questions. They are professional ones: the questions that show up in your code of ethics, in APP, in APES 110, in AHPRA's expectations, in your conduct rules. They become more important, not less, as AI makes it easier to optimise at scale.
+These are professional questions, not technical ones: the questions that show up in your code of ethics, in APP, in APES 110, in AHPRA's expectations, in your conduct rules. They become more important, not less, as AI makes it easier to optimise at scale.
 
 ### Relationship and trust
 
@@ -112,13 +112,11 @@ AI knows a lot about the world in general. You know a lot about *your* world in 
 
 ## Accept mediocrity, or elevate practice?
 
-This is the real choice AI presents.
-
 **Option A: Accept mediocrity at scale.** Automate everything. Replace human judgement with AI confidence. Send more letters, faster, that nobody has properly checked. Build a team that can use tools but cannot think critically. Run a firm that is efficient but soulless, and that is one complaint away from being unsoulful and uninsured.
 
 **Option B: Elevate what makes the firm worth hiring.** Use AI to handle the routine so humans can focus on the meaningful. Free practitioners to advise. Free partners to mentor. Free clinicians to clinic. Produce better work, not just more of it.
 
-Option A is easier. Option B requires intentional effort. Throughout history, every technology that was used for amplification rather than replacement has produced dramatically better outcomes, and dramatically more durable businesses.
+Option A is easier. Option B requires intentional effort. Throughout history, every technology that was used for amplification rather than replacement has produced dramatically better outcomes, and more durable businesses.
 
 ---
 
@@ -159,19 +157,17 @@ The pattern is consistent: transformative technology amplifies human capability 
 
 The "when" matters. Technology does not automatically improve things. It takes people who understand both the technology and the professional context to ensure it is used for amplification rather than replacement.
 
-That is your role. That is why you matter more, not less.
+That is your role, and the reason you matter more, not less.
 
 ---
 
 ## The bottom line
 
-AI is not going to replace your firm. It is going to change what your firm *does*: what you bill for, what you train juniors in, what counts as good work. The routine parts will be automated. The parts that require judgement, ethics, relationships, and contextual understanding will become your primary contribution, and they will be valued more highly than ever.
+AI is going to change what your firm *does*, not replace it: what you bill for, what you train juniors in, what counts as good work. The routine parts will be automated. The parts that require judgement, ethics, relationships, and contextual understanding will become your primary contribution, and they will be valued more highly than ever.
 
-The question is not "will AI take my role?" The question is "will I develop the skills to work *with* AI in ways that make me more valuable?"
+The question is whether you will develop the skills to work *with* AI in ways that make you more valuable.
 
-If you are reading this, you have already started.
-
-> **The human element is not the part AI replaces. It is the part AI makes essential, and at the centre of it is human agency.**
+> **The human element is the part AI makes essential, and at the centre of it is human agency.**
 
 ---
 

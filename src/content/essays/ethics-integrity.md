@@ -33,7 +33,7 @@ Why the reframing matters:
 - **Old framing:** AI is a threat. The goal is to prevent or detect its use.
 - **New framing:** AI literacy is a professional capability. The goal is to develop transparent, critical, responsible use.
 
-Your team will use AI tools. They are using them now. The real risk is not that they use AI. It is that they use it **incompetently or covertly**. A blanket ban does not stop AI use; it stops AI use the firm can see, supervise, and stand behind. That is the worst available outcome.
+Your team will use AI tools. They are using them now. The risk is that they use it **incompetently or covertly**. A blanket ban does not stop AI use; it stops AI use the firm can see, supervise, and stand behind. That is the worst available outcome.
 
 ---
 
@@ -79,7 +79,7 @@ A simple structure that travels well across legal, medical, accounting, and advi
 
 **Why it strengthens integrity:** staff see AI not as a shortcut around their professional obligations, but as a tool they must learn to handle within them.
 
-The thread running through all three principles is *agency*: the practitioner's ability to steer the work and stand behind it. Transparency makes agency visible. Critical oversight is agency in action. Professional relevance ties agency to the obligations that already presume it. A firm's AI policy is, in effect, a policy on whose agency is allowed to be where.
+All three principles rest on *agency*: the practitioner's ability to steer the work and stand behind it. Transparency makes agency visible. Critical oversight is agency in action. Professional relevance ties agency to the obligations that already presume it. A firm's AI policy is, in effect, a policy on whose agency is allowed to be where.
 
 ---
 
@@ -150,19 +150,19 @@ Small workflow changes make work much more resistant to inappropriate AI use whi
 
 - *Weak supervision:* "Send me the letter when it's ready."
 - *Stronger:* "Send me the letter, plus a one-paragraph note on what AI did, what you changed, and one thing you would have done differently."
-- → The partner reviews **visible process**, not just polished output.
+- The partner reviews **visible process** as well as polished output.
 
 ### 5.2 Make judgement visible
 
 - *Weak supervision:* "Recommend a position."
 - *Stronger:* "Here are two AI-generated angles on this matter. Critique each one, choose the better, and explain what AI has missed or misunderstood given the facts."
-- → AI becomes the **starting point**, not the answer.
+- AI becomes the **starting point** rather than the answer.
 
 ### 5.3 Use real context
 
 - *Vulnerable:* generic questions any model can answer generically.
 - *Stronger:* tie work to the **specific client, matter, and history** that staff actually know.
-- → Generic AI output will not fit well without substantial professional adaptation, and the partner can hear the difference.
+- Generic AI output will not fit well without substantial professional adaptation, and the partner can hear the difference.
 
 ### 5.4 Supervise the conversation, not just the product
 
@@ -197,7 +197,7 @@ Draft or refine a short **AI use statement** for the firm. Use the structure abo
 4. What staff **must do** when they use AI (critical engagement, explanation, data governance)
 5. How this connects to **professional integrity and your specific obligations** rather than to rule-compliance for its own sake
 
-Aim for a tone that is **clear, direct, and constructive**. The goal is not to scare staff away from AI. It is to help them use it transparently, critically, and responsibly, which is also what your professional standards body and your insurer are quietly hoping you are doing.
+Aim for a tone that is **clear, direct, and constructive**. The goal is to help them use it transparently, critically, and responsibly, which is also what your professional standards body and your insurer expect.
 
 ---
 

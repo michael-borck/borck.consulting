@@ -84,7 +84,7 @@ The check is selective but serious. Identify the facts that the decision rests o
 
 This is the red quadrant. The output is client-facing, regulated, or irreversible, and it must be exact. A legal citation. A clinical recommendation. A tax position. A statement in a regulator's submission. A recommendation that crosses into advice.
 
-The check is independent review and sign-off. Not a spot check. Not a second model. A person with the authority and the expertise to own the output. The AI can draft, summarise, and challenge. It cannot carry the professional act.
+The check is independent review and sign-off by a person with the authority and the expertise to own the output, not a spot check or a second model. The AI can draft, summarise, and challenge. It cannot carry the professional act.
 
 ## Why the quadrants are not a hierarchy
 
@@ -92,13 +92,13 @@ It is tempting to read the grid as a ladder from green to red, with the two yell
 
 In the small-consequence, must-be-precise quadrant, you are checking a detail. The output can be internal and low stakes, but the citation still has to exist. In the large-consequence, average-is-fine quadrant, you are checking the load-bearing facts in something that will leave the building. The narrative can be yours; the numbers cannot be invented.
 
-That difference matters. A firm that treats both as "yellow" and applies the same check will either over-check the internal memo or under-check the client paper. The quadrant tells you what kind of check to run.
+A firm that treats both as "yellow" and applies the same check will either over-check the internal memo or under-check the client paper. The quadrant tells you what kind of check to run.
 
 ## The two failure modes
 
 The first failure mode is uniform alarm. Everything is treated as red. Every output gets a second reader. Every draft becomes a review meeting. People learn that the process is a tax, and they route around it. The output that actually needed the check gets the same treatment as the one that did not, which means it gets no real treatment at all.
 
-The second failure mode is uniform trust. The tool is usually right, so the firm stops classifying. The green outputs are fine, the yellow outputs are fine, and then a red output arrives looking exactly like the others. Fluent, complete, confident. It goes out.
+The second failure mode is uniform trust. The tool is usually right, so the firm stops classifying. The green outputs are fine, the yellow outputs are fine, and then a red output arrives looking exactly like the others: fluent, complete, confident. It goes out.
 
 The Trust Tool is designed to make the middle visible. Most professional work lives in the two yellow quadrants. That is where the check has to be specific, and where a firm gets the most value from a shared vocabulary.
 
@@ -127,7 +127,7 @@ That is the job of the [Flag System](/writing/the-flag-system). It is a second c
 - Yellow flags: missing provenance. A cited source you have not opened. A number you have not seen elsewhere. A summary of a document you have not spot-checked. A rule applied to facts you have not tested.
 - Red flags: a citation that fits too neatly, advice that crosses into a professional act, a confident claim on a contested or jurisdiction-specific question, an irreversible action.
 
-The flags are not a traffic light for whether to proceed with a project. They are a reading discipline for the output in front of you. Project-level go, pivot, and kill decisions belong to a different layer: the lifecycle gates that sit between foundation, pilot, and scale.
+The flags are a reading discipline for the output in front of you, not a traffic light for whether to proceed with a project. Project-level go, pivot, and kill decisions belong to a different layer: the lifecycle gates that sit between foundation, pilot, and scale.
 
 Keeping those layers separate matters. The Trust Tool and the flags are about the output. The lifecycle gates are about the initiative. A firm can have a green output inside a project that should be killed, and a red output inside a project that is worth scaling.
 
