@@ -100,7 +100,7 @@ Step 4: "Turn this into a one-page partner-meeting summary
 with clear recommendations."
 ```
 
-(See [Prompt Chaining](prompt-chaining.qmd) for the full pattern.)
+(See [Prompt Chaining](/resources/prompt-chaining) for the full pattern.)
 
 ### 2. Compliance and policy
 
@@ -349,7 +349,7 @@ That sequence turns several hours of preparation into something usable in under 
 
 **3. Use chaining for complex tasks.** Compliance reviews, strategic planning, multi-stakeholder communication: break them into steps. Quality compounds.
 
-**4. Use a prompt framework for individual prompts.** [CRAFT](craft-prompting-framework.qmd) or [RTCF](rtcf-prompting-framework.qmd): pick one and stick to it.
+**4. Use a prompt framework for individual prompts.** [CRAFT](/resources/craft-prompting-framework) or [RTCF](/resources/rtcf-prompting-framework): pick one and stick to it.
 
 **5. Protect sensitive information.** If working with personal data, client matter information, patient records, or anything covered by Privacy Act, professional obligations, or court order:
 

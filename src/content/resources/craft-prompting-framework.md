@@ -13,7 +13,7 @@ Most disappointing AI output is the result of a vague prompt. The same model tha
 
 Think of prompting like briefing a junior in a hurry. The clearer the brief, the better the draft. CRAFT is one structured way to give that brief.
 
-> A structured prompt is necessary for good output but not sufficient. The conversation, not the first answer, is where the value lives. See [The Conversation Loop](the-conversation-loop.qmd).
+> A structured prompt is necessary for good output but not sufficient. The conversation, not the first answer, is where the value lives. See [The Conversation Loop](/writing/the-conversation-loop).
 
 ---
 
@@ -43,7 +43,7 @@ Five elements. You do not need all of them every time.
 
 ## CRAFT is a starting point, not a rule
 
-CRAFT is one structure among many. If you find five slots too many, [RTCF](rtcf-prompting-framework.qmd) is the same idea with four. If you want even less structure, just write clearly. The point is clarity, not adherence to a framework.
+CRAFT is one structure among many. If you find five slots too many, [RTCF](/resources/rtcf-prompting-framework) is the same idea with four. If you want even less structure, just write clearly. The point is clarity, not adherence to a framework.
 
 Other techniques that work well, alone or alongside CRAFT:
 

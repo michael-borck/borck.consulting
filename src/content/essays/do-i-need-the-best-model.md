@@ -32,7 +32,7 @@ For conversation-style use, free-tier and bundled AI is genuinely capable:
 
 For non-sensitive, non-identifiable work (brainstorming a meeting agenda, structuring an internal SOP draft, generating discussion prompts, exploring an unfamiliar area), these tools can brainstorm with you, challenge assumptions, and push thinking further. That is what conversation requires. The model does not need to be at the frontier for that purpose.
 
-For client-touching work, the question is which tool sits inside an environment your professional obligations allow. (See [Why Most AI Data Governance Policies Get It Wrong](data-governance.qmd).)
+For client-touching work, the question is which tool sits inside an environment your professional obligations allow. (See [Why Most AI Data Governance Policies Get It Wrong](/writing/data-governance).)
 
 ---
 

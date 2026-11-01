@@ -29,10 +29,10 @@ When you write *"help me draft an email to the client"* you are prompting. When 
 
 Useful frameworks at this layer:
 
-- [CRAFT](craft-prompting-framework.qmd) (Context, Role, Action, Format, Tone): a five-part structure that consistently lifts output quality.
-- [RTCF](rtcf-prompting-framework.qmd): leaner four-part variant. The one I reach for first.
-- [RE2 (read twice)](re2-prompting.qmd): telling the model to re-read the question before answering, which catches misunderstandings on complex prompts.
-- [Focused prompting](focused-prompting.qmd): narrowing the model's attention to one task at a time.
+- [CRAFT](/resources/craft-prompting-framework) (Context, Role, Action, Format, Tone): a five-part structure that consistently lifts output quality.
+- [RTCF](/resources/rtcf-prompting-framework): leaner four-part variant. The one I reach for first.
+- [RE2 (read twice)](/resources/re2-prompting): telling the model to re-read the question before answering, which catches misunderstandings on complex prompts.
+- [Focused prompting](/resources/focused-prompting): narrowing the model's attention to one task at a time.
 
 **When this layer is enough:** short, self-contained tasks. A single client email, a quick rewrite, a one-off summary. If you can fit everything the model needs into one well-structured message, you are done at this layer.
 
@@ -51,7 +51,7 @@ Examples in everyday firm use:
 - **Custom instructions / system prompts**: telling Claude or ChatGPT once that you are an Australian financial adviser writing in Australian English, conservative on uncertainty, allergic to legalese, instead of saying it every conversation.
 - **Project files / workspaces** in Claude Projects, ChatGPT Custom GPTs, Gemini Gems, or NotebookLM: uploading firm precedents, internal style guides, or reference documents the model can draw on without you re-pasting them.
 - **Memory features**: letting the model remember preferences and recurring details across sessions (within enterprise terms appropriate for your data).
-- **Conversation hygiene**: knowing when to start a fresh conversation (because the current one is getting confused) versus when to continue (because the accumulated context is doing useful work). See [Managing Context](managing-context.qmd).
+- **Conversation hygiene**: knowing when to start a fresh conversation (because the current one is getting confused) versus when to continue (because the accumulated context is doing useful work). See [Managing Context](/resources/managing-context).
 
 **When this layer matters:** anything the firm will do more than once. Repeated client-letter drafting. A specific kind of advice you produce regularly. Internal-summarisation workflows. Any working relationship with AI that needs to remember the firm's voice and standards.
 
@@ -70,8 +70,8 @@ You have encountered harness engineering whenever you have used:
 - **AI-powered search** that retrieves relevant documents *before* answering: one call to find sources, another to answer using them
 - **Coding assistants** that read a file, plan changes, edit code, run tests: multiple calls coordinated by the tool
 - **Research assistants** that ground every answer in cited sources from a defined corpus (NotebookLM is the most common)
-- **Agentic tools** that perform multi-step tasks with verification along the way (see [Agentic AI](agentic-ai.qmd))
-- **Prompt chains** you build yourself (see [Prompt Chaining](prompt-chaining.qmd))
+- **Agentic tools** that perform multi-step tasks with verification along the way
+- **Prompt chains** you build yourself (see [Prompt Chaining](/resources/prompt-chaining))
 
 **Why this layer matters for regulated work:** a single AI call is unreliable in predictable ways: it may hallucinate, oversimplify, miss the jurisdiction, or invent a citation. A harness lets you build verification, multiple perspectives, and self-correction into the workflow, turning an unreliable single step into a reliable multi-step process. For a regulated firm, that reliability is the difference between AI being a curiosity and being usable.
 
@@ -108,23 +108,21 @@ Most small firms get the biggest gain by going deeper at Layers 1 and 2. Layer 3
 
 **Prompt frameworks**
 
-- [CRAFT](craft-prompting-framework.qmd)
-- [RTCF](rtcf-prompting-framework.qmd)
-- [RE2 (read twice)](re2-prompting.qmd)
-- [Focused prompting](focused-prompting.qmd)
-- [Strategic prompting](strategic-prompting-guide.qmd)
+- [CRAFT](/resources/craft-prompting-framework)
+- [RTCF](/resources/rtcf-prompting-framework)
+- [RE2 (read twice)](/resources/re2-prompting)
+- [Focused prompting](/resources/focused-prompting)
+- [Strategic prompting](/resources/strategic-prompting-guide)
 
 **Context**
 
-- [Managing context](managing-context.qmd)
-- [Conversation, not delegation](conversation-not-delegation.qmd)
+- [Managing context](/resources/managing-context)
+- [Conversation, not delegation](/writing/conversation-not-delegation)
 
 **Harness and agents**
 
-- [Agentic AI](agentic-ai.qmd)
-- [Using agentic AI](using-agentic-ai-practical-guide.qmd)
-- [Prompt chaining](prompt-chaining.qmd)
-- [The critique toolkit](critique-toolkit.qmd)
+- [Prompt chaining](/resources/prompt-chaining)
+- [The critique toolkit](/writing/critique-toolkit)
 
 ---
 

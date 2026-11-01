@@ -13,7 +13,7 @@ Most prompting advice treats AI as a content engine: ask cleanly, get usable out
 
 That is the shift from prompting-as-extraction to **cognitive prompting**: designing prompts that scaffold thinking rather than skip past it.
 
-This piece sits alongside [Conversation, Not Delegation](conversation-not-delegation.qmd), [The Question Architect](question-architect.qmd), and [Strategic Prompting](strategic-prompting-guide.qmd). They are different lenses on the same idea: the value AI creates depends on the kind of thinking it provokes.
+This piece sits alongside [Conversation, Not Delegation](/writing/conversation-not-delegation), [The Question Architect](/resources/question-architect), and [Strategic Prompting](/resources/strategic-prompting-guide). They are different lenses on the same idea: the value AI creates depends on the kind of thinking it provokes.
 
 ---
 
@@ -41,7 +41,7 @@ Both prompts produce something. The first produces a draft. The second produces 
 
 ## Why this matters in a regulated firm
 
-In a small firm, capability is the asset. The senior partner's judgement was built over decades of exactly the kind of thinking the extraction-style prompt skips. If your team is using AI in extraction mode, you get faster output but slower professional development: exactly the *cognitive offload* problem (see [Cognitive Offload and the AI Makes Us Dumber Question](cognitive-offload.qmd)).
+In a small firm, capability is the asset. The senior partner's judgement was built over decades of exactly the kind of thinking the extraction-style prompt skips. If your team is using AI in extraction mode, you get faster output but slower professional development: exactly the *cognitive offload* problem (see [Cognitive Offload and the AI Makes Us Dumber Question](/writing/cognitive-offload)).
 
 If your team is using AI in cognitive mode, the work goes faster *and* their underlying capability grows. The output is better; the people are better; the firm is more durable. That is the version of AI adoption that compounds.
 
@@ -53,7 +53,7 @@ The catch: cognitive prompting is harder. It takes more thought to design. It do
 
 ### 1. Make reasoning the deliverable, not just the answer
 
-Ask the model to show its working at each step. Use prompts that begin with *"walk me through how you would approach this,"* *"step by step,"* or *"show your reasoning."* See [stepwise chain-of-thought](seven-techniques.qmd) for the technique.
+Ask the model to show its working at each step. Use prompts that begin with *"walk me through how you would approach this,"* *"step by step,"* or *"show your reasoning."* See [stepwise chain-of-thought](/resources/seven-techniques) for the technique.
 
 The reasoning is what your team is supposed to internalise. The answer is just the artefact.
 

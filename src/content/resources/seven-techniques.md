@@ -9,7 +9,7 @@ draft: false
 
 ## A note on positioning
 
-[CRAFT](craft-prompting-framework.qmd) and [RTCF](rtcf-prompting-framework.qmd) are *prompting frameworks*: how to structure any prompt clearly. The seven techniques in this guide are *specialised patterns*: particular shapes of prompt useful for particular kinds of professional thinking.
+[CRAFT](/resources/craft-prompting-framework) and [RTCF](/resources/rtcf-prompting-framework) are *prompting frameworks*: how to structure any prompt clearly. The seven techniques in this guide are *specialised patterns*: particular shapes of prompt useful for particular kinds of professional thinking.
 
 Use a framework to structure the prompt. Use a technique to choose the *kind* of thinking you want from the model.
 
@@ -27,7 +27,7 @@ These are not random tricks. Each one builds a particular professional habit: sc
 6. **Formative Self-Assessment**: low-stakes practice with feedback
 7. **The Expert Panel**: multiple perspectives on a single decision
 
-Each works alone. Most also combine well with [Prompt Chaining](prompt-chaining.qmd).
+Each works alone. Most also combine well with [Prompt Chaining](/resources/prompt-chaining).
 
 ---
 
@@ -168,7 +168,7 @@ and states what additional information would resolve the question.
 
 **Use:** any decision where you suspect you have already made up your mind. The model will tell you whether your decision survives serious challenge.
 
-(For more on this, see [Strategic Prompting](strategic-prompting-guide.qmd).)
+(For more on this, see [Strategic Prompting](/resources/strategic-prompting-guide).)
 
 ---
 
@@ -239,7 +239,7 @@ A typical sequence on a complex decision:
 4. **Debating** to stress-test the leading option
 5. **The expert panel** for the final decision review
 
-That sequence is itself a [chain](prompt-chaining.qmd). Each step uses CRAFT or RTCF for the prompt structure.
+That sequence is itself a [chain](/resources/prompt-chaining). Each step uses CRAFT or RTCF for the prompt structure.
 
 ---
 

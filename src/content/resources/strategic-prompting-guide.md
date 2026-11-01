@@ -272,7 +272,7 @@ Together: better strategic decisions than either alone.
 
 When using AI for strategic decisions:
 
-- Do not paste proprietary financials, competitive intelligence, or anything client-identifiable into a tool that is not appropriate for that data. (See [Why Most AI Data Governance Policies Get It Wrong](data-governance.qmd).)
+- Do not paste proprietary financials, competitive intelligence, or anything client-identifiable into a tool that is not appropriate for that data. (See [Why Most AI Data Governance Policies Get It Wrong](/writing/data-governance).)
 - Use generic descriptions where possible: *"a six-partner suburban legal practice"* not your actual numbers.
 - Verify any specific claim or statistic the model produces.
 - If AI insight influenced a strategic decision, note it in the file or board paper. It models good practice and helps colleagues understand the reasoning.

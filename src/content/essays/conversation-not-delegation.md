@@ -134,7 +134,7 @@ For a graduate solicitor, a junior accountant, or a new clinician, the third que
 
 Effective AI conversations have shape. They are not random queries. They build on each other:
 
-1. **Set the context**: give AI what it needs to be useful (without giving it what it should not see; see [Why Enterprise AI Data Governance Gets It Wrong](data-governance.qmd))
+1. **Set the context**: give AI what it needs to be useful (without giving it what it should not see; see [Why Enterprise AI Data Governance Gets It Wrong](/writing/data-governance))
 2. **Explore the space**: generate options, perspectives, and approaches
 3. **Evaluate and refine**: challenge, improve, and iterate
 4. **Synthesise**: pull together the best elements with your own judgement

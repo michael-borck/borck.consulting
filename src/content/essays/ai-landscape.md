@@ -18,7 +18,7 @@ Whether the firm uses ChatGPT, Claude, Gemini, Microsoft 365 Copilot, vendor-emb
 
 If you build the prompting and supervision discipline, you can move between tools without losing momentum. The tool is secondary. The skill is primary.
 
-If you are feeling overwhelmed by the number of tools available: relax. Learn the fundamentals (see [CRAFT](craft-prompting-framework.qmd) and [Conversation, Not Delegation](conversation-not-delegation.qmd)) and the specific tools become interchangeable.
+If you are feeling overwhelmed by the number of tools available: relax. Learn the fundamentals (see [CRAFT](/resources/craft-prompting-framework) and [Conversation, Not Delegation](/writing/conversation-not-delegation)) and the specific tools become interchangeable.
 
 ---
 
@@ -59,7 +59,7 @@ They excel at complex reasoning, long-document handling, and multi-step analysis
 
 **Do you need a frontier model?** For everyday brainstorming, drafting, and iteration, often not. The free and bundled tiers are surprisingly capable for most regulated-firm work. Frontier models matter when the task is genuinely complex (long documents, multi-step legal analysis, nuanced clinical or financial reasoning) or where higher accuracy materially affects exposure.
 
-(See [Do I Need the Best Model?](do-i-need-the-best-model.qmd) for the procurement question.)
+(See [Do I Need the Best Model?](/writing/do-i-need-the-best-model) for the procurement question.)
 
 ### Free and bundled tiers
 
@@ -135,7 +135,7 @@ This is genuinely useful when sensitivity, contractual obligations, or professio
 
 ### Honest limitations
 
-- Generally less capable than frontier cloud models, though good prompting closes more of the gap than people expect (see [Prompt, Context, Harness](prompt-context-harness.qmd)).
+- Generally less capable than frontier cloud models, though good prompting closes more of the gap than people expect (see [Prompt, Context, Harness](/resources/prompt-context-harness)).
 - Requires reasonable hardware (16 GB RAM and up; better with a GPU).
 - Some setup effort.
 - No built-in browsing.
@@ -150,7 +150,7 @@ The uses are privacy-sensitive work, learning how AI works, and situations where
 
 | Use case | Where to start |
 |---|---|
-| Strategic thinking, partner conversations | ChatGPT or Claude (free or paid); see [Strategic Prompting](strategic-prompting-guide.qmd) |
+| Strategic thinking, partner conversations | ChatGPT or Claude (free or paid); see [Strategic Prompting](/resources/strategic-prompting-guide) |
 | Research grounded in firm documents | NotebookLM |
 | Drafts of advice, position papers, internal memos | Claude or ChatGPT (free for non-sensitive; enterprise tier for client-affecting work) |
 | Working inside Microsoft 365 | Microsoft 365 Copilot |
@@ -196,7 +196,7 @@ Before using any AI tool with firm data, consider:
 
 **When in doubt:** use the enterprise version, use a local model, or de-identify the data first.
 
-See [Why Most AI Data Governance Policies Get It Wrong](data-governance.qmd) and [Secure and Sustainable AI Use](secure-sustainable-ai.qmd) for the longer treatment.
+See [Why Most AI Data Governance Policies Get It Wrong](/writing/data-governance) and [Secure and Sustainable AI Use](/writing/secure-sustainable-ai) for the longer treatment.
 
 ---
 

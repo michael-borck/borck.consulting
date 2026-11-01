@@ -9,7 +9,7 @@ draft: false
 
 ## Introduction
 
-The R.T.C.F. framework is a four-part approach to writing better prompts. Same underlying idea as [CRAFT](craft-prompting-framework.qmd) (give the model enough structure to do good work) but with fewer moving parts.
+The R.T.C.F. framework is a four-part approach to writing better prompts. Same underlying idea as [CRAFT](/resources/craft-prompting-framework) (give the model enough structure to do good work) but with fewer moving parts.
 
 When a four-part framework gets the job done, a five-part framework is overhead. RTCF is the one I reach for first.
 
@@ -116,8 +116,8 @@ RTCF is a good first move. It is not the only move.
 
 - **Very short tasks**: just ask. The framework is overhead.
 - **Exploratory thinking**: start conversational, let RTCF emerge as you narrow.
-- **High-stakes nuance**: switch to [CRAFT](craft-prompting-framework.qmd) so tone gets its own slot.
-- **Multi-step work**: RTCF for each step, plus [Prompt Chaining](prompt-chaining.qmd) to link them.
+- **High-stakes nuance**: switch to [CRAFT](/resources/craft-prompting-framework) so tone gets its own slot.
+- **Multi-step work**: RTCF for each step, plus [Prompt Chaining](/resources/prompt-chaining) to link them.
 
 The goal is clarity, not adherence to a framework.
 

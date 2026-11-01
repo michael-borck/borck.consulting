@@ -275,14 +275,6 @@ These are practice-design questions, not technology questions. The answers are w
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms set up the practice design that turns AI from a crutch into a catalyst, including the supervision changes most firms need but have not yet made. Engagements begin with the AI Readiness Diagnostic.
-
----
-
----
-
-### About this work
-
 borck.consulting helps regulated Australian small firms use AI without hollowing out the judgement that makes the work defensible. Engagements begin with the [AI Readiness Diagnostic](/services).
 
 ---
