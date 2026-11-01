@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talk Like You · borck.consulting</title>
+  <meta name="description" content="Build a voice brief from your own writing, test it blind, and reuse it. A free, local-first tool for regulated small firms.">
+  <meta name="theme-color" content="#fafaf6">
+  <link rel="canonical" href="https://borck.consulting/tools/talk-like-you/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #fafaf6;
+      --panel: #f3f2ec;
+      --text: #1a1a1c;
+      --gray-1: #4a4a4f;
+      --gray-2: #82827e;
+      --gray-3: #d6d6cf;
+      --gray-4: #ecebe4;
+      --accent: #4a6e62;
+      --accent-low: #e7eee9;
+      --accent-high: #2f5347;
+      --warn: #b54a36;
+      --font: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-high); }
+    [hidden] { display: none !important; }
+
+    .topbar { display: flex; align-items: center; gap: 1rem; padding: 0 1.5rem; height: 56px; border-bottom: 1px solid var(--gray-3); position: sticky; top: 0; background: var(--bg); z-index: 10; }
+    .logo { font-family: var(--mono); font-size: 0.88rem; font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+    .logo .dot { color: var(--gray-2); }
+    .logo .sub { color: var(--accent); }
+    .topbar-spacer { flex: 1; }
+    .topbar nav { display: flex; gap: 1.25rem; }
+    .topbar nav a { font-size: 0.82rem; color: var(--gray-1); text-decoration: none; }
+    .topbar nav a:hover { color: var(--accent); }
+
+    .page { max-width: 1120px; margin: 0 auto; padding: 3rem 1.75rem 5rem; }
+    .hero { margin-bottom: 2.5rem; }
+    .eyebrow { margin: 0 0 0.8rem; font-family: var(--mono); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
+    h1 { margin: 0 0 0.8rem; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; letter-spacing: -0.04em; font-weight: 800; }
+    .lead { margin: 0 0 0.8rem; font-size: 1.15rem; line-height: 1.5; color: var(--gray-1); max-width: 44rem; }
+    .body { margin: 0; font-size: 0.95rem; line-height: 1.65; color: var(--gray-1); max-width: 46rem; }
+
+    .tool { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
+    .form { min-width: 0; }
+    .field { margin-bottom: 1rem; }
+    .field label { display: block; margin-bottom: 0.3rem; font-size: 0.78rem; font-weight: 700; color: var(--gray-1); }
+    .field label span { font-weight: 400; color: var(--gray-2); }
+    input[type="text"], textarea, select {
+      width: 100%; padding: 0.65rem 0.8rem; background: #fff; border: 1px solid var(--gray-3); border-radius: 6px;
+      color: var(--text); font-family: var(--font); font-size: 0.92rem; line-height: 1.5;
+    }
+    textarea { resize: vertical; min-height: 82px; }
+    input:focus, textarea:focus, select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-low); }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .hint { margin: 0.45rem 0 0; font-size: 0.78rem; line-height: 1.5; color: var(--gray-2); }
+
+    .samples { margin: 1rem 0; padding: 0.9rem 1rem; border: 1px solid var(--gray-3); border-radius: 8px; background: var(--panel); }
+    .samples legend { padding: 0 0.4rem; font-family: var(--mono); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+    .samples label { display: block; margin: 0.75rem 0 0.3rem; font-size: 0.78rem; font-weight: 700; color: var(--gray-1); }
+    .samples textarea { min-height: 90px; background: #fff; }
+
+    .actions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 1rem; }
+    .btn { display: inline-block; padding: 0.7rem 1rem; border: 1px solid var(--accent); border-radius: 6px; background: var(--accent); color: #fff; font-family: var(--font); font-size: 0.88rem; font-weight: 700; cursor: pointer; text-decoration: none; }
+    .btn:hover { background: var(--accent-high); border-color: var(--accent-high); color: #fff; }
+    .btn.secondary { background: transparent; color: var(--accent); }
+    .btn.secondary:hover { background: var(--accent-low); color: var(--accent-high); }
+    .btn.ghost { background: transparent; border-color: var(--gray-3); color: var(--gray-1); }
+    .btn.ghost:hover { border-color: var(--gray-2); background: transparent; color: var(--text); }
+
+    .output { position: sticky; top: 76px; min-width: 0; }
+    .output-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+    .tabs { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+    .tab { padding: 0.35rem 0.55rem; border: 1px solid transparent; border-radius: 6px; background: none; color: var(--gray-2); font-family: var(--mono); font-size: 0.6rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; }
+    .tab:hover { color: var(--accent); }
+    .tab.active { color: var(--accent); border-color: var(--gray-3); background: var(--panel); }
+    #status { color: var(--accent); font-family: var(--mono); font-size: 0.6rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+    .prompt { margin: 0; min-height: 430px; padding: 1.1rem 1.2rem; background: var(--text); color: #f5f2ea; border-radius: 10px; font-family: var(--mono); font-size: 0.76rem; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .output-foot { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 0.7rem; font-size: 0.75rem; color: var(--gray-2); }
+    .link-btn { background: none; border: none; padding: 0; color: var(--accent); font-family: var(--font); font-size: 0.78rem; font-weight: 700; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+    .link-btn:hover { color: var(--accent-high); }
+
+    .library { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--gray-3); }
+    .section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1rem; }
+    .section-head h2 { margin: 0; font-size: 1.2rem; letter-spacing: -0.02em; }
+    .library-list { display: grid; gap: 0.7rem; }
+    .library-empty { font-size: 0.86rem; color: var(--gray-2); }
+    .item { display: flex; justify-content: space-between; gap: 1rem; align-items: center; padding: 0.8rem 0.95rem; background: var(--panel); border: 1px solid var(--gray-3); border-radius: 8px; }
+    .item-name { font-size: 0.9rem; font-weight: 700; }
+    .item-use { font-size: 0.76rem; color: var(--gray-2); margin-top: 0.15rem; }
+    .item-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+
+    .note { margin-top: 2.5rem; padding: 1rem 1.2rem; background: var(--accent-low); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; font-size: 0.88rem; line-height: 1.65; color: var(--gray-1); }
+    .note strong { color: var(--text); }
+    .footer { max-width: 1120px; margin: 0 auto; padding: 2rem 1.75rem; border-top: 1px solid var(--gray-3); font-size: 0.78rem; color: var(--gray-2); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .footer a { color: var(--gray-1); text-decoration: none; }
+    .footer a:hover { color: var(--accent); }
+
+    @media (max-width: 900px) {
+      .tool { grid-template-columns: 1fr; }
+      .output { position: static; }
+      .prompt { min-height: 260px; }
+    }
+    @media (max-width: 600px) {
+      .topbar { flex-wrap: wrap; height: auto; padding: 0.75rem 1rem; gap: 0.5rem; }
+      .topbar-spacer { display: none; }
+      .topbar nav { width: 100%; gap: 0.9rem; flex-wrap: wrap; }
+      .page { padding: 2rem 1.1rem 4rem; }
+      .grid2 { grid-template-columns: 1fr; gap: 0; }
+      .item { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="logo" href="/"><span>borck</span><span class="dot">.</span><span class="sub">consulting</span></a>
+  <div class="topbar-spacer"></div>
+  <nav>
+    <a href="/tools/">Tools</a>
+    <a href="/resources">Resources</a>
+    <a href="/services">Services</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<main class="page">
+  <section class="hero">
+    <p class="eyebrow">Free tool · no login</p>
+    <h1>Talk Like You</h1>
+    <p class="lead">Your voice, not a generic assistant.</p>
+    <p class="body">Paste three pieces of your own writing. Build a voice brief. Test it. Patch it. Reuse it. Nothing leaves this browser.</p>
+  </section>
+
+  <div class="tool">
+    <section class="form" aria-label="Voice brief builder">
+      <div class="field">
+        <label for="name">Name <span>for your library</span></label>
+        <input type="text" id="name" placeholder="Client update voice">
+      </div>
+
+      <div class="field">
+        <label for="role">Role <span>who is writing?</span></label>
+        <input type="text" id="role" placeholder="a senior privacy lawyer writing to a long-standing client">
+      </div>
+
+      <div class="grid2">
+        <div class="field">
+          <label for="audience">Audience</label>
+          <select id="audience">
+            <option value="">Choose one</option>
+            <option>Clients</option>
+            <option>Colleagues</option>
+            <option>Regulator</option>
+            <option>Public</option>
+            <option>Mixed</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="tone">Tone</label>
+          <select id="tone">
+            <option value="">Choose one</option>
+            <option>Plain and direct</option>
+            <option>Formal and precise</option>
+            <option>Warm and collaborative</option>
+            <option>Neutral and factual</option>
+            <option>Persuasive but calm</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="sentence">Sentence length</label>
+          <select id="sentence">
+            <option value="">Choose one</option>
+            <option>Short</option>
+            <option>Medium</option>
+            <option>Long</option>
+            <option>Mixed</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="structure">Structure</label>
+          <select id="structure">
+            <option value="">Choose one</option>
+            <option>Direct answer first</option>
+            <option>Context first</option>
+            <option>Bullet points</option>
+            <option>Narrative</option>
+            <option>Recommendation then reasons</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="useWords">Use <span>words, phrases, habits</span></label>
+        <input type="text" id="useWords" placeholder="short sentences, one recommendation, plain English">
+      </div>
+      <div class="field">
+        <label for="avoidWords">Avoid <span>words, phrases, habits</span></label>
+        <input type="text" id="avoidWords" placeholder="jargon, adjectives, hedging">
+      </div>
+      <div class="field">
+        <label for="neverDo">Never <span>the line you do not cross</span></label>
+        <input type="text" id="neverDo" placeholder="speculate about the cause or blame a person">
+      </div>
+
+      <fieldset class="samples">
+        <legend>Your writing samples</legend>
+        <p class="hint">Three pieces of your own writing. Emails, memos, a proposal. Not a celebrity.</p>
+        <label for="sample1">Sample 1</label>
+        <textarea id="sample1" placeholder="Paste a piece of your own writing."></textarea>
+        <label for="sample2">Sample 2</label>
+        <textarea id="sample2" placeholder="Paste another piece."></textarea>
+        <label for="sample3">Sample 3</label>
+        <textarea id="sample3" placeholder="Paste a third piece."></textarea>
+      </fieldset>
+
+      <div class="field">
+        <label for="task">Test task <span>optional</span></label>
+        <textarea id="task" placeholder="Draft a short update to the client about the delayed settlement."></textarea>
+      </div>
+
+      <div class="actions">
+        <button id="copyBtn" class="btn" type="button">Copy current</button>
+        <button id="saveBtn" class="btn secondary" type="button">Save to library</button>
+        <button id="clearBtn" class="btn ghost" type="button">Clear</button>
+      </div>
+    </section>
+
+    <section class="output" aria-label="Generated voice brief">
+      <div class="output-head">
+        <div class="tabs" role="tablist" aria-label="Output view">
+          <button class="tab active" data-tab="brief" type="button">Voice brief</button>
+          <button class="tab" data-tab="prompt" type="button">Reusable prompt</button>
+          <button class="tab" data-tab="test" type="button">Test prompt</button>
+        </div>
+        <span id="status" role="status" aria-live="polite"></span>
+      </div>
+      <pre id="output" class="prompt"></pre>
+      <div class="output-foot">
+        <button id="exampleBtn" class="link-btn" type="button">Load an example</button>
+        <span>Nothing leaves this browser.</span>
+      </div>
+    </section>
+  </div>
+
+  <section class="library" aria-label="Saved voice briefs">
+    <div class="section-head">
+      <h2>Your library</h2>
+      <button id="exportBtn" class="link-btn" type="button">Export all</button>
+    </div>
+    <div id="libraryList" class="library-list"></div>
+  </section>
+
+  <section class="note">
+    <p><strong>The boundary:</strong> use your own voice. Do not impersonate a client, a colleague, or a public figure. AI drafts; you sign.</p>
+    <p><a href="/tools/">All tools</a> · <a href="/resources/rtcf-prompting-framework">RTCF guide</a> · <a href="/services">AI Readiness Diagnostic</a></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Michael Borck · borck.consulting · Perth, Western Australia</span>
+  <span>Free tool · no login · no tracking</span>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  const $ = (id) => document.getElementById(id);
+  const fields = ["name", "role", "audience", "tone", "sentence", "structure", "useWords", "avoidWords", "neverDo", "sample1", "sample2", "sample3", "task"];
+  const STORAGE_KEY = "talk-like-you-v1";
+  let activeTab = "brief";
+
+  function val(id) { return $(id).value.trim(); }
+
+  function getSamples() {
+    return [val("sample1"), val("sample2"), val("sample3")].filter(Boolean);
+  }
+
+  function getStats() {
+    const text = getSamples().join("\n\n");
+    if (!text) return null;
+    const words = text.split(/\s+/).filter(Boolean);
+    const sentences = text.split(/[.!?]+/).map((s) => s.trim()).filter(Boolean);
+    const paragraphs = text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+    return {
+      words: words.length,
+      avgSentence: sentences.length ? Math.round(words.length / sentences.length) : 0,
+      avgParagraph: paragraphs.length ? Math.round(words.length / paragraphs.length) : 0,
+      exclamations: (text.match(/!/g) || []).length,
+      semicolons: (text.match(/;/g) || []).length,
+      emDashes: (text.match(/—/g) || []).length
+    };
+  }
+
+  function briefLines() {
+    const lines = [];
+    const name = val("name") || "My voice";
+    lines.push("Voice brief: " + name);
+    if (val("role")) lines.push("Role: " + val("role"));
+    if (val("audience")) lines.push("Audience: " + val("audience"));
+    if (val("tone")) lines.push("Tone: " + val("tone"));
+    if (val("sentence")) lines.push("Sentence length: " + val("sentence"));
+    if (val("structure")) lines.push("Structure: " + val("structure"));
+    if (val("useWords")) lines.push("Use: " + val("useWords"));
+    if (val("avoidWords")) lines.push("Avoid: " + val("avoidWords"));
+    if (val("neverDo")) lines.push("Never: " + val("neverDo"));
+
+    const stats = getStats();
+    if (stats) {
+      lines.push(
+        "Sample signals: about " + stats.avgSentence + " words per sentence, " +
+        stats.avgParagraph + " words per paragraph, " +
+        stats.exclamations + " exclamation marks, " +
+        stats.semicolons + " semicolons, " +
+        stats.emDashes + " em dashes. These are rough signals, not rules."
+      );
+    }
+    return lines;
+  }
+
+  function buildBrief() {
+    return briefLines().join("\n");
+  }
+
+  function buildPrompt() {
+    const parts = [];
+    if (val("role")) parts.push("You are writing as " + val("role") + ".");
+    parts.push("Voice brief:\n" + briefLines().join("\n"));
+    parts.push("Match the voice, not the content of the samples. Do not invent facts. If you are unsure, say so and explain what you would need to know.");
+    parts.push("At the end, list the facts, figures, and sources I need to verify.");
+    const samples = getSamples();
+    if (samples.length) {
+      parts.push("Here are samples of my writing:\n---\n" + samples.map((s, i) => "Sample " + (i + 1) + ":\n" + s).join("\n\n---\n") + "\n---");
+    } else {
+      parts.push("No writing samples were provided. Use the voice brief only, and say what is missing.");
+    }
+    return parts.join("\n\n");
+  }
+
+  function buildTestPrompt() {
+    if (!val("task")) return "Add a test task to build the test prompt.\n\nThe test is simple: write your own version first, then compare it with the model's version. Patch the voice brief, not the output.";
+    return buildPrompt() + "\n\nTask: " + val("task") + "\n\nWrite the draft in this voice. Do not copy the content of the samples.";
+  }
+
+  function currentText() {
+    if (activeTab === "prompt") return buildPrompt();
+    if (activeTab === "test") return buildTestPrompt();
+    return buildBrief();
+  }
+
+  function render() {
+    $("output").textContent = currentText();
+    document.querySelectorAll(".tab").forEach((tab) => {
+      tab.classList.toggle("active", tab.dataset.tab === activeTab);
+    });
+    $("status").textContent = "";
+  }
+
+  function setFields(item) {
+    $("name").value = item.name || "";
+    $("role").value = item.role || "";
+    $("audience").value = item.audience || "";
+    $("tone").value = item.tone || "";
+    $("sentence").value = item.sentence || "";
+    $("structure").value = item.structure || "";
+    $("useWords").value = item.useWords || "";
+    $("avoidWords").value = item.avoidWords || "";
+    $("neverDo").value = item.neverDo || "";
+    $("sample1").value = item.sample1 || "";
+    $("sample2").value = item.sample2 || "";
+    $("sample3").value = item.sample3 || "";
+    $("task").value = item.task || "";
+    activeTab = "brief";
+    render();
+  }
+
+  function readLibrary() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      const parsed = raw ? JSON.parse(raw) : [];
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (error) {
+      return [];
+    }
+  }
+
+  function writeLibrary(items) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+      return true;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function renderLibrary() {
+    const list = $("libraryList");
+    const items = readLibrary();
+    list.innerHTML = "";
+    if (!items.length) {
+      const empty = document.createElement("p");
+      empty.className = "library-empty";
+      empty.textContent = "No saved voice briefs yet. Build one and save it.";
+      list.appendChild(empty);
+      return;
+    }
+    items.forEach((item) => {
+      const row = document.createElement("div");
+      row.className = "item";
+      const text = document.createElement("div");
+      const name = document.createElement("div");
+      name.className = "item-name";
+      name.textContent = item.name || "Untitled voice";
+      const use = document.createElement("div");
+      use.className = "item-use";
+      use.textContent = item.audience ? "Audience: " + item.audience : "Saved voice brief";
+      text.appendChild(name);
+      text.appendChild(use);
+
+      const actions = document.createElement("div");
+      actions.className = "item-actions";
+      const load = document.createElement("button");
+      load.type = "button";
+      load.className = "link-btn";
+      load.textContent = "Load";
+      load.addEventListener("click", () => setFields(item));
+      const remove = document.createElement("button");
+      remove.type = "button";
+      remove.className = "link-btn";
+      remove.textContent = "Delete";
+      remove.addEventListener("click", () => {
+        writeLibrary(readLibrary().filter((x) => x.id !== item.id));
+        renderLibrary();
+        $("status").textContent = "Deleted";
+      });
+      actions.appendChild(load);
+      actions.appendChild(remove);
+      row.appendChild(text);
+      row.appendChild(actions);
+      list.appendChild(row);
+    });
+  }
+
+  function loadExample() {
+    setFields({
+      name: "Client update voice",
+      role: "a senior privacy lawyer writing to a long-standing client",
+      audience: "Clients",
+      tone: "Plain and direct",
+      sentence: "Short",
+      structure: "Direct answer first",
+      useWords: "short sentences, one recommendation, plain English",
+      avoidWords: "jargon, adjectives, hedging",
+      neverDo: "speculate about the cause or blame a person",
+      sample1: "We have contained the issue. The email went to one recipient and was recalled within two hours. No client data was accessed. We have changed the distribution list and added a second check before external sends. You do not need to notify the regulator today. I will confirm that position in writing by Friday.",
+      sample2: "The draft is ready for your review. It is shorter than the last version and removes the technical appendix. The recommendation is to proceed with the pilot in March. The main risk is the integration work, which we have costed separately. Please send comments by Wednesday.",
+      sample3: "Thank you for the call. I have set out the three options below. Option one is the safest and the slowest. Option two is the best balance. Option three is faster but depends on the vendor's timetable. My recommendation is option two. I can walk the partners through it on Thursday.",
+      task: "Draft a short update to the client about the delayed settlement."
+    });
+    $("status").textContent = "Example loaded";
+  }
+
+  fields.forEach((id) => {
+    $(id).addEventListener("input", render);
+    $(id).addEventListener("change", render);
+  });
+
+  document.querySelectorAll(".tab").forEach((tab) => {
+    tab.addEventListener("click", () => {
+      activeTab = tab.dataset.tab;
+      render();
+    });
+  });
+
+  $("copyBtn").addEventListener("click", async () => {
+    const text = currentText();
+    if (!text) {
+      $("status").textContent = "Nothing to copy";
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(text);
+      $("status").textContent = "Copied";
+    } catch (error) {
+      const temp = document.createElement("textarea");
+      temp.value = text;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand("copy");
+      temp.remove();
+      $("status").textContent = "Copied";
+    }
+  });
+
+  $("saveBtn").addEventListener("click", () => {
+    const items = readLibrary();
+    const item = {
+      id: String(Date.now()),
+      name: val("name") || val("role").slice(0, 48) || "Untitled voice",
+      role: val("role"),
+      audience: val("audience"),
+      tone: val("tone"),
+      sentence: val("sentence"),
+      structure: val("structure"),
+      useWords: val("useWords"),
+      avoidWords: val("avoidWords"),
+      neverDo: val("neverDo"),
+      sample1: val("sample1"),
+      sample2: val("sample2"),
+      sample3: val("sample3"),
+      task: val("task")
+    };
+    items.unshift(item);
+    if (writeLibrary(items)) {
+      renderLibrary();
+      $("status").textContent = "Saved";
+    } else {
+      $("status").textContent = "Browser storage is unavailable";
+    }
+  });
+
+  $("clearBtn").addEventListener("click", () => {
+    fields.forEach((id) => { $(id).value = ""; });
+    activeTab = "brief";
+    render();
+  });
+
+  $("exportBtn").addEventListener("click", () => {
+    const items = readLibrary();
+    if (!items.length) {
+      $("status").textContent = "Nothing to export";
+      return;
+    }
+    const text = items.map((item) => {
+      return [
+        item.name || "Untitled voice",
+        "",
+        "Role: " + (item.role || ""),
+        "Audience: " + (item.audience || ""),
+        "Tone: " + (item.tone || ""),
+        "Sentence length: " + (item.sentence || ""),
+        "Structure: " + (item.structure || ""),
+        "Use: " + (item.useWords || ""),
+        "Avoid: " + (item.avoidWords || ""),
+        "Never: " + (item.neverDo || ""),
+        "",
+        "Samples:",
+        item.sample1 || "",
+        item.sample2 || "",
+        item.sample3 || "",
+        "",
+        "-----",
+        ""
+      ].filter(Boolean).join("\n");
+    }).join("\n");
+    const blob = new Blob([text], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "talk-like-you-library.txt";
+    link.click();
+    URL.revokeObjectURL(url);
+    $("status").textContent = "Exported";
+  });
+
+  $("exampleBtn").addEventListener("click", loadExample);
+
+  render();
+  renderLibrary();
+})();
+</script>
+
+</body>
+</html>
