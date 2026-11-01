@@ -198,7 +198,7 @@ Single exchange, much better quality.
 6. Verify everything material.
 7. Iterate to refine, not to start over.
 
-The underlying principle: context management is about respecting the model's limitations while making use of its strengths. You are not trying to have perfect conversations. You are trying to have *focused* ones that produce work the firm can use.
+The underlying principle: context management is about respecting the model's limitations while making use of its strengths. You are trying to have *focused* conversations that produce work the firm can use, not perfect ones.
 
 ---
 

@@ -18,8 +18,6 @@ You will work through any one (or more) of six firm scenarios in three rounds:
 | **Round 3: Advanced** | Try chain-of-thought, iterative refinement, or multi-turn techniques. |
 | **Debrief** | Reflect. Save your best prompts. |
 
-A quick reference for the framework is at the bottom.
-
 ---
 
 ## Scenario 1: The difficult client email (legal practice)

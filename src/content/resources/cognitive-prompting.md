@@ -9,7 +9,7 @@ draft: false
 
 ## The shift
 
-Most prompting advice treats AI as a content engine: ask cleanly, get usable output. That works, up to a point. But for a regulated firm, content is rarely the constraint. Capability is. And underneath capability sits agency: the practitioner's ability to steer rather than merely edit. The question worth asking is not *"how do we get better answers from AI?"* It is *"how do we use AI in a way that keeps agency with the practitioner and builds judgement instead of eroding it?"*
+Most prompting advice treats AI as a content engine: ask cleanly, get usable output. That works, up to a point. But for a regulated firm, content is rarely the constraint. Capability is. And underneath capability sits agency: the practitioner's ability to steer rather than merely edit. The question worth asking is *"how do we use AI in a way that keeps agency with the practitioner and builds judgement instead of eroding it?"*
 
 That is the shift from prompting-as-extraction to **cognitive prompting**: designing prompts that scaffold thinking rather than skip past it.
 
@@ -35,9 +35,7 @@ Consider a junior solicitor preparing a position note on a contract dispute.
 >
 > Show your reasoning. Then I will draft."
 
-Both prompts produce something. The first produces a draft. The second produces a draft *and* a junior solicitor who is now better at thinking about contract disputes. The second prompt is doing developmental work the first one is not.
-
-That is the design move worth practising.
+Both prompts produce something. The first produces a draft. The second produces a draft *and* a junior solicitor who is now better at thinking about contract disputes, because it does developmental work the first one does not.
 
 ---
 
@@ -113,11 +111,11 @@ Save the ones that produce useful thinking. Discard the ones that just produce m
 
 ## The bottom line
 
-Prompting is not really about getting better AI responses. It is about thinking more intentionally about your goals and methods, and designing the way AI sits inside the work so that capability builds rather than erodes.
+Prompting is less about getting better AI responses than about thinking more intentionally about your goals and methods, and designing the way AI sits inside the work so that capability builds rather than erodes.
 
 > Cognitive prompting is the design move that turns AI from a tool into a catalyst for professional development.
 
-In a small firm, that distinction is the difference between an AI rollout that quietly hollows the practice out and one that compounds capability for years. The mechanics are not complicated. The discipline is.
+In a small firm, that distinction is the difference between an AI rollout that hollows the practice out and one that compounds capability for years. The mechanics are not complicated. The discipline is.
 
 ---
 

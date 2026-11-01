@@ -9,11 +9,11 @@ draft: false
 
 ## Why structure matters
 
-Most disappointing AI output is the result of a vague prompt. The same model that gives a partner a useless three-paragraph response on request will produce something genuinely useful when the request is structured. The fix is not better AI. It is a clearer brief.
+Most disappointing AI output is the result of a vague prompt. The same model that gives a partner a useless three-paragraph response on request will produce something genuinely useful when the request is structured. The fix is a clearer brief, not better AI.
 
 Think of prompting like briefing a junior in a hurry. The clearer the brief, the better the draft. CRAFT is one structured way to give that brief.
 
-> A reminder: a structured prompt is necessary for good output but not sufficient. The conversation, not the first answer, is where the value lives. See [The Conversation Loop](the-conversation-loop.qmd).
+> A structured prompt is necessary for good output but not sufficient. The conversation, not the first answer, is where the value lives. See [The Conversation Loop](the-conversation-loop.qmd).
 
 ---
 

@@ -21,7 +21,7 @@ This is particularly valuable for:
 
 > Think of it as scaffolding. Each prompt builds on previous output, creating a stronger final result.
 
-A reminder from earlier in the toolkit: chaining works *only when you stay in the loop*. Chaining tasks without verification at each step is exactly the failure mode described in [Amplify Your Thinking, Not the Hallucinations](amplify-thinking-not-hallucinations.qmd). Use chaining as a discipline, not a delegation.
+Chaining works *only when you stay in the loop*. Chaining tasks without verification at each step is exactly the failure mode described in [Amplify Your Thinking, Not the Hallucinations](amplify-thinking-not-hallucinations.qmd). Use chaining as a discipline, not a delegation.
 
 ---
 

@@ -9,7 +9,7 @@ draft: false
 
 ## Introduction
 
-When people talk about "prompt engineering," they are naming one slice of a much bigger picture. There are actually three layers of engineering between you and useful AI output. Getting good at AI in a small firm means getting comfortable in all three, and knowing which layer to invest in next.
+"Prompt engineering" names one layer of the work. There are actually three layers of engineering between you and useful AI output. Getting good at AI in a small firm means getting comfortable in all three, and knowing which layer to invest in next.
 
 The three layers, from inside the call to around it:
 
@@ -83,7 +83,7 @@ You have encountered harness engineering whenever you have used:
 
 When people learn about a "newer" layer, there is a temptation to treat the older ones as obsolete. Prompt engineering is not dead. Context engineering is not dead. They become the **foundations** of the higher layers.
 
-There is also a question of *agency* that runs through all three layers: at every layer, who is steering? A weak prompt cedes agency to the model's defaults. A weak context setup cedes it across the whole working relationship. A weak harness cedes it across the whole workflow. Layer-by-layer engineering is, in the end, layer-by-layer choices about where the firm is willing to keep the steering wheel.
+There is also a question of *agency* that runs through all three layers: at every layer, who is steering? A weak prompt cedes agency to the model's defaults. A weak context setup cedes it across the whole working relationship. A weak harness cedes it across the whole workflow. Layer-by-layer engineering is a series of choices about where the firm is willing to keep the steering wheel.
 
 A well-designed harness still depends on each individual call having a good prompt. A good prompt still depends on the surrounding context being set up well. If the firm's prompts are weak, the harness will just produce weak output faster. **The layers compound: benefits and problems both.**
 

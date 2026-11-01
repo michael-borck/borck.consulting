@@ -13,9 +13,9 @@ When AI can generate answers almost instantaneously and at near-zero cost, the m
 
 > In a world where answers are cheap, questions become valuable.
 
-This is not a minor adjustment to how professional expertise works. It is a structural inversion. The expert's role moves from providing information to designing the inquiry that gives information its purpose.
+This is a structural inversion, not a minor adjustment to how professional expertise works. The expert's role moves from providing information to designing the inquiry that gives information its purpose.
 
-For a regulated firm, this is not theoretical. It is happening this quarter. A client can already get a passable summary of their tax position, a plausible draft of a will, or a reasonable explanation of a clinical condition from a chatbot for free. What they cannot get is someone who knows *which question they should actually be asking*, and who can stand behind the answer.
+For a regulated firm, this is happening this quarter. A client can already get a passable summary of their tax position, a plausible draft of a will, or a reasonable explanation of a clinical condition from a chatbot for free. What they cannot get is someone who knows *which question they should actually be asking*, and who can stand behind the answer.
 
 ---
 
@@ -27,7 +27,7 @@ A common misconception is that AI expertise is defined by familiarity with the l
 - **John McCarthy (1956)**: the term "Artificial Intelligence" was coined by McCarthy for a research workshop he organised. He collaborated with Claude Shannon, whose information theory is foundational enough that Anthropic named its flagship model in his honour.
 - **Established curricula**: by the 1970s, Stanford, MIT, CMU, and the University of Edinburgh had codified AI and machine learning into their degree programmes.
 
-This history matters because it reframes what counts as expertise. You are not participating in a new trend. You are working within a lineage of logic and mathematics that has been evolving for centuries, and the firms that treat AI as a fashion will struggle to make sound decisions about it.
+This history matters because it reframes what counts as expertise. You are working within a lineage of logic and mathematics that has been evolving for centuries, not participating in a new trend, and the firms that treat AI as a fashion will struggle to make sound decisions about it.
 
 ---
 
@@ -58,7 +58,7 @@ Deep knowledge of a specific field (law, medicine, accounting, financial advice)
 
 ### 2. Inquiry design
 
-The ability to frame complex problems into precise, strategic prompts. The goal is not a fast answer but a high-leverage one, shaped by genuine understanding of what the matter actually requires. The principal who can articulate *"what we need is the three weakest points in this argument from the perspective of the regulator most likely to read it"* gets dramatically more from AI than the principal who types *"check this letter."*
+The ability to frame complex problems into precise, strategic prompts. The goal is a high-leverage answer, not a fast one, shaped by genuine understanding of what the matter actually requires. The principal who can articulate *"what we need is the three weakest points in this argument from the perspective of the regulator most likely to read it"* gets dramatically more from AI than the principal who types *"check this letter."*
 
 ### 3. Outcome integration
 
@@ -79,11 +79,11 @@ To shift from passive AI user to question architect:
 
 ## The reframe
 
-The evolution of AI does not replace the expert. It redefines what the expert's primary contribution is. The profession is moving from a "search and retrieve" mindset to a "design and refine" mindset.
+AI does not replace the expert; it redefines the expert's primary contribution. The profession is moving from a "search and retrieve" mindset to a "design and refine" mindset.
 
-**The value of professional expertise is no longer in the answer. It is in the inquiry, and in the willingness to stand behind the result.**
+**The value of professional expertise is now in the inquiry, and in the willingness to stand behind the result.**
 
-That willingness is agency. The question architect is not just someone who asks better questions. They are someone who keeps the act of choosing (what to ask, what to discard, what to sign) squarely in their own hands.
+That willingness is agency. The question architect asks better questions and keeps the act of choosing (what to ask, what to discard, what to sign) squarely in their own hands.
 
 ---
 

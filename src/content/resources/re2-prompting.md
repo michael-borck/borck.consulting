@@ -38,7 +38,7 @@ When you repeat the question, the model gets two passes:
 
 The first copy effectively acts as a scratchpad. By the time the model reaches the second copy, it has already seen the entire question once. The second reading happens with the benefit of complete context.
 
-It is not just "saying it twice." It is making the model see the whole picture before answering.
+It does more than say it twice: it makes the model see the whole picture before answering.
 
 ---
 
@@ -101,7 +101,7 @@ one.
 A: Let's think step by step.
 ```
 
-On a complex prompt with multiple constraints like this, the difference between RE2 and a single pass is often visible: more parts of the question actually addressed, fewer constraints quietly dropped, less drift toward the model's default answer shape.
+On a complex prompt with multiple constraints like this, the difference between RE2 and a single pass is often visible: more parts of the question actually addressed, fewer constraints dropped, less drift toward the model's default answer shape.
 
 ---
 

@@ -53,7 +53,7 @@ concrete example from a comparable firm where relevant.
 
 **What it is good for:** identifying blind spots, connecting dots between related risks, importing perspective from comparable practices, challenging overly optimistic assumptions.
 
-**What it is *not* good for:** knowing your firm's internal politics, accessing your competitive intelligence, or making the decision. The decision is yours.
+**What it is *not* good for:** knowing your firm's internal politics, accessing your competitive intelligence, or making the decision.
 
 ---
 
@@ -256,9 +256,7 @@ What additional information would you need to be confident?
 
 AI is a strategic thought partner, not your boss. The practical test of whether you have used these techniques well is whether the partner remains the *agent* of the decision (choosing, weighing, deciding) or has slipped into the role of editor for the model's preferred answer. The whole point of the three techniques above is to keep that line clear.
 
-Think of AI as a smart colleague who challenges your thinking; a research assistant who brings different perspectives; a brainstorming partner who never gets tired; a devil's advocate who stress-tests assumptions.
-
-Not as an oracle that provides the answer; not as a replacement for your judgement and experience; not as the decision-maker; not as a source of truth about your specific situation.
+Think of AI as a smart colleague who challenges your thinking, a research assistant who brings different perspectives, a brainstorming partner who never gets tired, and a devil's advocate who stress-tests assumptions. It is not an oracle with the answer, a replacement for your judgement and experience, the decision-maker, or a source of truth about your specific situation.
 
 **Best results: human expertise + AI analysis.**
 

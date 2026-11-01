@@ -115,7 +115,7 @@ agreement triggers the indemnity at clause 7.2. Step by step:
 Show your working at each step.
 ```
 
-This is also how you catch the moments where the model would otherwise quietly skip a step, i.e. where it might fabricate.
+This is also how you catch the moments where the model would otherwise skip a step, i.e. where it might fabricate.
 
 ---
 
@@ -245,7 +245,7 @@ That sequence is itself a [chain](prompt-chaining.qmd). Each step uses CRAFT or 
 
 ## Closing note
 
-These techniques work because they each force a specific kind of thinking. The model is willing to play any of these roles: sceptic, examiner, panel of experts. The willingness is the point. You are not getting an answer. You are getting a thinking process you can apply your professional judgement to.
+These techniques work because they each force a specific kind of thinking. The model is willing to play any of these roles: sceptic, examiner, panel of experts. The willingness is the point. You are getting a thinking process you can apply your professional judgement to, not an answer.
 
 In regulated work, that judgement is the deliverable. The techniques just let you bring it to bear faster.
 
