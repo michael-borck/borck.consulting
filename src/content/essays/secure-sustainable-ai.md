@@ -6,7 +6,7 @@ slug: secure-sustainable-ai
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology): practical security and sustainability decisions for a regulated firm choosing how to use AI over the long term.*
+*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/method): practical security and sustainability decisions for a regulated firm choosing how to use AI over the long term.*
 
 ## Purpose
 

@@ -6,7 +6,7 @@ slug: critique-toolkit
 draft: false
 ---
 
-*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology): a 5-step critique toolkit for the regulated practitioner, because AI output sounds right whether or not it is.*
+*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/method): a 5-step critique toolkit for the regulated practitioner, because AI output sounds right whether or not it is.*
 
 ## 1. Why critique skills matter
 

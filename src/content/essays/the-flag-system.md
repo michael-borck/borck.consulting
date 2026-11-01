@@ -6,7 +6,7 @@ slug: the-flag-system
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology): calibrating the firm's scepticism so AI outputs receive review proportionate to their risk, rather than uniform alarm or uniform trust.*
+*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/method): calibrating the firm's scepticism so AI outputs receive review proportionate to their risk, rather than uniform alarm or uniform trust.*
 
 > This essay sits underneath the [Trust Tool](https://trusttool.borck.education/). The Trust Tool tells you which quadrant an output belongs in. The flags tell you what to check once you are in a verify quadrant. It is a second check, not a separate go/no-go system. Project-level gates belong to the AI project lifecycle.
 

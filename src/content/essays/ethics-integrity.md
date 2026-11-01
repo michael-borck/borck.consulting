@@ -6,7 +6,7 @@ slug: ethics-integrity
 draft: false
 ---
 
-*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology): the practical ethics framework for partners thinking past the blanket ban and the wishful free-for-all.*
+*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/method): the practical ethics framework for partners thinking past the blanket ban and the wishful free-for-all.*
 
 ## Purpose
 

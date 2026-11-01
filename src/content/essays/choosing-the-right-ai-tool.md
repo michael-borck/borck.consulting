@@ -6,7 +6,7 @@ slug: choosing-the-right-ai-tool
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology): a partner-level evaluation framework for AI tooling decisions, three domains and ten minutes per decision.*
+*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/method): a partner-level evaluation framework for AI tooling decisions, three domains and ten minutes per decision.*
 
 ## The problem
 

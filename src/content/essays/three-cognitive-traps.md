@@ -6,7 +6,7 @@ slug: three-cognitive-traps
 draft: false
 ---
 
-*This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/services#methodology): the patterns that quietly catch experienced practitioners working with confident-sounding AI output.*
+*This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/method): the patterns that quietly catch experienced practitioners working with confident-sounding AI output.*
 
 ## Why this matters
 

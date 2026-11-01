@@ -6,7 +6,7 @@ slug: ai-landscape
 draft: false
 ---
 
-*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology): starting with the work the firm actually does, not with the vendor landscape.*
+*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/method): starting with the work the firm actually does, not with the vendor landscape.*
 
 ## Start here, not with the tools
 

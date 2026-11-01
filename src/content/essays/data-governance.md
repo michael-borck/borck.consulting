@@ -6,7 +6,7 @@ slug: data-governance
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *and* How do we do AI? *questions of the practice's [methodology](/services#methodology): separating the legitimate data-governance concerns from the misunderstandings that produce blanket-ban policies that quietly fail.*
+*This essay sits primarily under the* Are we ready? *and* How do we do AI? *questions of the practice's [methodology](/method): separating the legitimate data-governance concerns from the misunderstandings that produce blanket-ban policies that quietly fail.*
 
 ## The blanket-ban reflex
 

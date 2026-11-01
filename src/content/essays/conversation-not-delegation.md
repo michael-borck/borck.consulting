@@ -6,7 +6,7 @@ slug: conversation-not-delegation
 draft: false
 ---
 
-*This essay sets out the* Conversation not Delegation *framework that underpins the practice's [methodology](/services#methodology): the operating principle behind every Diagnostic, workshop, and engagement.*
+*This essay sets out the* Conversation not Delegation *framework that underpins the practice's [methodology](/method): the operating principle behind every Diagnostic, workshop, and engagement.*
 
 ## Two ways to use AI
 
@@ -257,4 +257,4 @@ The choice compounds. Every conversation builds your firm's judgement and keeps 
 
 The Conversation, Not Delegation framework is now on the reading list at Kaplan Business School and is the foundation of the AI Readiness Diagnostic offered through borck.consulting: a fixed-fee, two-hour conversation with leadership and a written recommendation that answers the question many partners are quietly asking themselves: *do we actually need to do anything yet?*
 
-For a deeper treatment of the methodology, including the structured six-step process and worked examples, see the book: [Conversation, Not Delegation: Mastering Human-AI Development](https://michael-borck.github.io/conversation-not-delegation/).
+For a deeper treatment of the methodology, including the four-move loop and worked examples, see the book: [Conversation, Not Delegation: How to Think With AI, Not Just Use It](https://michael-borck.github.io/conversation-not-delegation/).

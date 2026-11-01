@@ -6,7 +6,7 @@ slug: amplify-thinking-not-hallucinations
 draft: false
 ---
 
-*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology): why chains of AI tasks compound errors rather than catching them, and what to do instead.*
+*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/method): why chains of AI tasks compound errors rather than catching them, and what to do instead.*
 
 ## The danger of unchecked chains
 

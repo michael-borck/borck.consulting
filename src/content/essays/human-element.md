@@ -6,7 +6,7 @@ slug: human-element
 draft: false
 ---
 
-*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology): why AI tends to make regulated practitioners more valuable, not less, when adopted with care.*
+*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/method): why AI tends to make regulated practitioners more valuable, not less, when adopted with care.*
 
 ## The fear
 
@@ -177,7 +177,7 @@ If you are reading this, you have already started.
 
 ### About this work
 
-borck.consulting helps regulated Australian small firms make the transition from "AI as threat" to "AI as collaborator", without losing the human element that clients are actually paying for. Engagements begin with the AI Readiness Diagnostic.
+This is the argument The Human Edge develops. borck.consulting helps regulated Australian small firms apply that judgement in practice, without losing the human element clients are actually paying for. Engagements begin with the [AI Readiness Diagnostic](/services).
 
 ---
 

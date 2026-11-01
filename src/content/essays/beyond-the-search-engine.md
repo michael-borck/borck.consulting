@@ -6,7 +6,7 @@ slug: beyond-the-search-engine
 draft: false
 ---
 
-*This essay sits primarily under the* Can we do AI? *and* How do we do AI? *questions of the practice's [methodology](/services#methodology): the literacy gap that constrains current capability, and the practical move from search-based to solution-based use that distinguishes firms moving past it.*
+*This essay sits primarily under the* Can we do AI? *and* How do we do AI? *questions of the practice's [methodology](/method): the literacy gap that constrains current capability, and the practical move from search-based to solution-based use that distinguishes firms moving past it.*
 
 A pattern recurs across the Australian regulated SMBs I observe. Most are using AI as a faster search engine. A partner asks ChatGPT to summarise an unfamiliar regulatory development. A senior associate uses it to redraft a clause they could have written themselves. A bookkeeper uses it to translate a piece of guidance into plainer language. The use is real and worth having. It is also, in nearly every case, the simplest application of the tool: a substitute for a Google search or a colleague's input.
 

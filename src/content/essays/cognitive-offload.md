@@ -6,7 +6,7 @@ slug: cognitive-offload
 draft: false
 ---
 
-*This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/services#methodology): the cognitive consequence of how a firm uses AI, and why it shapes the firm's underlying capability over time.*
+*This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/method): the cognitive consequence of how a firm uses AI, and why it shapes the firm's underlying capability over time.*
 
 ## The honest version
 
@@ -278,6 +278,14 @@ These are practice-design questions, not technology questions. The answers are i
 ### About this work
 
 borck.consulting helps regulated Australian small firms set up the practice design that turns AI from a crutch into a catalyst, including the supervision changes most firms quietly need but have not yet made. Engagements begin with the AI Readiness Diagnostic.
+
+---
+
+---
+
+### About this work
+
+borck.consulting helps regulated Australian small firms use AI without hollowing out the judgement that makes the work defensible. Engagements begin with the [AI Readiness Diagnostic](/services).
 
 ---
 

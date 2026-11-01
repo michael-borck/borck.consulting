@@ -6,7 +6,7 @@ slug: from-metered-ai-to-owned-infrastructure
 draft: false
 ---
 
-*This essay sits primarily under the* What's the value? *question of the practice's [methodology](/services#methodology): framing the economic and risk-reduction case for owning AI infrastructure rather than renting it. It also touches the* Are we ready? *question by surfacing the technical viability that makes the case actionable.*
+*This essay sits primarily under the* What's the value? *question of the practice's [methodology](/method): framing the economic and risk-reduction case for owning AI infrastructure rather than renting it. It also touches the* Are we ready? *question by surfacing the technical viability that makes the case actionable.*
 
 The dominant assumption of the current AI moment is that intelligence is rented. A subscriber pays a monthly fee, calls an API or uses a managed interface, and receives output from a model owned and operated elsewhere. The arrangement has become so universal that few users describe it as an architectural choice. It is, however, a choice, and for a regulated Australian small firm, an increasingly consequential one.
 

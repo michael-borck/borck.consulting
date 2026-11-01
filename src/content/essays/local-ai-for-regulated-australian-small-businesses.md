@@ -6,7 +6,7 @@ slug: local-ai-for-regulated-australian-small-businesses
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology): the readiness check covering data, technology, and the firm's actual deployment options.*
+*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/method): the readiness check covering data, technology, and the firm's actual deployment options.*
 
 The dominant model for accessing AI today is metered service. A subscriber pays a monthly fee and calls a model hosted in a third-party data centre. The arrangement works for most users and the underlying models are capable. For low-stakes use it is a reasonable trade-off.
 

@@ -6,7 +6,7 @@ slug: the-ai-divide
 draft: false
 ---
 
-*This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/services#methodology): the literacy gap that already separates firms moving past surface-level AI use from those still circling it.*
+*This essay sits primarily under the* Can we do AI? *question of the practice's [methodology](/method): the literacy gap that already separates firms moving past surface-level AI use from those still circling it.*
 
 *An opinion piece by Michael Borck*
 
@@ -72,7 +72,7 @@ If you cannot answer that honestly, you are not transforming the practice. You a
 
 ### About this work
 
-borck.consulting is built around a simple wager: that regulated Australian small firms can adopt AI well, on their terms, without copying the playbook of firms ten times their size, *if* they get the framing right early. Engagements begin with the AI Readiness Diagnostic.
+borck.consulting is built around a simple wager: that regulated Australian small firms can adopt AI well, on their terms, without copying the playbook of firms ten times their size, *if* they get the framing right early. Engagements begin with the [AI Readiness Diagnostic](/services).
 
 ---
 

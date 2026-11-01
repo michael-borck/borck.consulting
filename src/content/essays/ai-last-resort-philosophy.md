@@ -6,7 +6,7 @@ slug: ai-last-resort-philosophy
 draft: false
 ---
 
-*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/services#methodology): the discipline of solving with conventional means first, and reaching for AI only where it adds value the firm cannot generate itself.*
+*This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/method): the discipline of solving with conventional means first, and reaching for AI only where it adds value the firm cannot generate itself.*
 
 ## The core idea
 

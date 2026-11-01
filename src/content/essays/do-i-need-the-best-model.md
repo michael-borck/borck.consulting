@@ -6,7 +6,7 @@ slug: do-i-need-the-best-model
 draft: false
 ---
 
-*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology): the procurement question partners ask, with a smaller answer than the vendors suggest.*
+*This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/method): the procurement question partners ask, with a smaller answer than the vendors suggest.*
 
 ## The short answer
 

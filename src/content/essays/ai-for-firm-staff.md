@@ -6,7 +6,7 @@ slug: ai-for-firm-staff
 draft: false
 ---
 
-*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology): practical patterns for the practice staff whose work AI most directly intersects.*
+*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/method): practical patterns for the practice staff whose work AI most directly intersects.*
 
 ## Quick start
 

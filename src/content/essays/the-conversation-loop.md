@@ -6,7 +6,7 @@ slug: the-conversation-loop
 draft: false
 ---
 
-*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/services#methodology): what conversation rather than delegation actually looks like at the keyboard, in five recurring moves.*
+*This essay sits primarily under the* How do we do AI? *question of the practice's [methodology](/method): what conversation rather than delegation actually looks like at the keyboard, in five recurring moves.*
 
 ## The model
 
