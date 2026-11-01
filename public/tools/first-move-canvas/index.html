@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Move Canvas · borck.consulting</title>
+  <meta name="description" content="A workshop canvas for finding one AI move worth making, assigning every step, and setting the 30-day gate before the pilot.">
+  <meta name="theme-color" content="#fafaf6">
+  <link rel="canonical" href="https://borck.consulting/tools/first-move-canvas/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #fafaf6;
+      --panel: #f3f2ec;
+      --text: #1a1a1c;
+      --gray-1: #4a4a4f;
+      --gray-2: #82827e;
+      --gray-3: #d6d6cf;
+      --gray-4: #ecebe4;
+      --accent: #4a6e62;
+      --accent-low: #e7eee9;
+      --accent-high: #2f5347;
+      --warn: #b54a36;
+      --font: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-high); }
+
+    .topbar { display: flex; align-items: center; gap: 1rem; padding: 0 1.5rem; height: 56px; border-bottom: 1px solid var(--gray-3); position: sticky; top: 0; background: var(--bg); z-index: 10; }
+    .logo { font-family: var(--mono); font-size: 0.88rem; font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+    .logo .dot { color: var(--gray-2); }
+    .logo .sub { color: var(--accent); }
+    .topbar-spacer { flex: 1; }
+    .topbar nav { display: flex; gap: 1.25rem; }
+    .topbar nav a { font-size: 0.82rem; color: var(--gray-1); text-decoration: none; }
+    .topbar nav a:hover { color: var(--accent); }
+
+    .page { max-width: 1180px; margin: 0 auto; padding: 3rem 1.75rem 5rem; }
+    .hero { margin-bottom: 2.5rem; }
+    .eyebrow { margin: 0 0 0.8rem; font-family: var(--mono); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
+    h1 { margin: 0 0 0.8rem; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; letter-spacing: -0.04em; font-weight: 800; }
+    .lead { margin: 0 0 0.8rem; font-size: 1.15rem; line-height: 1.5; color: var(--gray-1); max-width: 46rem; }
+    .body { margin: 0; font-size: 0.95rem; line-height: 1.65; color: var(--gray-1); max-width: 48rem; }
+
+    .tool { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
+    .form { min-width: 0; }
+    .panel { margin: 0 0 1.2rem; padding: 1rem 1.1rem; border: 1px solid var(--gray-3); border-radius: 10px; background: var(--panel); }
+    .panel legend { padding: 0 0.4rem; font-family: var(--mono); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+    .field { margin-bottom: 0.8rem; }
+    .field:last-child { margin-bottom: 0; }
+    .field label { display: block; margin-bottom: 0.25rem; font-size: 0.76rem; font-weight: 700; color: var(--gray-1); }
+    .field label span { font-weight: 400; color: var(--gray-2); }
+    input[type="text"], input[type="number"], input[type="date"], textarea, select {
+      width: 100%; padding: 0.55rem 0.7rem; background: #fff; border: 1px solid var(--gray-3); border-radius: 6px;
+      color: var(--text); font-family: var(--font); font-size: 0.88rem; line-height: 1.45;
+    }
+    textarea { resize: vertical; min-height: 68px; }
+    input:focus, textarea:focus, select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-low); }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+    .grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.8rem; }
+    .span2 { grid-column: span 2; }
+    .hint { margin: 0 0 0.8rem; font-size: 0.78rem; line-height: 1.5; color: var(--gray-2); }
+
+    .candidate { margin-top: 0.8rem; padding: 0.9rem 1rem; border: 1px solid var(--gray-3); border-radius: 8px; background: #fff; }
+    .candidate.best { border-color: var(--accent); background: var(--accent-low); }
+    .candidate-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 0.6rem; }
+    .candidate-head h3 { margin: 0; font-size: 0.95rem; }
+    .badge { display: inline-block; padding: 0.15rem 0.45rem; border-radius: 999px; background: var(--accent); color: #fff; font-family: var(--mono); font-size: 0.56rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+    .badge:empty { display: none; }
+    .calc { margin: 0.5rem 0 0; font-family: var(--mono); font-size: 0.68rem; line-height: 1.5; color: var(--gray-1); }
+
+    .step-row { display: grid; grid-template-columns: 22px minmax(0, 1fr) 150px; gap: 0.5rem; align-items: center; margin-bottom: 0.55rem; }
+    .step-row span { font-family: var(--mono); font-size: 0.65rem; color: var(--gray-2); text-align: center; }
+    .step-row select { font-size: 0.8rem; }
+
+    .actions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 1rem; }
+    .btn { display: inline-block; padding: 0.65rem 0.95rem; border: 1px solid var(--accent); border-radius: 6px; background: var(--accent); color: #fff; font-family: var(--font); font-size: 0.85rem; font-weight: 700; cursor: pointer; text-decoration: none; }
+    .btn:hover { background: var(--accent-high); border-color: var(--accent-high); color: #fff; }
+    .btn.secondary { background: transparent; color: var(--accent); }
+    .btn.secondary:hover { background: var(--accent-low); color: var(--accent-high); }
+    .btn.ghost { background: transparent; border-color: var(--gray-3); color: var(--gray-1); }
+    .btn.ghost:hover { border-color: var(--gray-2); background: transparent; color: var(--text); }
+
+    .output { position: sticky; top: 76px; min-width: 0; }
+    .output-head { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 0.5rem; font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gray-2); }
+    #status { color: var(--accent); font-weight: 700; }
+    .prompt { margin: 0; min-height: 560px; padding: 1.1rem 1.2rem; background: var(--text); color: #f5f2ea; border-radius: 10px; font-family: var(--mono); font-size: 0.76rem; line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .output-foot { margin-top: 0.6rem; font-size: 0.74rem; color: var(--gray-2); }
+
+    .note { margin-top: 2.5rem; padding: 1rem 1.2rem; background: var(--accent-low); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; font-size: 0.88rem; line-height: 1.65; color: var(--gray-1); }
+    .note strong { color: var(--text); }
+    .footer { max-width: 1180px; margin: 0 auto; padding: 2rem 1.75rem; border-top: 1px solid var(--gray-3); font-size: 0.78rem; color: var(--gray-2); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .footer a { color: var(--gray-1); text-decoration: none; }
+    .footer a:hover { color: var(--accent); }
+
+    @media (max-width: 1000px) {
+      .tool { grid-template-columns: 1fr; }
+      .output { position: static; }
+      .prompt { min-height: 300px; }
+    }
+    @media (max-width: 700px) {
+      .topbar { flex-wrap: wrap; height: auto; padding: 0.75rem 1rem; gap: 0.5rem; }
+      .topbar-spacer { display: none; }
+      .topbar nav { width: 100%; gap: 0.9rem; flex-wrap: wrap; }
+      .page { padding: 2rem 1.1rem 4rem; }
+      .grid2, .grid3 { grid-template-columns: 1fr; gap: 0.7rem; }
+      .span2 { grid-column: auto; }
+      .step-row { grid-template-columns: 22px minmax(0, 1fr); }
+      .step-row select { grid-column: 2; }
+    }
+
+    @media print {
+      html, body { background: #fff; }
+      .topbar, .hero, .form, .actions, .note, .footer, .output-foot, .output-head { display: none !important; }
+      .page { max-width: none; padding: 0; }
+      .tool { display: block; }
+      .output { position: static; }
+      .prompt { background: #fff; color: #000; border: 1px solid #999; font-size: 10.5pt; min-height: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="logo" href="/"><span>borck</span><span class="dot">.</span><span class="sub">consulting</span></a>
+  <div class="topbar-spacer"></div>
+  <nav>
+    <a href="/tools/">Tools</a>
+    <a href="/resources">Resources</a>
+    <a href="/services">Services</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<main class="page">
+  <section class="hero">
+    <p class="eyebrow">Workshop canvas · no login</p>
+    <h1>First Move Canvas</h1>
+    <p class="lead">Find one AI move worth making, assign every step, and set the gate before the pilot.</p>
+    <p class="body">Use it in a meeting or a workshop. The numbers are a rough signal, not a business case. Count the checking as effort. Nothing leaves this browser.</p>
+  </section>
+
+  <div class="tool">
+    <section class="form" aria-label="First move canvas">
+      <fieldset class="panel">
+        <legend>Context</legend>
+        <div class="grid3">
+          <div class="field">
+            <label for="firm">Firm or team</label>
+            <input type="text" id="firm" placeholder="Example firm, leadership team">
+          </div>
+          <div class="field">
+            <label for="date">Date</label>
+            <input type="date" id="date">
+          </div>
+          <div class="field">
+            <label for="owner">Owner</label>
+            <input type="text" id="owner" placeholder="Managing partner">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="panel">
+        <legend>Candidates</legend>
+        <p class="hint">Three tasks from your week, 30 minutes or more. Spot, then count the checking as effort.</p>
+
+        <div class="candidate" id="cand1">
+          <div class="candidate-head"><h3>Candidate 1</h3><span class="badge" id="badge1"></span></div>
+          <div class="field">
+            <label for="task1">Task</label>
+            <input type="text" id="task1" placeholder="Weekly steering committee update">
+          </div>
+          <div class="grid3">
+            <div class="field">
+              <label for="signal1">Spot signal</label>
+              <select id="signal1">
+                <option value="">Choose one</option>
+                <option>Automate</option>
+                <option>Assist</option>
+                <option>Generate</option>
+                <option>Analyse</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="saved1">Saved per week <span>minutes</span></label>
+              <input type="number" id="saved1" min="0" step="5">
+            </div>
+            <div class="field">
+              <label for="setup1">Setup effort <span>minutes, one-time</span></label>
+              <input type="number" id="setup1" min="0" step="5">
+            </div>
+            <div class="field">
+              <label for="check1">Checking time <span>minutes per week</span></label>
+              <input type="number" id="check1" min="0" step="5">
+            </div>
+            <div class="field span2">
+              <label for="corner1">Trust Tool corner</label>
+              <select id="corner1">
+                <option value="">Choose one</option>
+                <option>A · Light review</option>
+                <option>B · Verify the load-bearing bits</option>
+                <option>C · Verify before it ships</option>
+                <option>D · Human-in-the-loop</option>
+              </select>
+            </div>
+          </div>
+          <p class="calc" id="calc1">Fill in the numbers to see the payback.</p>
+        </div>
+
+        <div class="candidate" id="cand2">
+          <div class="candidate-head"><h3>Candidate 2</h3><span class="badge" id="badge2"></span></div>
+          <div class="field">
+            <label for="task2">Task</label>
+            <input type="text" id="task2" placeholder="Summarise the new client onboarding pack">
+          </div>
+          <div class="grid3">
+            <div class="field">
+              <label for="signal2">Spot signal</label>
+              <select id="signal2">
+                <option value="">Choose one</option>
+                <option>Automate</option>
+                <option>Assist</option>
+                <option>Generate</option>
+                <option>Analyse</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="saved2">Saved per week <span>minutes</span></label>
+              <input type="number" id="saved2" min="0" step="5">
+            </div>
+            <div class="field">
+              <label for="setup2">Setup effort <span>minutes, one-time</span></label>
+              <input type="number" id="setup2" min="0" step="5">
+            </div>
+            <div class="field">
+              <label for="check2">Checking time <span>minutes per week</span></label>
+              <input type="number" id="check2" min="0" step="5">
+            </div>
+            <div class="field span2">
+              <label for="corner2">Trust Tool corner</label>
+              <select id="corner2">
+                <option value="">Choose one</option>
+                <option>A · Light review</option>
+                <option>B · Verify the load-bearing bits</option>
+                <option>C · Verify before it ships</option>
+                <option>D · Human-in-the-loop</option>
+              </select>
+            </div>
+          </div>
+          <p class="calc" id="calc2">Fill in the numbers to see the payback.</p>
+        </div>
+
+        <div class="candidate" id="cand3">
+          <div class="candidate-head"><h3>Candidate 3</h3><span class="badge" id="badge3"></span></div>
+          <div class="field">
+            <label for="task3">Task</label>
+            <input type="text" id="task3" placeholder="Draft a first-pass client update after an incident">
+          </div>
+          <div class="grid3">
+            <div class="field">
+              <label for="signal3">Spot signal</label>
+              <select id="signal3">
+                <option value="">Choose one</option>
+                <option>Automate</option>
+                <option>Assist</option>
+                <option>Generate</option>
+                <option>Analyse</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="saved3">Saved per week <span>minutes</span></label>
+              <input type="number" id="saved3" min="0" step="5">
+            </div>
+            <div class="field">
+              <label for="setup3">Setup effort <span>minutes, one-time</span></label>
+              <input type="number" id="setup3" min="0" step="5">
+            </div>
+            <div class="field">
+              <label for="check3">Checking time <span>minutes per week</span></label>
+              <input type="number" id="check3" min="0" step="5">
+            </div>
+            <div class="field span2">
+              <label for="corner3">Trust Tool corner</label>
+              <select id="corner3">
+                <option value="">Choose one</option>
+                <option>A · Light review</option>
+                <option>B · Verify the load-bearing bits</option>
+                <option>C · Verify before it ships</option>
+                <option>D · Human-in-the-loop</option>
+              </select>
+            </div>
+          </div>
+          <p class="calc" id="calc3">Fill in the numbers to see the payback.</p>
+        </div>
+      </fieldset>
+
+      <fieldset class="panel">
+        <legend>Step map</legend>
+        <p class="hint">Break the chosen workflow into steps. Give each step an owner. Keep one step human on purpose.</p>
+        <div class="step-row"><span>1</span><input type="text" id="step1" placeholder="Gather the source notes"><select id="owner1"><option>AI leads</option><option>AI assists</option><option>You lead</option><option>Human only</option></select></div>
+        <div class="step-row"><span>2</span><input type="text" id="step2" placeholder="Draft the update"><select id="owner2"><option>AI leads</option><option>AI assists</option><option>You lead</option><option>Human only</option></select></div>
+        <div class="step-row"><span>3</span><input type="text" id="step3" placeholder="Check the risk judgements"><select id="owner3"><option>AI leads</option><option>AI assists</option><option>You lead</option><option>Human only</option></select></div>
+        <div class="step-row"><span>4</span><input type="text" id="step4" placeholder="Approve the final wording"><select id="owner4"><option>AI leads</option><option>AI assists</option><option>You lead</option><option>Human only</option></select></div>
+        <div class="step-row"><span>5</span><input type="text" id="step5" placeholder="Send to the client"><select id="owner5"><option>AI leads</option><option>AI assists</option><option>You lead</option><option>Human only</option></select></div>
+      </fieldset>
+
+      <fieldset class="panel">
+        <legend>First move plan</legend>
+        <div class="grid2">
+          <div class="field">
+            <label for="firstMove">First move</label>
+            <select id="firstMove"></select>
+          </div>
+          <div class="field">
+            <label for="planOwner">Owner</label>
+            <input type="text" id="planOwner" placeholder="Managing partner">
+          </div>
+        </div>
+        <div class="field">
+          <label for="measure">Measure</label>
+          <input type="text" id="measure" placeholder="Time to produce the update and number of correction rounds">
+        </div>
+        <div class="field">
+          <label for="baseline">Baseline</label>
+          <input type="text" id="baseline" placeholder="90 minutes and three correction rounds per week">
+        </div>
+        <div class="field">
+          <label for="checker">Named checker(s)</label>
+          <input type="text" id="checker" placeholder="The managing partner checks the risk judgements before sending">
+        </div>
+        <div class="grid3">
+          <div class="field">
+            <label for="scale">Scale if</label>
+            <textarea id="scale" placeholder="Under 30 minutes with no more than one correction round for four weeks"></textarea>
+          </div>
+          <div class="field">
+            <label for="pivot">Pivot if</label>
+            <textarea id="pivot" placeholder="Time falls but corrections rise. Change the brief or the checker."></textarea>
+          </div>
+          <div class="field">
+            <label for="kill">Kill if</label>
+            <textarea id="kill" placeholder="It still takes over 60 minutes, or the errors matter."></textarea>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="actions">
+        <button id="copyBtn" class="btn" type="button">Copy plan</button>
+        <button id="printBtn" class="btn secondary" type="button">Print</button>
+        <button id="exampleBtn" class="btn ghost" type="button">Load example</button>
+        <button id="clearBtn" class="btn ghost" type="button">Clear</button>
+      </div>
+    </section>
+
+    <section class="output" aria-label="First move plan">
+      <div class="output-head">
+        <span>Your plan</span>
+        <span id="status" role="status" aria-live="polite"></span>
+      </div>
+      <pre id="plan" class="prompt"></pre>
+      <div class="output-foot">Saved in this browser. Nothing leaves it.</div>
+    </section>
+  </div>
+
+  <section class="note">
+    <p><strong>The rule:</strong> count the checking as effort. A quick win has high time saved, low setup, and cheap checking. If the net saving is small, the business case is fiction.</p>
+    <p><a href="/tools/">All tools</a> · <a href="/services">AI Readiness Diagnostic</a></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Michael Borck · borck.consulting · Perth, Western Australia</span>
+  <span>Workshop canvas · no login · no tracking</span>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  const $ = (id) => document.getElementById(id);
+  const CANDIDATES = [1, 2, 3];
+  const STEPS = [1, 2, 3, 4, 5];
+  const STORAGE_KEY = "first-move-canvas-v1";
+
+  function val(id) { return $(id).value.trim(); }
+  function num(id) { return Number($(id).value) || 0; }
+
+  function candidate(n) {
+    return {
+      task: val("task" + n),
+      signal: val("signal" + n),
+      saved: num("saved" + n),
+      setup: num("setup" + n),
+      check: num("check" + n),
+      corner: val("corner" + n)
+    };
+  }
+
+  function calc(c) {
+    const net = c.saved - c.check;
+    const payback = net > 0 ? c.setup / net : null;
+    const quick = net >= 15 && payback !== null && payback <= 4;
+    return { net, payback, quick };
+  }
+
+  function fmtPayback(r) {
+    if (r.net <= 0) return "no net saving yet";
+    if (r.payback === 0) return "already paid back";
+    return r.payback.toFixed(1) + " weeks";
+  }
+
+  function updateCandidates() {
+    let best = null;
+    CANDIDATES.forEach((n) => {
+      const c = candidate(n);
+      const r = calc(c);
+      const line = $("calc" + n);
+      if (!c.saved && !c.setup && !c.check) {
+        line.textContent = "Fill in the numbers to see the payback.";
+      } else {
+        line.textContent = "Net " + r.net + " min/week. Payback " + fmtPayback(r) + (r.quick ? ". Quick win." : ".");
+      }
+      if (r.payback !== null && (best === null || r.payback < best.payback)) {
+        best = { n, payback: r.payback };
+      }
+      $("cand" + n).classList.remove("best");
+      $("badge" + n).textContent = "";
+    });
+    if (best) {
+      $("cand" + best.n).classList.add("best");
+      $("badge" + best.n).textContent = "Best payback";
+    }
+    CANDIDATES.forEach((n) => {
+      if (best && n === best.n) return;
+      const r = calc(candidate(n));
+      if (r.quick) $("badge" + n).textContent = "Quick win";
+    });
+  }
+
+  function updateFirstMoveOptions() {
+    const select = $("firstMove");
+    const current = select.value;
+    select.innerHTML = "";
+    CANDIDATES.forEach((n) => {
+      const task = val("task" + n);
+      const option = document.createElement("option");
+      option.value = "c" + n;
+      option.textContent = "Candidate " + n + (task ? ": " + task : "");
+      select.appendChild(option);
+    });
+    if (current && select.querySelector('option[value="' + current + '"]')) {
+      select.value = current;
+    }
+  }
+
+  function buildPlan() {
+    const selected = $("firstMove").value || "c1";
+    const n = Number(selected.slice(1));
+    const c = candidate(n);
+    const r = calc(c);
+    const lines = [];
+    lines.push("First Move Canvas");
+    lines.push("Firm/team: " + (val("firm") || "not set"));
+    lines.push("Date: " + (val("date") || "not set"));
+    lines.push("First move: " + (c.task || "not chosen yet"));
+    lines.push("Owner: " + (val("planOwner") || "not set"));
+    lines.push("");
+    lines.push("Why this one:");
+    lines.push("Signal: " + (c.signal || "not set"));
+    lines.push("Trust Tool corner: " + (c.corner || "not set"));
+    lines.push("Time saved: " + c.saved + " min/week");
+    lines.push("Setup: " + c.setup + " min");
+    lines.push("Checking: " + c.check + " min/week");
+    lines.push("Net: " + r.net + " min/week");
+    lines.push("Payback: " + fmtPayback(r));
+    lines.push("Quick win: " + (r.quick ? "yes" : "not yet"));
+    lines.push("");
+    lines.push("Step map:");
+    const steps = STEPS.map((i) => ({ step: val("step" + i), owner: $( 'owner' + i ).value })).filter((s) => s.step);
+    if (steps.length) {
+      steps.forEach((s, i) => lines.push("  " + (i + 1) + ". " + s.step + " — " + s.owner));
+    } else {
+      lines.push("  No step map yet.");
+    }
+    lines.push("");
+    lines.push("Measure: " + (val("measure") || "not set"));
+    lines.push("Baseline: " + (val("baseline") || "not set"));
+    lines.push("Named checker(s): " + (val("checker") || "not set"));
+    lines.push("");
+    lines.push("30-day gate:");
+    lines.push("  Scale if: " + (val("scale") || "not set"));
+    lines.push("  Pivot if: " + (val("pivot") || "not set"));
+    lines.push("  Kill if: " + (val("kill") || "not set"));
+    return lines.join("\n");
+  }
+
+  function collect() {
+    const data = {};
+    ["firm", "date", "owner", "planOwner", "measure", "baseline", "checker", "scale", "pivot", "kill", "firstMove"].forEach((id) => {
+      data[id] = val(id);
+    });
+    CANDIDATES.forEach((n) => {
+      ["task", "signal", "saved", "setup", "check", "corner"].forEach((key) => {
+        data[key + n] = val(key + n);
+      });
+    });
+    STEPS.forEach((i) => {
+      data["step" + i] = val("step" + i);
+      data["owner" + i] = $("owner" + i).value;
+    });
+    return data;
+  }
+
+  function restore(data) {
+    Object.keys(data).forEach((key) => {
+      if ($(key)) $(key).value = data[key];
+    });
+  }
+
+  function saveDraft() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(collect()));
+    } catch (error) {
+      /* ignore */
+    }
+  }
+
+  function render() {
+    updateCandidates();
+    updateFirstMoveOptions();
+    $("plan").textContent = buildPlan();
+    $("status").textContent = "";
+    saveDraft();
+  }
+
+  function loadExample() {
+    const today = new Date().toISOString().slice(0, 10);
+    const data = {
+      firm: "Example firm, leadership team",
+      date: today,
+      owner: "Managing partner",
+      task1: "Weekly steering committee update",
+      signal1: "Automate",
+      saved1: "40",
+      setup1: "90",
+      check1: "10",
+      corner1: "B · Verify the load-bearing bits",
+      task2: "Summarise the new client onboarding pack",
+      signal2: "Assist",
+      saved2: "30",
+      setup2: "60",
+      check2: "15",
+      corner2: "B · Verify the load-bearing bits",
+      task3: "Draft a first-pass client update after an incident",
+      signal3: "Generate",
+      saved3: "25",
+      setup3: "45",
+      check3: "20",
+      corner3: "D · Human-in-the-loop",
+      step1: "Gather notes from the five source documents",
+      owner1: "AI assists",
+      step2: "Draft the update",
+      owner2: "AI leads",
+      step3: "Check the risk judgements",
+      owner3: "You lead",
+      step4: "Approve the final wording",
+      owner4: "Human only",
+      step5: "Send to the client",
+      owner5: "Human only",
+      firstMove: "c1",
+      planOwner: "Managing partner",
+      measure: "Time to produce the update and number of correction rounds",
+      baseline: "90 minutes and three correction rounds per week",
+      checker: "The managing partner checks the risk judgements before sending",
+      scale: "Under 30 minutes with no more than one correction round for four weeks",
+      pivot: "Time falls but corrections rise. Change the brief or the checker.",
+      kill: "It still takes over 60 minutes, or the errors matter."
+    };
+    restore(data);
+    render();
+    $("status").textContent = "Example loaded";
+  }
+
+  function clearAll() {
+    ["firm", "date", "owner", "planOwner", "measure", "baseline", "checker", "scale", "pivot", "kill"].forEach((id) => { $(id).value = ""; });
+    CANDIDATES.forEach((n) => {
+      ["task", "signal", "saved", "setup", "check", "corner"].forEach((key) => { $(key + n).value = ""; });
+    });
+    STEPS.forEach((i) => {
+      $("step" + i).value = "";
+      $("owner" + i).value = "AI leads";
+    });
+    $("date").value = new Date().toISOString().slice(0, 10);
+    try { localStorage.removeItem(STORAGE_KEY); } catch (error) { /* ignore */ }
+    render();
+  }
+
+  function wire() {
+    const ids = ["firm", "date", "owner", "planOwner", "measure", "baseline", "checker", "scale", "pivot", "kill", "firstMove"];
+    CANDIDATES.forEach((n) => {
+      ["task", "signal", "saved", "setup", "check", "corner"].forEach((key) => ids.push(key + n));
+    });
+    STEPS.forEach((i) => { ids.push("step" + i, "owner" + i); });
+    ids.forEach((id) => {
+      const el = $(id);
+      if (!el) return;
+      el.addEventListener("input", render);
+      el.addEventListener("change", render);
+    });
+  }
+
+  $("copyBtn").addEventListener("click", async () => {
+    const text = $("plan").textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      $("status").textContent = "Copied";
+    } catch (error) {
+      const temp = document.createElement("textarea");
+      temp.value = text;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand("copy");
+      temp.remove();
+      $("status").textContent = "Copied";
+    }
+  });
+  $("printBtn").addEventListener("click", () => window.print());
+  $("exampleBtn").addEventListener("click", loadExample);
+  $("clearBtn").addEventListener("click", clearAll);
+
+  function init() {
+    $("date").value = new Date().toISOString().slice(0, 10);
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) restore(JSON.parse(raw));
+    } catch (error) {
+      /* ignore */
+    }
+    wire();
+    render();
+  }
+
+  init();
+})();
+</script>
+
+</body>
+</html>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The RTCF Brief Builder · borck.consulting</title>
-  <meta name="description" content="Build a clear RTCF prompt, attach the check it needs, and keep a prompt library in your browser. A free tool for regulated small firms.">
+  <title>Brief Like You · The RTCF Brief Builder</title>
+  <meta name="description" content="Brief AI the way you would brief a capable colleague. Build a clear RTCF brief, attach the check it needs, and keep a brief library in your browser.">
   <meta name="theme-color" content="#fafaf6">
   <link rel="canonical" href="https://borck.consulting/tools/rtcf/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -48,6 +48,10 @@
     h1 { margin: 0 0 0.8rem; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; letter-spacing: -0.04em; font-weight: 800; }
     .lead { margin: 0 0 0.8rem; font-size: 1.15rem; line-height: 1.5; color: var(--gray-1); max-width: 44rem; }
     .body { margin: 0; font-size: 0.95rem; line-height: 1.65; color: var(--gray-1); max-width: 46rem; }
+
+    .flow { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.5rem; margin: 0 0 2rem; }
+    .flow div { padding: 0.55rem 0.65rem; border-top: 2px solid var(--gray-3); font-size: 0.75rem; line-height: 1.4; color: var(--gray-1); }
+    .flow span { display: block; margin-bottom: 0.2rem; font-family: var(--mono); font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; color: var(--accent); }
 
     .tool { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
     .form { min-width: 0; }
@@ -103,12 +107,14 @@
       .tool { grid-template-columns: 1fr; }
       .output { position: static; }
       .prompt { min-height: 240px; }
+      .flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 600px) {
       .topbar { flex-wrap: wrap; height: auto; padding: 0.75rem 1rem; gap: 0.5rem; }
       .topbar-spacer { display: none; }
       .topbar nav { width: 100%; gap: 0.9rem; flex-wrap: wrap; }
       .page { padding: 2rem 1.1rem 4rem; }
+      .flow { grid-template-columns: 1fr; }
       .item { align-items: flex-start; flex-direction: column; }
     }
   </style>
@@ -129,13 +135,22 @@
 <main class="page">
   <section class="hero">
     <p class="eyebrow">Free tool · no login</p>
-    <h1>The RTCF Brief Builder</h1>
-    <p class="lead">A clear brief is cheaper than a bigger model.</p>
-    <p class="body">Fill in Role, Task, Context, and Format. Add the check the output needs. Your prompt library stays in this browser.</p>
+    <h1>Brief Like You</h1>
+    <p class="lead">Brief AI the way you would brief a capable colleague.</p>
+    <p class="body">Fill in Role, Task, Context, and Format. Add the check the output needs. Your brief library stays in this browser.</p>
+    <p class="body" style="margin-top: 0.75rem;"><strong>This is not a prompt library.</strong> It is a briefing discipline. The prompt is how you open the conversation. The brief is what makes it worth having.</p>
   </section>
 
+  <div class="flow" aria-label="From brief to conversation">
+    <div><span>01</span>Brief it</div>
+    <div><span>02</span>Open the conversation</div>
+    <div><span>03</span>Push back</div>
+    <div><span>04</span>Attach the check</div>
+    <div><span>05</span>Keep the judgment</div>
+  </div>
+
   <div class="tool">
-    <section class="form" aria-label="Prompt builder">
+    <section class="form" aria-label="Brief builder">
       <div class="field">
         <label for="name">Name <span>for your library</span></label>
         <input type="text" id="name" placeholder="Client update after a data incident">
@@ -192,19 +207,19 @@
           <option value="C">C · Verify before it ships</option>
           <option value="D">D · Human-in-the-loop</option>
         </select>
-        <p class="hint" id="checkHint">The check is attached to the prompt. The person still decides.</p>
+        <p class="hint" id="checkHint">The check is attached to the brief. The person still decides.</p>
       </div>
 
       <div class="actions">
-        <button id="copyBtn" class="btn" type="button">Copy prompt</button>
+        <button id="copyBtn" class="btn" type="button">Copy brief</button>
         <button id="saveBtn" class="btn secondary" type="button">Save to library</button>
         <button id="clearBtn" class="btn ghost" type="button">Clear</button>
       </div>
     </section>
 
-    <section class="output" aria-label="Generated prompt">
+    <section class="output" aria-label="Generated brief">
       <div class="output-head">
-        <span>Your prompt</span>
+        <span>Your brief</span>
         <span id="status" role="status" aria-live="polite"></span>
       </div>
       <pre id="output" class="prompt"></pre>
@@ -215,7 +230,7 @@
     </section>
   </div>
 
-  <section class="library" aria-label="Saved prompts">
+  <section class="library" aria-label="Saved briefs">
     <div class="section-head">
       <h2>Your library</h2>
       <button id="exportBtn" class="link-btn" type="button">Export all</button>
@@ -291,7 +306,7 @@
 
   function updateOutput() {
     const prompt = buildPrompt();
-    $("output").textContent = prompt || "Fill in the four parts. The prompt will appear here as you type.";
+    $("output").textContent = prompt || "Fill in the four parts. Your brief will appear here as you type.";
     $("status").textContent = "";
   }
 
@@ -303,8 +318,8 @@
   function updateCheckHint() {
     const check = val("check");
     $("checkHint").textContent = check && checkCopy[check]
-      ? "The prompt will attach this check: " + checkCopy[check]
-      : "The check is attached to the prompt. The person still decides.";
+      ? "The brief will attach this check: " + checkCopy[check]
+      : "The check is attached to the brief. The person still decides.";
   }
 
   function setFields(item) {
@@ -353,7 +368,7 @@
     if (!items.length) {
       const empty = document.createElement("p");
       empty.className = "library-empty";
-      empty.textContent = "No saved prompts yet. Build one and save it.";
+      empty.textContent = "No saved briefs yet. Build one and save it.";
       list.appendChild(empty);
       return;
     }
@@ -366,7 +381,7 @@
       name.textContent = item.name || "Untitled";
       const use = document.createElement("div");
       use.className = "item-use";
-      use.textContent = item.useWhen || "Saved prompt";
+      use.textContent = item.useWhen || "Saved brief";
       text.appendChild(name);
       text.appendChild(use);
 
@@ -427,7 +442,7 @@
   $("copyBtn").addEventListener("click", async () => {
     const text = $("output").textContent;
     if (!text || text.startsWith("Fill in")) {
-      $("status").textContent = "Build a prompt first";
+      $("status").textContent = "Build a brief first";
       return;
     }
     try {
@@ -447,7 +462,7 @@
   $("saveBtn").addEventListener("click", () => {
     const prompt = buildPrompt();
     if (!prompt) {
-      $("status").textContent = "Build a prompt first";
+      $("status").textContent = "Build a brief first";
       return;
     }
     const items = readLibrary();
