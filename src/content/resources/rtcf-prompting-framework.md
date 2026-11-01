@@ -15,6 +15,8 @@ When a four-part framework gets the job done, a five-part framework is overhead.
 
 > Think of RTCF as briefing a capable colleague in a hurry: who you want them to be, what you need produced, what they need to know, and how you want it back.
 
+> **Build one:** use the [RTCF Brief Builder](/tools/rtcf/) to fill in the four parts and attach the check the output needs.
+
 ---
 
 ## The framework

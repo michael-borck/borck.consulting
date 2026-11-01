@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The RTCF Brief Builder · borck.consulting</title>
+  <meta name="description" content="Build a clear RTCF prompt, attach the check it needs, and keep a prompt library in your browser. A free tool for regulated small firms.">
+  <meta name="theme-color" content="#fafaf6">
+  <link rel="canonical" href="https://borck.consulting/tools/rtcf/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #fafaf6;
+      --panel: #f3f2ec;
+      --text: #1a1a1c;
+      --gray-1: #4a4a4f;
+      --gray-2: #82827e;
+      --gray-3: #d6d6cf;
+      --gray-4: #ecebe4;
+      --accent: #4a6e62;
+      --accent-low: #e7eee9;
+      --accent-high: #2f5347;
+      --warn: #b54a36;
+      --font: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-high); }
+    [hidden] { display: none !important; }
+
+    .topbar { display: flex; align-items: center; gap: 1rem; padding: 0 1.5rem; height: 56px; border-bottom: 1px solid var(--gray-3); position: sticky; top: 0; background: var(--bg); z-index: 10; }
+    .logo { font-family: var(--mono); font-size: 0.88rem; font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+    .logo .dot { color: var(--gray-2); }
+    .logo .sub { color: var(--accent); }
+    .topbar-spacer { flex: 1; }
+    .topbar nav { display: flex; gap: 1.25rem; }
+    .topbar nav a { font-size: 0.82rem; color: var(--gray-1); text-decoration: none; }
+    .topbar nav a:hover { color: var(--accent); }
+
+    .page { max-width: 1120px; margin: 0 auto; padding: 3rem 1.75rem 5rem; }
+    .hero { margin-bottom: 2.5rem; }
+    .eyebrow { margin: 0 0 0.8rem; font-family: var(--mono); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
+    h1 { margin: 0 0 0.8rem; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; letter-spacing: -0.04em; font-weight: 800; }
+    .lead { margin: 0 0 0.8rem; font-size: 1.15rem; line-height: 1.5; color: var(--gray-1); max-width: 44rem; }
+    .body { margin: 0; font-size: 0.95rem; line-height: 1.65; color: var(--gray-1); max-width: 46rem; }
+
+    .tool { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
+    .form { min-width: 0; }
+    .field { margin-bottom: 1rem; }
+    .field label { display: block; margin-bottom: 0.3rem; font-size: 0.78rem; font-weight: 700; color: var(--gray-1); }
+    .field label span { font-weight: 400; color: var(--gray-2); }
+    input[type="text"], textarea, select {
+      width: 100%; padding: 0.65rem 0.8rem; background: #fff; border: 1px solid var(--gray-3); border-radius: 6px;
+      color: var(--text); font-family: var(--font); font-size: 0.92rem; line-height: 1.5;
+    }
+    textarea { resize: vertical; min-height: 82px; }
+    input:focus, textarea:focus, select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-low); }
+    .checks { margin: 1rem 0; padding: 0.9rem 1rem; border: 1px solid var(--gray-3); border-radius: 8px; background: var(--panel); }
+    .checks legend { padding: 0 0.4rem; font-family: var(--mono); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+    .checks label { display: flex; gap: 0.55rem; align-items: flex-start; font-size: 0.86rem; line-height: 1.45; color: var(--gray-1); margin-bottom: 0.55rem; }
+    .checks label:last-child { margin-bottom: 0; }
+    .checks input[type="checkbox"] { margin-top: 0.2rem; accent-color: var(--accent); }
+    .checks .sub { margin: 0.4rem 0 0.6rem; min-height: 64px; }
+    .hint { margin: 0.45rem 0 0; font-size: 0.78rem; line-height: 1.5; color: var(--gray-2); }
+    .actions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 1rem; }
+    .btn { display: inline-block; padding: 0.7rem 1rem; border: 1px solid var(--accent); border-radius: 6px; background: var(--accent); color: #fff; font-family: var(--font); font-size: 0.88rem; font-weight: 700; cursor: pointer; text-decoration: none; }
+    .btn:hover { background: var(--accent-high); border-color: var(--accent-high); color: #fff; }
+    .btn.secondary { background: transparent; color: var(--accent); }
+    .btn.secondary:hover { background: var(--accent-low); color: var(--accent-high); }
+    .btn.ghost { background: transparent; border-color: var(--gray-3); color: var(--gray-1); }
+    .btn.ghost:hover { border-color: var(--gray-2); background: transparent; color: var(--text); }
+
+    .output { position: sticky; top: 76px; min-width: 0; }
+    .output-head { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 0.5rem; font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gray-2); }
+    #status { color: var(--accent); font-weight: 700; }
+    .prompt { margin: 0; min-height: 360px; padding: 1.1rem 1.2rem; background: var(--text); color: #f5f2ea; border-radius: 10px; font-family: var(--mono); font-size: 0.78rem; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .output-foot { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 0.7rem; font-size: 0.75rem; color: var(--gray-2); }
+    .link-btn { background: none; border: none; padding: 0; color: var(--accent); font-family: var(--font); font-size: 0.78rem; font-weight: 700; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+    .link-btn:hover { color: var(--accent-high); }
+
+    .library { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--gray-3); }
+    .section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1rem; }
+    .section-head h2 { margin: 0; font-size: 1.2rem; letter-spacing: -0.02em; }
+    .library-list { display: grid; gap: 0.7rem; }
+    .library-empty { font-size: 0.86rem; color: var(--gray-2); }
+    .item { display: flex; justify-content: space-between; gap: 1rem; align-items: center; padding: 0.8rem 0.95rem; background: var(--panel); border: 1px solid var(--gray-3); border-radius: 8px; }
+    .item-name { font-size: 0.9rem; font-weight: 700; }
+    .item-use { font-size: 0.76rem; color: var(--gray-2); margin-top: 0.15rem; }
+    .item-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+
+    .note { margin-top: 2.5rem; padding: 1rem 1.2rem; background: var(--accent-low); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; font-size: 0.88rem; line-height: 1.65; color: var(--gray-1); }
+    .note strong { color: var(--text); }
+    .footer { max-width: 1120px; margin: 0 auto; padding: 2rem 1.75rem; border-top: 1px solid var(--gray-3); font-size: 0.78rem; color: var(--gray-2); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .footer a { color: var(--gray-1); text-decoration: none; }
+    .footer a:hover { color: var(--accent); }
+
+    @media (max-width: 900px) {
+      .tool { grid-template-columns: 1fr; }
+      .output { position: static; }
+      .prompt { min-height: 240px; }
+    }
+    @media (max-width: 600px) {
+      .topbar { padding: 0 1rem; }
+      .topbar nav { gap: 0.8rem; }
+      .page { padding: 2rem 1.1rem 4rem; }
+      .item { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="logo" href="/"><span>borck</span><span class="dot">.</span><span class="sub">consulting</span></a>
+  <div class="topbar-spacer"></div>
+  <nav>
+    <a href="/resources">Resources</a>
+    <a href="/services">Services</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<main class="page">
+  <section class="hero">
+    <p class="eyebrow">Free tool · no login</p>
+    <h1>The RTCF Brief Builder</h1>
+    <p class="lead">A clear brief is cheaper than a bigger model.</p>
+    <p class="body">Fill in Role, Task, Context, and Format. Add the check the output needs. Your prompt library stays in this browser.</p>
+  </section>
+
+  <div class="tool">
+    <section class="form" aria-label="Prompt builder">
+      <div class="field">
+        <label for="name">Name <span>for your library</span></label>
+        <input type="text" id="name" placeholder="Client update after a data incident">
+      </div>
+
+      <div class="field">
+        <label for="useWhen">Use it when <span>the situation</span></label>
+        <input type="text" id="useWhen" placeholder="Writing a short client update after a minor incident">
+      </div>
+
+      <div class="field">
+        <label for="role">Role <span>who should it write as?</span></label>
+        <input type="text" id="role" placeholder="You are an experienced privacy lawyer writing to a long-standing client.">
+      </div>
+
+      <div class="field">
+        <label for="task">Task <span>what exactly, and how much?</span></label>
+        <textarea id="task" placeholder="Draft a short client update about a minor data incident. Be direct, calm, and specific. Do not speculate."></textarea>
+      </div>
+
+      <div class="field">
+        <label for="context">Context <span>audience, situation, constraints, stakes, material</span></label>
+        <textarea id="context" placeholder="Audience: the managing partner and the client's operations manager. The incident involved a misdirected email to one recipient. It was contained within two hours. The client is regulated and sensitive to regulator scrutiny. No client data was accessed."></textarea>
+      </div>
+
+      <div class="field">
+        <label for="format">Format <span>length, structure, tone</span></label>
+        <textarea id="format" placeholder="Under 250 words. A short opening, what happened, what we did, what the client needs to do, and one next step. No jargon."></textarea>
+      </div>
+
+      <fieldset class="checks">
+        <legend>Upgrades</legend>
+        <label><input type="checkbox" id="example"> Show an example</label>
+        <textarea id="exampleText" class="sub" placeholder="Paste an example of a result you liked." hidden></textarea>
+
+        <label><input type="checkbox" id="done"> Say what done looks like</label>
+        <input type="text" id="doneText" class="sub" placeholder="The client can decide whether to notify the regulator." hidden>
+
+        <label><input type="checkbox" id="questions"> Let it ask questions first</label>
+        <label><input type="checkbox" id="steps"> Split the work into steps</label>
+      </fieldset>
+
+      <fieldset class="checks">
+        <legend>Push back</legend>
+        <label><input type="checkbox" id="guard" checked> Only change its view for a new fact, and name it</label>
+      </fieldset>
+
+      <div class="field">
+        <label for="check">The check it needs <span>Trust Tool corner</span></label>
+        <select id="check">
+          <option value="">Choose a corner</option>
+          <option value="A">A · Light review</option>
+          <option value="B">B · Verify the load-bearing bits</option>
+          <option value="C">C · Verify before it ships</option>
+          <option value="D">D · Human-in-the-loop</option>
+        </select>
+        <p class="hint" id="checkHint">The check is attached to the prompt. The person still decides.</p>
+      </div>
+
+      <div class="actions">
+        <button id="copyBtn" class="btn" type="button">Copy prompt</button>
+        <button id="saveBtn" class="btn secondary" type="button">Save to library</button>
+        <button id="clearBtn" class="btn ghost" type="button">Clear</button>
+      </div>
+    </section>
+
+    <section class="output" aria-label="Generated prompt">
+      <div class="output-head">
+        <span>Your prompt</span>
+        <span id="status" role="status" aria-live="polite"></span>
+      </div>
+      <pre id="output" class="prompt"></pre>
+      <div class="output-foot">
+        <button id="exampleBtn" class="link-btn" type="button">Load an example</button>
+        <span>Nothing leaves this browser.</span>
+      </div>
+    </section>
+  </div>
+
+  <section class="library" aria-label="Saved prompts">
+    <div class="section-head">
+      <h2>Your library</h2>
+      <button id="exportBtn" class="link-btn" type="button">Export all</button>
+    </div>
+    <div id="libraryList" class="library-list"></div>
+  </section>
+
+  <section class="note">
+    <p><strong>For a local model:</strong> add the context it cannot infer. The smaller the model, the less it can fill in. The context does the work.</p>
+    <p><a href="/resources/rtcf-prompting-framework">Read the full RTCF guide</a> · <a href="/services">See the AI Readiness Diagnostic</a></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Michael Borck · borck.consulting · Perth, Western Australia</span>
+  <span>Free tool · no login · no tracking</span>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  const $ = (id) => document.getElementById(id);
+  const fields = ["name", "useWhen", "role", "task", "context", "format", "exampleText", "doneText", "check"];
+  const checks = ["example", "done", "questions", "steps", "guard"];
+  const STORAGE_KEY = "rtcf-builder-v1";
+
+  const checkCopy = {
+    A: "light review. Read for sense.",
+    B: "verify the load-bearing bits: numbers, dates, names, and sources.",
+    C: "verify before it ships: check the exact detail against the primary source.",
+    D: "human-in-the-loop: a person with authority reviews and signs off."
+  };
+
+  function val(id) { return $(id).value.trim(); }
+
+  function buildPrompt() {
+    const parts = [];
+    const role = val("role");
+    const task = val("task");
+    const context = val("context");
+    const format = val("format");
+
+    if (role) parts.push("You are " + role.replace(/^You are\s+/i, ""));
+    if (task) parts.push(task);
+    if (context) parts.push("Context:\n" + context);
+    if (format) parts.push("Format:\n" + format);
+
+    if ($("example").checked && val("exampleText")) {
+      parts.push("Example of a good result:\n" + val("exampleText"));
+    }
+    if ($("done").checked) {
+      const done = val("doneText") || "the output is complete, the facts are checked, and the reader can act on it";
+      parts.push("Done looks like: " + done + ". If you are unsure, say so and explain what you would need to know.");
+    }
+    if ($("questions").checked) {
+      parts.push("Before you answer, ask me up to five clarifying questions, one at a time. Wait for my answer before the next question.");
+    }
+    if ($("steps").checked) {
+      parts.push("Work in steps. Show the plan before the final answer.");
+    }
+    if ($("guard").checked) {
+      parts.push("If you change your view, name the new fact that changed it.");
+    }
+
+    const check = val("check");
+    if (check && checkCopy[check]) {
+      parts.push("Before I use this, a person will check it: " + checkCopy[check] + " At the end, list the facts, figures, and sources I need to verify.");
+    }
+
+    return parts.join("\n\n");
+  }
+
+  function updateOutput() {
+    const prompt = buildPrompt();
+    $("output").textContent = prompt || "Fill in the four parts. The prompt will appear here as you type.";
+    $("status").textContent = "";
+  }
+
+  function syncSubFields() {
+    $("exampleText").hidden = !$("example").checked;
+    $("doneText").hidden = !$("done").checked;
+  }
+
+  function updateCheckHint() {
+    const check = val("check");
+    $("checkHint").textContent = check && checkCopy[check]
+      ? "The prompt will attach this check: " + checkCopy[check]
+      : "The check is attached to the prompt. The person still decides.";
+  }
+
+  function setFields(item) {
+    $("name").value = item.name || "";
+    $("useWhen").value = item.useWhen || "";
+    $("role").value = item.role || "";
+    $("task").value = item.task || "";
+    $("context").value = item.context || "";
+    $("format").value = item.format || "";
+    $("exampleText").value = item.example || "";
+    $("doneText").value = item.done || "";
+    $("check").value = item.check || "";
+    $("example").checked = Boolean(item.example);
+    $("done").checked = Boolean(item.done);
+    $("questions").checked = Boolean(item.questions);
+    $("steps").checked = Boolean(item.steps);
+    $("guard").checked = item.guard !== false;
+    syncSubFields();
+    updateCheckHint();
+    updateOutput();
+  }
+
+  function readLibrary() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      const parsed = raw ? JSON.parse(raw) : [];
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (error) {
+      return [];
+    }
+  }
+
+  function writeLibrary(items) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+      return true;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function renderLibrary() {
+    const list = $("libraryList");
+    const items = readLibrary();
+    list.innerHTML = "";
+    if (!items.length) {
+      const empty = document.createElement("p");
+      empty.className = "library-empty";
+      empty.textContent = "No saved prompts yet. Build one and save it.";
+      list.appendChild(empty);
+      return;
+    }
+    items.forEach((item) => {
+      const row = document.createElement("div");
+      row.className = "item";
+      const text = document.createElement("div");
+      const name = document.createElement("div");
+      name.className = "item-name";
+      name.textContent = item.name || "Untitled";
+      const use = document.createElement("div");
+      use.className = "item-use";
+      use.textContent = item.useWhen || "Saved prompt";
+      text.appendChild(name);
+      text.appendChild(use);
+
+      const actions = document.createElement("div");
+      actions.className = "item-actions";
+      const load = document.createElement("button");
+      load.type = "button";
+      load.className = "link-btn";
+      load.textContent = "Load";
+      load.addEventListener("click", () => setFields(item));
+      const remove = document.createElement("button");
+      remove.type = "button";
+      remove.className = "link-btn";
+      remove.textContent = "Delete";
+      remove.addEventListener("click", () => {
+        writeLibrary(readLibrary().filter((x) => x.id !== item.id));
+        renderLibrary();
+        $("status").textContent = "Deleted";
+      });
+      actions.appendChild(load);
+      actions.appendChild(remove);
+      row.appendChild(text);
+      row.appendChild(actions);
+      list.appendChild(row);
+    });
+  }
+
+  function loadExample() {
+    setFields({
+      name: "Client update after a data incident",
+      useWhen: "Writing a short client update after a minor data incident",
+      role: "an experienced privacy lawyer writing to a long-standing client",
+      task: "Draft a short client update about a minor data incident. Be direct, calm, and specific. Do not speculate.",
+      context: "Audience: the managing partner and the client's operations manager. The incident involved a misdirected email to one recipient. It was contained within two hours. The client is regulated and sensitive to regulator scrutiny. No client data was accessed. The regulator has not been notified yet.",
+      format: "Under 250 words. A short opening, what happened, what we did, what the client needs to do, and one next step. No jargon.",
+      done: "The client can decide whether to notify the regulator.",
+      check: "B",
+      guard: true
+    });
+    $("status").textContent = "Example loaded";
+  }
+
+  fields.forEach((id) => {
+    $(id).addEventListener("input", updateOutput);
+    $(id).addEventListener("change", updateOutput);
+  });
+  checks.forEach((id) => {
+    $(id).addEventListener("change", () => {
+      syncSubFields();
+      updateOutput();
+    });
+  });
+  $("check").addEventListener("change", () => {
+    updateCheckHint();
+    updateOutput();
+  });
+
+  $("copyBtn").addEventListener("click", async () => {
+    const text = $("output").textContent;
+    if (!text || text.startsWith("Fill in")) {
+      $("status").textContent = "Build a prompt first";
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(text);
+      $("status").textContent = "Copied";
+    } catch (error) {
+      const temp = document.createElement("textarea");
+      temp.value = text;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand("copy");
+      temp.remove();
+      $("status").textContent = "Copied";
+    }
+  });
+
+  $("saveBtn").addEventListener("click", () => {
+    const prompt = buildPrompt();
+    if (!prompt) {
+      $("status").textContent = "Build a prompt first";
+      return;
+    }
+    const items = readLibrary();
+    const item = {
+      id: String(Date.now()),
+      name: val("name") || val("task").slice(0, 48) || "Untitled",
+      useWhen: val("useWhen"),
+      role: val("role"),
+      task: val("task"),
+      context: val("context"),
+      format: val("format"),
+      example: $("example").checked ? val("exampleText") : "",
+      done: $("done").checked ? val("doneText") : "",
+      questions: $("questions").checked,
+      steps: $("steps").checked,
+      guard: $("guard").checked,
+      check: val("check")
+    };
+    items.unshift(item);
+    if (writeLibrary(items)) {
+      renderLibrary();
+      $("status").textContent = "Saved";
+    } else {
+      $("status").textContent = "Browser storage is unavailable";
+    }
+  });
+
+  $("clearBtn").addEventListener("click", () => {
+    fields.forEach((id) => {
+      if (id === "check") $(id).value = "";
+      else $(id).value = "";
+    });
+    checks.forEach((id) => { $(id).checked = id === "guard"; });
+    syncSubFields();
+    updateCheckHint();
+    updateOutput();
+  });
+
+  $("exportBtn").addEventListener("click", () => {
+    const items = readLibrary();
+    if (!items.length) {
+      $("status").textContent = "Nothing to export";
+      return;
+    }
+    const text = items.map((item) => {
+      return [
+        item.name || "Untitled",
+        item.useWhen ? "Use when: " + item.useWhen : "",
+        "",
+        "Role: " + (item.role || ""),
+        "Task: " + (item.task || ""),
+        "Context: " + (item.context || ""),
+        "Format: " + (item.format || ""),
+        "Check: " + (item.check || ""),
+        "",
+        "-----",
+        ""
+      ].filter(Boolean).join("\n");
+    }).join("\n");
+    const blob = new Blob([text], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "rtcf-library.txt";
+    link.click();
+    URL.revokeObjectURL(url);
+    $("status").textContent = "Exported";
+  });
+
+  $("exampleBtn").addEventListener("click", loadExample);
+
+  syncSubFields();
+  updateCheckHint();
+  updateOutput();
+  renderLibrary();
+})();
+</script>
+
+</body>
+</html>
