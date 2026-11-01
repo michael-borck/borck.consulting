@@ -8,11 +8,13 @@ draft: false
 
 *This essay sits primarily under the* Are we ready? *question of the practice's [methodology](/services#methodology): calibrating the firm's scepticism so AI outputs receive review proportionate to their risk, rather than uniform alarm or uniform trust.*
 
+> This essay sits underneath the [Trust Tool](https://trusttool.borck.education/). The Trust Tool tells you which quadrant an output belongs in. The flags tell you what to check once you are in a verify quadrant. It is a second check, not a separate go/no-go system. Project-level gates belong to the AI project lifecycle.
+
 ## The core idea
 
 Not every AI output needs the same level of scrutiny. A brainstormed list of marketing angles for the firm's website does not carry the same risk as a legal citation, a medication interaction, or a tax position. Some outputs are low-risk. Some should make you stop and verify before acting on them.
 
-Treating everything as high-risk leads to fatigue: people stop checking the things that actually matter because everything has been treated as if it matters equally. Treating everything as low-risk leads to professional negligence. The flag system gives your team a quick way to calibrate their response.
+Treating everything as high-risk leads to fatigue: people stop checking the things that actually matter because everything has been treated as if it matters equally. Treating everything as low-risk leads to professional negligence. The flag system gives your team a quick way to calibrate their response. It is not a traffic light for whether to greenlight a project. It is a second check on the output in front of you.
 
 It works for AI output, but it also works for anything else that crosses your desk: a report, a memo, a colleague's claim in a meeting. The underlying skill is the same: reading with appropriate scepticism.
 
