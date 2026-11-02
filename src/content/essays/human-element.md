@@ -112,11 +112,11 @@ AI knows a lot about the world in general. You know a lot about *your* world in 
 
 ## Accept mediocrity, or elevate practice?
 
-**Option A: Accept mediocrity at scale.** Automate everything. Replace human judgement with AI confidence. Send more letters, faster, that nobody has properly checked. Build a team that can use tools but cannot think critically. Run a firm that is efficient but soulless, and that is one complaint away from being unsoulful and uninsured.
+**Option A: Accept mediocrity at scale.** Automate everything and replace judgement with AI confidence. Send more letters, faster, without proper checks. Build a team that can use tools but cannot think critically. The firm looks efficient until a complaint arrives and the insurance does not cover it.
 
-**Option B: Elevate what makes the firm worth hiring.** Use AI to handle the routine so humans can focus on the meaningful. Free practitioners to advise. Free partners to mentor. Free clinicians to clinic. Produce better work, not just more of it.
+**Option B: Elevate what makes the firm worth hiring.** Use AI for the routine work so people can advise, mentor and treat patients. The work gets better, and there is more of it.
 
-Option A is easier. Option B requires intentional effort. Throughout history, every technology that was used for amplification rather than replacement has produced dramatically better outcomes, and more durable businesses.
+Option A is easier. Option B requires intentional effort. Most technologies used for amplification rather than replacement have produced better outcomes and more durable businesses.
 
 ---
 
@@ -157,13 +157,11 @@ The pattern is consistent: transformative technology amplifies human capability 
 
 The "when" matters. Technology does not automatically improve things. It takes people who understand both the technology and the professional context to ensure it is used for amplification rather than replacement.
 
-That is your role, and the reason you matter more, not less.
-
 ---
 
 ## The bottom line
 
-AI is going to change what your firm *does*, not replace it: what you bill for, what you train juniors in, what counts as good work. The routine parts will be automated. The parts that require judgement, ethics, relationships, and contextual understanding will become your primary contribution, and they will be valued more highly than ever.
+AI is going to change what your firm *does*, not replace it: what you bill for, what you train juniors in, what counts as good work. The routine parts will be automated. The parts that require judgement, ethics, relationships, and contextual understanding will become your primary contribution, and they will be what clients keep paying for.
 
 The question is whether you will develop the skills to work *with* AI in ways that make you more valuable.
 

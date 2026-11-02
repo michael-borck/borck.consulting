@@ -74,7 +74,7 @@ A simple structure that travels well across legal, medical, accounting, and advi
 **In practice:**
 
 - Frame guidance in terms of **real scenarios**: drafting a client letter, summarising a discovery bundle, paraphrasing a clinical guideline, exploring a tax position
-- Discuss **professional accountability** explicitly: who is responsible when AI is wrong? (You are. Always.) Reference your professional obligations (APP, LPUL, AHPRA, APES 110, ASIC RG 175) directly.
+- Discuss **professional accountability** explicitly: who is responsible when AI is wrong? You are responsible, always. Reference your professional obligations (APP, LPUL, AHPRA, APES 110, ASIC RG 175) directly.
 - Make **AI literacy and responsible use visible in the firm's competency expectations**, not just in a policy document filed somewhere
 
 **Why it strengthens integrity:** staff see AI not as a shortcut around their professional obligations, but as a tool they must learn to handle within them.

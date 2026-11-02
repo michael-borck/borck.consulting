@@ -15,7 +15,7 @@ There are two ways your team can use AI:
 1. **Delegation**: "Do this for me."
 2. **Conversation**: "Think with me."
 
-The difference matters more than most principals realise, and it is the single biggest predictor of whether an AI rollout makes a small firm sharper or hollows it out.
+The difference matters more than most principals realise. It determines whether an AI rollout makes a small firm sharper or hollows it out.
 
 **Delegation develops dependency.** Your team gets output, but not understanding. They collect answers without building the capacity to evaluate them. Over time they become less capable, not more, because they have outsourced the thinking, not just the typing.
 
@@ -86,7 +86,7 @@ Use AI to help you develop your own evaluation criteria, then apply your judgeme
 
 ## Process over product
 
-**The team members who obsess over the process (questioning, evaluating, iterating) will always outperform the ones who just collect AI outputs.**
+**The team members who obsess over the process (questioning, evaluating, iterating) tend to outperform the ones who just collect AI outputs.**
 
 Judgement cannot be delegated to something that has read everything and experienced nothing.
 
@@ -247,7 +247,7 @@ AI is the most powerful thinking tool most firms have ever had access to. But li
 **Delegate, and you get output.**
 **Converse, and you keep agency, and capability follows.**
 
-The choice compounds. Every conversation builds your firm's judgement and keeps the steering where it belongs. Every delegation hands it over. Choose accordingly.
+The choice compounds. Every conversation builds your firm's judgement and keeps the steering where it belongs. Every delegation hands it over.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Three Cognitive Traps When Working with AI"
-description: "The patterns that quietly catch experienced professionals"
+description: "The patterns that catch experienced professionals"
 publishDate: 2026-12-22
 slug: three-cognitive-traps
 draft: false
@@ -54,7 +54,7 @@ You will notice it most when you ask the model to evaluate your own work. *"What
 
 You may have heard the opposite claim: that being polite to AI produces better results. There is a grain of truth there, but it is smaller than the internet suggests. Clear, specific, well-structured prompts work better than hostile or vague ones. That is because clear communication activates better patterns in the model, not because the AI has feelings. Saying "please" does not hurt, but it does not matter nearly as much as saying exactly what you need. Do not mistake good prompt structure for politeness, and do not mistake the AI's agreeableness for honesty.
 
-## Key takeaway
+## The short version
 
 These three traps (trusting AI more where you know less, dismissing AI output without engaging it, and accepting AI flattery as honest feedback) are human problems, not technical ones. They will be present in your firm regardless of which model you choose, which policy you write, or which training you run. Awareness is the first defence.
 

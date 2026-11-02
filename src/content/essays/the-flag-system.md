@@ -63,7 +63,7 @@ Red flags are qualitatively different from yellow flags. Yellow flags say the ev
 
 The flag system also catches a category of output that is *technically* coherent but reasoning-compromised: claims that "they" are hiding the truth, lone-genius framings against established consensus, sweeping statements about whole groups, extraordinary claims with no evidence. These are rare in professional AI output, but worth recognising: they share a common structure of asking you to *trust more and verify less*. That inversion is the hallmark of misinformation in any source, AI or otherwise.
 
-## Key takeaway
+## The short version
 
 The flag system is about proportional scepticism. Most output is fine. Some requires checking. A small amount should trigger real alarm. Knowing which is which is a skill, and it is a skill that AI will not develop for you. Your firm has to bring it.
 

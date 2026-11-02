@@ -1,6 +1,6 @@
 ---
 title: "Prompt, Context, Harness"
-description: "The three layers of AI engineering, and where the leverage actually is for a small firm"
+description: "The three layers of AI engineering, and where the gains actually are for a small firm"
 slug: prompt-context-harness
 order: 9
 section: "Going deeper"
@@ -17,7 +17,7 @@ The three layers, from inside the call to around it:
 2. **Context engineering**: what surrounds it
 3. **Harness engineering**: what happens around multiple calls
 
-You are already doing prompt engineering whether you have named it or not. Context and harness engineering are where the leverage gets bigger.
+You are already doing prompt engineering whether you have named it or not. Context and harness engineering are where the gains get bigger.
 
 ---
 

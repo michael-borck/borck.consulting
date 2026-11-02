@@ -47,7 +47,7 @@ Premium subscriptions (Claude Pro, ChatGPT Plus, ChatGPT Team, Microsoft 365 Cop
 
 These are all **conversation quality improvements.** They make the back-and-forth richer and longer. They do not change the dynamic: your team is still doing the thinking, making the decisions, iterating.
 
-The right way to read a premium plan is as a **workflow question, not a status question.** Premium tools are justified when the work involves sustained, complex thinking sessions or sensitive material, not because better tools produce better practitioners.
+Read a premium plan as a **workflow question**. It says nothing about status. Premium tools are justified when the work involves sustained, complex thinking sessions or sensitive material, not because better tools produce better practitioners.
 
 For most regulated small firms, the most defensible procurement decision is: a properly licensed enterprise tier of whatever you are already on (M365 or Workspace), supplemented with vendor-embedded AI in your practice management or accounting software, and a small allowance for staff exploration with mock data on consumer tiers. The shopping list is shorter than the vendor pitches suggest.
 

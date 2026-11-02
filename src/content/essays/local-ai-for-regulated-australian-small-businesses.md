@@ -18,9 +18,9 @@ Three concerns drive the shift: economic, regulatory, and operational.
 
 The current generative AI subscription market is not in equilibrium. Tiers like ChatGPT Plus or Claude Pro are priced below the marginal cost of serving a serious user, supported by venture capital and the expectation that token costs will fall faster than frontier capability scales. The historical pattern in enterprise software categories that began with subsidised consumer adoption is that prices eventually rise to reflect underlying costs, and capability tiering follows. Three trajectories are plausible: usage-based pricing that exposes actual cost, tiered access that reserves the most capable models for enterprise contracts, and capability walls that price small firms out of the most useful tools.
 
-For a small accounting practice planning a workflow around a current cloud subscription, this matters. The price paid today does not reflect the value of the service rendered, and the model behind the subscription will change: its terms, its pricing, its data-handling, its capability ceiling. A workflow built on it is a workflow built on a substrate someone else can move underneath the firm.
+For a small accounting practice planning a workflow around a current cloud subscription, this matters. The price paid today does not reflect the value of the service rendered, and the model behind the subscription will change: its terms, its pricing, its data-handling, its capability ceiling. A workflow built on it is a workflow built on a foundation someone else can move underneath the firm.
 
-Owned infrastructure is a different category of substrate. Once the hardware is purchased, the marginal cost per query is approximately the cost of electricity. Workflows that would not be economic in a metered environment (continuous summarisation across a large document corpus, internal Q&A across years of files, draft-and-redraft cycles that exceed plausible token budgets) become viable. The change is the disappearance of the meter, which permits use cases that the meter would have killed.
+Owned infrastructure is a different category. Once the hardware is purchased, the marginal cost per query is approximately the cost of electricity. Workflows that would not be economic in a metered environment (continuous summarisation across a large document corpus, internal Q&A across years of files, draft-and-redraft cycles that exceed plausible token budgets) become viable. The change is the disappearance of the meter, which permits use cases that the meter would have killed.
 
 ## The regulatory argument
 
@@ -54,7 +54,7 @@ The hardware decision for a regulated AU small firm has shifted from "build a se
 
 ## Three positions a firm can take
 
-A firm-wide ChatGPT Plus subscription is not infrastructure; it is a workaround that routes the disclosure question through a corporate account that still sends client material to a third party. A blanket ban on AI use is a refusal to take a position, which staff will quietly route around. Three deliberate positions are credible.
+A firm-wide ChatGPT Plus subscription is not infrastructure; it is a workaround that routes the disclosure question through a corporate account that still sends client material to a third party. A blanket ban on AI use is a refusal to take a position, which staff will route around anyway. Three deliberate positions are credible.
 
 The first is **literacy with controlled cloud use**. The firm forms a clear, articulable position on which kinds of material can go to which tools, and trains staff in a shared framework for AI use. Cloud subscriptions are appropriate for non-sensitive work; sensitive work follows a different protocol.
 
@@ -66,7 +66,7 @@ The right position depends on the firm's practice mix, client base, regulatory f
 
 ## The narrow point
 
-Local AI is not a research project. It is hardware available this month, models installable this afternoon, and a set of trade-offs that have shifted decisively in favour of small regulated firms. The reason most Australian professional-services firms have not adopted it is not technical. The distribution story has been written for either consumers or large enterprises, and the case for the regulated SMB segment has not been made in its own language.
+Local AI is hardware available this month, models installable this afternoon, and a set of trade-offs that have shifted decisively in favour of small regulated firms. The reason most Australian professional-services firms have not adopted it is not technical. The distribution story has been written for either consumers or large enterprises, and the case for the regulated SMB segment has not been made in its own language.
 
 In *Conversation not Delegation* I argue that AI adoption in professional services is a literacy problem before it is a technology problem. The local-versus-cloud question is the natural follow-on once the literacy work has been done: a firm that has formed a deliberate position on AI use is in a position to choose its infrastructure. A firm that has not is, by default, choosing whatever its staff choose, in whatever way they choose it. That default is the harder one to defend.
 

@@ -24,7 +24,7 @@ You arrive with a question, a problem, or a half-formed idea, not a task to outs
 
 The quality of what comes out of the loop is bounded by what you bring into it. A vague *"write me a Statement of Advice"* produces vague advice. A specific *"I am structuring an SoA for a client who is selling a small-business asset and wants to make a downsizer contribution; I want to stress-test how I am sequencing the recommendations"* gives the conversation something to grip.
 
-You do not need a polished brief. You need a real starting point.
+A real starting point is enough. The brief does not need to be polished.
 
 **Watch for a common trap:** arriving with your attempted solution instead of your actual problem. A practitioner asks AI *"how do I phrase this disclaimer?"* when the real question is *"is this advice within my licence and authorisation?"* The AI will helpfully draft the disclaimer. But the disclaimer was never the point.
 
@@ -36,7 +36,7 @@ Brainstorm gave you a clear question. Ideation is where you and the AI go wide, 
 
 Ask for alternatives. Ask for the version that would make a senior colleague pause. Ask what you might be missing. AI's breadth across domains is useful here because it can surface patterns and connections faster than you can scan for them alone, though it does not know your matter better than you do.
 
-The temptation is to stop here: take the first interesting output and move on. Resist that. Ideation is cheap. The next stage is where value gets made.
+The temptation is to stop here: take the first interesting output and move on. Resist that. Ideation is cheap, and the next stage is where the value gets made.
 
 ## 3. Iterate: push back and refine
 
@@ -49,7 +49,7 @@ This is where the actual conversation happens, and where delegation is most temp
 
 Every one of those responses sharpens the output. Every one requires your judgement. If you skip this stage, you are copying, not thinking. If you delegate here, you get something fluent, plausible, and not quite right in ways you will only notice later, perhaps after the letter has gone out, the position has been lodged, or the patient has acted on it.
 
-Iteration is work. It is also the stage that makes the output yours. Stay in it longer than feels necessary.
+Iteration is work, but it is also the stage that makes the output yours. Stay with it longer than feels necessary.
 
 ## 4. Amplify: make it yours
 

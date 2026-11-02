@@ -341,7 +341,7 @@ That sequence turns several hours of preparation into something usable in under 
 
 ---
 
-## Key principles for practice staff using AI
+## Principles for practice staff using AI
 
 **1. Use AI for analysis and insight, not decisions.** AI can help you understand data and generate options. Partners (and you, in your role) make the decisions. Your value is knowing the firm; AI's role is processing and drafting.
 

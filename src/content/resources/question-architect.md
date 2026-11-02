@@ -58,7 +58,7 @@ Deep knowledge of a specific field (law, medicine, accounting, financial advice)
 
 ### 2. Inquiry design
 
-The ability to frame complex problems into precise, strategic prompts. The goal is a high-leverage answer, not a fast one, shaped by genuine understanding of what the matter actually requires. The principal who can articulate *"what we need is the three weakest points in this argument from the perspective of the regulator most likely to read it"* gets dramatically more from AI than the principal who types *"check this letter."*
+The ability to frame complex problems into precise, strategic prompts. The goal is a high-value answer, not a fast one, shaped by genuine understanding of what the matter actually requires. The principal who can articulate *"what we need is the three weakest points in this argument from the perspective of the regulator most likely to read it"* gets dramatically more from AI than the principal who types *"check this letter."*
 
 ### 3. Outcome integration
 

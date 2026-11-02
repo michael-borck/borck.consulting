@@ -1,6 +1,6 @@
 ---
 title: "Secure and Sustainable AI Use"
-description: "What's safe, what's smart, what's sustainable, for a regulated firm"
+description: "Practical security and sustainability decisions for a regulated firm"
 publishDate: 2027-01-19
 slug: secure-sustainable-ai
 draft: false
@@ -109,7 +109,7 @@ That answer is short and gives the firm room to grow into AI without exposure.
 
 ---
 
-## Key takeaway
+## The short version
 
 > AI is only as smart as the context you give it, and only as safe as the systems you run it in. The work is to match each piece of work to the right tool, document the choice, and supervise the output.
 

@@ -14,7 +14,7 @@ draft: false
 
 There is a conversation in professional services right now about how AI will transform legal work, clinical practice, accounting, and financial advice. It is important. It also has a blind spot.
 
-The divide is not coming. It is already here. It operates at two levels: the practitioner sitting at their desk, and the firm that desk sits inside.
+The divide is already here. It operates at two levels: the practitioner sitting at their desk, and the firm that desk sits inside.
 
 ## The practitioner-level divide
 
@@ -36,7 +36,7 @@ The smaller firms I work with are often *more* curious about AI than the larger 
 
 Well-resourced firms are already running pilots, building internal tools, and producing the case studies that will define market expectations. They have runway to experiment and to fail.
 
-Under-resourced firms face a different calculus. When margin is thin and any misstep invites a complaint or a regulator letter, innovation looks like risk. The rational response is retrenchment: blanket bans, vague policies, defensive procurement decisions, and a quiet hope that this will pass. It will not.
+Under-resourced firms face a different calculus. When margin is thin and any misstep invites a complaint or a regulator letter, innovation looks like risk. The rational response is retrenchment: blanket bans, vague policies, defensive procurement decisions, and a quiet hope that this will pass.
 
 The distance between the two grows with every quarter, along fault lines of capital, geography, and structural advantage that were entrenched long before generative AI arrived.
 
@@ -66,7 +66,7 @@ There is also an agency dimension to the divide that the bigger firms cannot sol
 
 The AI divide is the issue for the small-firm sector. Every conversation about AI in your practice should start with a question: who gets left behind, and how do we make sure it is not us?
 
-If you cannot answer that honestly, you are just making the gap faster.
+If you cannot answer that honestly, you are widening the gap faster.
 
 ---
 

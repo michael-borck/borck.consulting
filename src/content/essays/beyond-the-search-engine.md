@@ -10,7 +10,7 @@ draft: false
 
 A pattern recurs across the Australian regulated SMBs I observe. Most are using AI as a faster search engine. A partner asks ChatGPT to summarise an unfamiliar regulatory development. A senior associate uses it to redraft a clause they could have written themselves. A bookkeeper uses it to translate a piece of guidance into plainer language. The use is real and worth having. It is also, in nearly every case, the simplest application of the tool: a substitute for a Google search or a colleague's input.
 
-This is a stage, not a deficiency. Almost every successful AI adoption I have observed begins this way. The firms that move past it tend to do so within the same year, and the move follows a recognisable pattern across legal, medical, and accounting practices alike.
+This is a stage. Almost every successful AI adoption I have observed begins this way. The firms that move past it tend to do so within the same year, and the move follows a recognisable pattern across legal, medical, and accounting practices alike.
 
 The substantive shift is from treating the AI as a search engine to treating it as an analyst: a tool for finding patterns in the firm's own work that no individual reader could have surfaced.
 
@@ -18,7 +18,7 @@ The substantive shift is from treating the AI as a search engine to treating it 
 
 The technology is advancing faster than most professional-services firms can adapt to it. The gap between AI-capable operators and those without that capability is widening, not narrowing. Mark Cuban has noted the same dynamic in a broader business context, and the pattern holds in regulated Australian practice.
 
-This gap is normally framed as a threat. It is more usefully framed as an opportunity. When a category becomes meaningfully harder to navigate, firms that navigate it well capture disproportionate advantage. The pattern is visible in earlier adoption waves: the first firms to take search engines seriously, the first to take cloud seriously, the first to take data analytics seriously. Firms that adopt with intent rather than anxiety tend to do well.
+This gap is normally framed as a threat. It is more usefully framed as an opportunity. When a category becomes meaningfully harder to navigate, firms that navigate it well capture disproportionate advantage. The pattern is visible in earlier adoption waves, from search engines to cloud to data analytics. Firms that adopt with intent rather than anxiety tend to do well.
 
 In *Conversation not Delegation* I argue that the literacy gap inside a firm is a shared-understanding problem more than a training problem in the conventional sense. Training staff to use ChatGPT better is the smaller version of the work. Helping the firm form a shared understanding of what *good* AI use looks like (what it is for, what it is not for, and how to know the difference) is the larger version, and the prerequisite for almost everything else.
 
@@ -28,13 +28,13 @@ Without that shared understanding, AI use in a firm tends to drift in two direct
 
 The simplest test for whether a firm has moved past the search-engine stage is this: the AI is used to surface questions the firm did not know to ask, not as a faster route to an existing answer.
 
-Daniel Priestley has documented an instructive example. A management team ran three months of the firm's own sales-call transcripts through a structured analysis. The exercise was prosaic: summarise the calls, identify recurring objections, surface common patterns. The result was not. In 75% of unsuccessful calls, the prospect had mentioned at some point that they would need to consult their spouse before deciding. The firm's protocol did not invite spouses to meetings. The data revealed that the team was systematically failing to bring decision-makers into the conversation, even though the prospects themselves were repeatedly flagging the requirement.
+Daniel Priestley has documented an instructive example. A management team ran three months of the firm's own sales-call transcripts through a structured analysis. The exercise was prosaic: summarise the calls, identify recurring objections, surface common patterns. The result revealed something the firm had missed. In 75% of unsuccessful calls, the prospect had mentioned at some point that they would need to consult their spouse before deciding. The firm's protocol did not invite spouses to meetings. The data revealed that the team was systematically failing to bring decision-makers into the conversation, even though the prospects themselves were repeatedly flagging the requirement.
 
 That single insight, derived from raw interaction data, changed the firm's protocol and meaningfully improved its conversion rate. It is the kind of insight no individual could have produced by scanning a single call. It emerges only when AI is asked to look across a large body of qualitative material and surface patterns.
 
 For a regulated Australian SMB, the equivalent applications are not hypothetical. A law firm can run three months of client emails through a structured analysis to identify the questions clients ask that the firm is consistently slow to answer. A medical practice can analyse patient interaction notes (with appropriate handling) to find the explanations clinicians repeat most often, and turn those into pre-consultation handouts. An accounting firm can review tax-season correspondence to identify the queries absorbing the most senior time, and intercept them earlier in the process.
 
-None of these workflows are exotic. None require a research budget. All require something a search-engine relationship with AI cannot give: a willingness to ask the AI to look at the firm's own material, in volume, and report what it sees.
+None of these workflows is exotic or needs a research budget. All require something a search-engine relationship with AI cannot give: a willingness to ask the AI to look at the firm's own material, in volume, and report what it sees.
 
 This is also where the data-handling question becomes load-bearing. A firm cannot run client correspondence through a public cloud LLM and call it research. The firms that move past the search-engine stage are the firms that have a credible answer for *where* the analysis happens, a question I take up in [Local AI for regulated Australian small businesses](/writing/local-ai-for-regulated-australian-small-businesses).
 

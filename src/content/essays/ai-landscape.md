@@ -8,7 +8,7 @@ draft: false
 
 *This essay sits primarily under the* Should we do AI? *question of the practice's [methodology](/method): starting with the work the firm actually does, not with the vendor landscape.*
 
-## Start here, not with the tools
+## Start with the work
 
 Before we talk about models, platforms, and features, one thing matters more than all of them:
 
@@ -18,7 +18,7 @@ Whether the firm uses ChatGPT, Claude, Gemini, Microsoft 365 Copilot, vendor-emb
 
 If you build the prompting and supervision discipline, you can move between tools without losing momentum. The tool is secondary. The skill is primary.
 
-If you are feeling overwhelmed by the number of tools available: relax. Learn the fundamentals (see [CRAFT](/resources/craft-prompting-framework) and [Conversation, Not Delegation](/writing/conversation-not-delegation)) and the specific tools become interchangeable.
+If the number of tools feels overwhelming, learn the fundamentals (see [CRAFT](/resources/craft-prompting-framework) and [Conversation, Not Delegation](/writing/conversation-not-delegation)). The specific tools then become interchangeable.
 
 ---
 
@@ -29,8 +29,6 @@ All major AI tools share the same basic loop:
 1. You type a prompt.
 2. The model generates a response.
 3. You refine, follow up, or start again.
-
-Master the conversation, and the rest follows.
 
 ### Different providers, different feel
 
@@ -76,7 +74,7 @@ For most exploration and learning, and for non-sensitive work, the free or bundl
 
 There is constant pressure to have the latest model: new version, new benchmark, new headline.
 
-If you are having genuine conversations with AI (brainstorming, iterating, thinking together), a tool that helps you think is enough. Last quarter's model does that. The goal is to amplify thinking, not to chase benchmarks. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
+If you are having genuine conversations with AI (brainstorming, iterating, thinking together), a tool that helps you think is enough. Last quarter's model does that. A thoughtful conversation with a lesser model beats a lazy prompt to the most advanced one.
 
 ---
 
@@ -200,9 +198,9 @@ See [Why Most AI Data Governance Policies Get It Wrong](/writing/data-governance
 
 ---
 
-## The landscape changes fast, and that is fine
+## The tools change fast, and that is fine
 
-New models launch monthly. Features change. Pricing shifts. Today's breakthrough is tomorrow's baseline. This can feel overwhelming.
+New models launch monthly, features change, and pricing shifts. That can feel overwhelming.
 
 The fundamentals do not change:
 
@@ -213,7 +211,7 @@ The fundamentals do not change:
 
 Learn the fundamentals, pick a tool that fits the firm, and use it well. When something better comes along, your skills transfer.
 
-The AI landscape is a buffet, not a race: sample what is useful, ignore the hype, and focus on what helps the firm think better.
+Pick what is useful, ignore the hype, and focus on what helps the firm think better.
 
 ---
 
