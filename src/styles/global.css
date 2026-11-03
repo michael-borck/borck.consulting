@@ -187,6 +187,40 @@ a:hover { color: var(--accent-high); }
   line-height: 1.55;
 }
 
+/* ── Pattern table (home page) ── */
+.pattern-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+.pattern-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--gray-1);
+}
+.pattern-table th {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-align: left;
+  padding: 0 1rem 0.6rem 0;
+  border-bottom: 1px solid var(--gray-3);
+}
+.pattern-table td {
+  padding: 0.75rem 1rem 0.75rem 0;
+  border-bottom: 1px solid var(--gray-4);
+  vertical-align: top;
+}
+.pattern-table td:first-child {
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+.pattern-table tr:last-child td { border-bottom: 0; }
+
 /* ── Out-of-scope line ── */
 .scope-line {
   font-size: 0.85rem;
